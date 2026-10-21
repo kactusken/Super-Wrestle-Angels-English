@@ -55,6 +55,8 @@ Then:
   letters ends in a space: "Pacific 's".
 - **How promoter mode works** - the month, every menu, the events and what decides the ending:
   [docs/PROMOTER.md](docs/PROMOTER.md).
+- **How matches work** - the cards, what wins an exchange, damage, pins and submissions, and the
+  leg drop bug: [docs/MATCHES.md](docs/MATCHES.md).
 - **Hidden content.** See [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md).
 
 ## Reporting problems
@@ -80,6 +82,7 @@ the game's formats.
 | [docs/TECHNICAL.md](docs/TECHNICAL.md) | The ROM layout, compression, data formats, and memory map |
 | [docs/PLATFORM.md](docs/PLATFORM.md) | SNES pitfalls for this kind of work |
 | [docs/PROMOTER.md](docs/PROMOTER.md) | How promoter mode works: the month, menus, events, what decides the ending |
+| [docs/MATCHES.md](docs/MATCHES.md) | How matches work: cards, move choice, who wins an exchange, damage, pins, every move |
 | [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md) | Unlockables, debug features, and unused and cut content |
 | [tools/README.md](tools/README.md) | Every tool, what it's for and how to run it |
 
