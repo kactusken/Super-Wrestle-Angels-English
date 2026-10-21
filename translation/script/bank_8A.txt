@@ -1,0 +1,1059 @@
+# Bank $8A (file 0x50000): 266 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 051107 words=12 inplace
+JP 年度末決算　団体順位報告\
+EN  YR Promotion Rankings\
+
+@ 051121 words=2 table=0x51051
+JP 総合\
+EN Tot.\
+
+@ 051127 words=3 table=0x51053
+JP 評価値\
+EN Rating\
+
+@ 05112f words=3 table=0x51055
+JP 選手層\
+EN Roster\
+
+@ 051137 words=2 table=0x51057
+JP 資金\
+EN Cash\
+
+@ 05113d words=2 table=0x51059
+JP 設備\
+EN Fac.\
+
+@ 051143 words=3 table=0x5105b
+JP 興業数\
+EN Shows \
+
+@ 05114b words=2 table=0x5105d
+JP 全国\
+EN All \
+
+@ 051151 words=3 table=0x5105f
+JP 北海道\
+EN Hokkai\
+
+@ 051159 words=2 table=0x51061
+JP 東北\
+EN Toh.\
+
+@ 05115f words=2 table=0x51063
+JP 北陸\
+EN Hkr.\
+
+@ 051165 words=2 table=0x51065
+JP 関東\
+EN Kan.\
+
+@ 05116b words=2 table=0x51067
+JP 中部\
+EN Chb.\
+
+@ 051171 words=2 table=0x51069
+JP 東海\
+EN Tok.\
+
+@ 051177 words=2 table=0x5106b
+JP 近畿\
+EN Kin.\
+
+@ 05117d words=2 table=0x5106d
+JP 中国\
+EN Chg.\
+
+@ 051183 words=2 table=0x5106f
+JP 四国\
+EN Shi.\
+
+@ 051189 words=2 table=0x51071
+JP 九州\
+EN Kyu.\
+
+@ 0544b5 words=6 inplace
+JP 収支計算書:\
+EN Statement:\
+
+@ 0544c3 words=7 inplace
+JP (単位:千円)\
+EN (in 1000 yen)\
+
+@ 0544d3 words=3 inplace
+JP 所持金\
+EN Funds\
+
+@ 0544db words=15 inplace
+JP 今月は興行はありませんでした。\
+EN No shows this month.\
+
+@ 0561e8 words=10 inplace
+JP 江別市民体育館　　　\
+EN Ebetsu City Gym     \
+
+@ 0561fe words=10 inplace
+JP 旭川市体育館常盤別館\
+EN Asahikawa Gym Annex \
+
+@ 056214 words=10 inplace
+JP 帯広市総合体育館　　\
+EN Obihiro General Gym \
+
+@ 05622a words=10 inplace
+JP 札幌中島体育センター\
+EN Sapporo Nakajima Ctr\
+
+@ 056240 words=10 inplace
+JP 月寒グリーンドーム　\
+EN Tsukisamu Green Dome\
+
+@ 056256 words=10 inplace
+JP 金木町役場前特設R　\
+EN Kanagi Special Ring \
+
+@ 05626c words=10 inplace
+JP 十和田市民体育館　　\
+EN Towada City Gym     \
+
+@ 056282 words=10 inplace
+JP 青森県営体育館　　　\
+EN Aomori Pref. Gym    \
+
+@ 056298 words=10 inplace
+JP 青森市民体育館　　　\
+EN Aomori City Gym     \
+
+@ 0562ae words=10 inplace
+JP 八戸市体育館　　　　\
+EN Hachinohe City Gym  \
+
+@ 0562c4 words=10 inplace
+JP 大野村民体育館　　　\
+EN Ono Village Gym     \
+
+@ 0562da words=10 inplace
+JP 大船渡市民体育館　　\
+EN Ofunato City Gym    \
+
+@ 0562f0 words=10 inplace
+JP 北上家喜市場特設R　\
+EN Kitakami Market Ring\
+
+@ 056306 words=10 inplace
+JP 一関文化センター　　\
+EN Ichinoseki Arts Ctr \
+
+@ 05631c words=10 inplace
+JP 岩手県営体育館　　　\
+EN Iwate Pref. Gym     \
+
+@ 056332 words=10 inplace
+JP 松島町民体育館　　　\
+EN Matsushima Town Gym \
+
+@ 056348 words=10 inplace
+JP 多賀城市総合体育館　\
+EN Tagajo General Gym  \
+
+@ 05635e words=10 inplace
+JP 石巻市総合体育館　　\
+EN Ishinomaki Gen. Gym \
+
+@ 056374 words=10 inplace
+JP 宮城県Sセンター　　\
+EN Miyagi Sports Ctr   \
+
+@ 05638a words=10 inplace
+JP 仙台市体育館　　　　\
+EN Sendai City Gym     \
+
+@ 0563a0 words=10 inplace
+JP 広域藤里体育館　　　\
+EN Fujisato Area Gym   \
+
+@ 0563b6 words=10 inplace
+JP 大館市民体育館　　　\
+EN Odate City Gym      \
+
+@ 0563cc words=10 inplace
+JP 能代市民体育館　　　\
+EN Noshiro City Gym    \
+
+@ 0563e2 words=10 inplace
+JP 秋田県立体育館　　　\
+EN Akita Pref. Gym     \
+
+@ 0563f8 words=10 inplace
+JP 秋田市立体育館　　　\
+EN Akita City Gym      \
+
+@ 05640e words=10 inplace
+JP 高畠町営体育館　　　\
+EN Takahata Town Gym   \
+
+@ 056424 words=10 inplace
+JP 余目町総合体育館　　\
+EN Amarume Town Gym    \
+
+@ 05643a words=10 inplace
+JP 尾花沢市体育館　　　\
+EN Obanazawa City Gym  \
+
+@ 056450 words=10 inplace
+JP 米沢市営体育館　　　\
+EN Yonezawa City Gym   \
+
+@ 056466 words=10 inplace
+JP 山形県体育館　　　　\
+EN Yamagata Pref. Gym  \
+
+@ 05647c words=10 inplace
+JP 平田村総合運動場　　\
+EN Hirata Sports Field \
+
+@ 056492 words=10 inplace
+JP 郡山セントラルホール\
+EN Koriyama Cent. Hall \
+
+@ 0564a8 words=10 inplace
+JP 保原町体育館　　　　\
+EN Hobara Town Gym     \
+
+@ 0564be words=10 inplace
+JP 会津体育館　　　　　\
+EN Aizu Gym            \
+
+@ 0564d4 words=10 inplace
+JP 福島市体育館　　　　\
+EN Fukushima City Gym  \
+
+@ 0564ea words=10 inplace
+JP 土浦駅東口前駐車場　\
+EN Tsuchiura Stn E Lot \
+
+@ 056500 words=10 inplace
+JP 勝田市民総合体育館　\
+EN Katsuta City Gym    \
+
+@ 056516 words=10 inplace
+JP 霞ヶ浦文化体育会館　\
+EN Kasumigaura Hall    \
+
+@ 05652c words=10 inplace
+JP 古河市体育館　　　　\
+EN Koga City Gym       \
+
+@ 056542 words=10 inplace
+JP 水戸市民体育館　　　\
+EN Mito City Gym       \
+
+@ 056558 words=10 inplace
+JP 小山遊園地スケート場\
+EN Oyama Park Ice Rink \
+
+@ 05656e words=10 inplace
+JP 黒磯市公会堂　　　　\
+EN Kuroiso Public Hall \
+
+@ 056584 words=10 inplace
+JP 真岡市総合体育館　　\
+EN Moka General Gym    \
+
+@ 05659a words=10 inplace
+JP 栃木県体育館　　　　\
+EN Tochigi Pref. Gym   \
+
+@ 0565b0 words=10 inplace
+JP 宇都宮清原体育館　　\
+EN Utsunomiya K. Gym   \
+
+@ 0565c6 words=10 inplace
+JP 邑楽町パチンコ駐車場\
+EN Ora Pachinko Lot    \
+
+@ 0565dc words=10 inplace
+JP 赤堀町体育館　　　　\
+EN Akabori Town Gym    \
+
+@ 0565f2 words=10 inplace
+JP 桐生市民体育館　　　\
+EN Kiryu Civic Gym     \
+
+@ 056608 words=10 inplace
+JP 群馬スポーツセンター\
+EN Gunma Sports Center \
+
+@ 05661e words=10 inplace
+JP グリーンドーム前橋　\
+EN Green Dome Maebashi \
+
+@ 056634 words=10 inplace
+JP 岩槻市Sセンター　　\
+EN Iwatsuki Sports Ctr \
+
+@ 05664a words=10 inplace
+JP 川越市民体育館　　　\
+EN Kawagoe Civic Gym   \
+
+@ 056660 words=10 inplace
+JP 熊谷市民体育館　　　\
+EN Kumagaya Civic Gym  \
+
+@ 056676 words=10 inplace
+JP 戸田市Sセンター　　\
+EN Toda Sports Center  \
+
+@ 05668c words=10 inplace
+JP 大宮スケートセンター\
+EN Omiya Skate Center  \
+
+@ 0566a2 words=10 inplace
+JP 野田市総合体育館　　\
+EN Noda General Gym    \
+
+@ 0566b8 words=10 inplace
+JP 流山市民総合体育館　\
+EN Nagareyama Civic Gym\
+
+@ 0566ce words=10 inplace
+JP 千葉公園体育館　　　\
+EN Chiba Park Gym      \
+
+@ 0566e4 words=10 inplace
+JP 松戸市運動公園体育館\
+EN Matsudo Sports Park \
+
+@ 0566fa words=10 inplace
+JP 千葉ポートアリーナ　\
+EN Chiba Port Arena    \
+
+@ 056710 words=10 inplace
+JP 東京ベイNKホール　\
+EN Tokyo Bay NK Hall   \
+
+@ 056726 words=10 inplace
+JP 両国国技館　　　　　\
+EN Ryogoku Kokugikan   \
+
+@ 05673c words=10 inplace
+JP 日本武道館　　　　　\
+EN Nippon Budokan      \
+
+@ 056752 words=10 inplace
+JP 東京ドーム　　　　　\
+EN Tokyo Dome          \
+
+@ 056768 words=10 inplace
+JP 後楽園ホール　　　　\
+EN Korakuen Hall       \
+
+@ 05677e words=10 inplace
+JP 大和車体工業体育館　\
+EN Yamato Shatai Gym   \
+
+@ 056794 words=10 inplace
+JP 横須賀市総合体育館　\
+EN Yokosuka General Gym\
+
+@ 0567aa words=10 inplace
+JP 横浜文化体育館　　　\
+EN Yokohama Bunka Gym  \
+
+@ 0567c0 words=10 inplace
+JP 川崎市体育館　　　　\
+EN Kawasaki City Gym   \
+
+@ 0567d6 words=10 inplace
+JP 横浜アリーナ　　　　\
+EN Yokohama Arena      \
+
+@ 0567ec words=10 inplace
+JP 村上市民体育館　　　\
+EN Murakami Civic Gym  \
+
+@ 056802 words=10 inplace
+JP 五泉市総合会館　　　\
+EN Gosen General Hall  \
+
+@ 056818 words=10 inplace
+JP 上越リージョンプラザ\
+EN Joetsu Region Plaza \
+
+@ 05682e words=10 inplace
+JP 新潟市体育館　　　　\
+EN Niigata City Gym    \
+
+@ 056844 words=10 inplace
+JP 長岡市厚生会館　　　\
+EN Nagaoka Kosei Hall  \
+
+@ 05685a words=10 inplace
+JP 太閤山ランド特設R　\
+EN Taikoyama Land Ring \
+
+@ 056870 words=10 inplace
+JP 高岡テクノドーム　　\
+EN Takaoka Techno Dome \
+
+@ 056886 words=10 inplace
+JP 氷見市総合体育館　　\
+EN Himi General Gym    \
+
+@ 05689c words=10 inplace
+JP 富山県総合体育館　　\
+EN Toyama Pref. Gym    \
+
+@ 0568b2 words=10 inplace
+JP 富山市体育館　　　　\
+EN Toyama City Gym     \
+
+@ 0568c8 words=10 inplace
+JP 小松市パチンコ駐車場\
+EN Komatsu Pachinko Lot\
+
+@ 0568de words=10 inplace
+JP 金沢JR体育館　　　\
+EN Kanazawa JR Gym     \
+
+@ 0568f4 words=10 inplace
+JP 七尾総合市民体育館　\
+EN Nanao Civic Gym     \
+
+@ 05690a words=10 inplace
+JP 七尾城山体育館　　　\
+EN Nanao Shiroyama Gym \
+
+@ 056920 words=10 inplace
+JP 石川県産業展示館　　\
+EN Ishikawa Expo Hall  \
+
+@ 056936 words=10 inplace
+JP 福井競輪場特設リング\
+EN Fukui Velodrome Ring\
+
+@ 05694c words=10 inplace
+JP 鯖江市総合体育館　　\
+EN Sabae General Gym   \
+
+@ 056962 words=10 inplace
+JP 小松市民体育館　　　\
+EN Komatsu Civic Gym   \
+
+@ 056978 words=10 inplace
+JP 武生市体育館　　　　\
+EN Takefu City Gym     \
+
+@ 05698e words=10 inplace
+JP 福井市体育館　　　　\
+EN Fukui City Gym      \
+
+@ 0569a4 words=10 inplace
+JP 昭和通りパチンコ特R\
+EN Showa-dori Pachinko \
+
+@ 0569ba words=10 inplace
+JP JR甲府竜王前駐車場\
+EN JR Ryuo Station Lot \
+
+@ 0569d0 words=10 inplace
+JP 富士急ハイランドHT\
+EN Fuji-Q Highland     \
+
+@ 0569e6 words=10 inplace
+JP 山梨県営体育館　　　\
+EN Yamanashi Pref. Gym \
+
+@ 0569fc words=10 inplace
+JP JR甲府駅北口広場　\
+EN JR Kofu Stn. Plaza  \
+
+@ 056a12 words=10 inplace
+JP 駒ヶ根市民体育館　　\
+EN Komagane Civic Gym  \
+
+@ 056a28 words=10 inplace
+JP 諏訪湖Sセンター　　\
+EN Lake Suwa Sports Ctr\
+
+@ 056a3e words=10 inplace
+JP 茅野市総合体育館　　\
+EN Chino General Gym   \
+
+@ 056a54 words=10 inplace
+JP 長野市民体育館　　　\
+EN Nagano Civic Gym    \
+
+@ 056a6a words=10 inplace
+JP 松本市総合体育館　　\
+EN Matsumoto Gen. Gym  \
+
+@ 056a80 words=10 inplace
+JP 恵那市市民会館　　　\
+EN Ena Civic Hall      \
+
+@ 056a96 words=10 inplace
+JP セラトピア土岐　　　\
+EN Ceratopia Toki      \
+
+@ 056aac words=10 inplace
+JP 美濃加茂市中濃体育館\
+EN Minokamo Chuno Gym  \
+
+@ 056ac2 words=10 inplace
+JP 大垣城ホール　　　　\
+EN Ogaki Castle Hall   \
+
+@ 056ad8 words=10 inplace
+JP 岐阜産業会館　　　　\
+EN Gifu Industry Hall  \
+
+@ 056aee words=10 table=0xcfd92,0xd7d99,0xd7d9b,0x11fd9b,0x11fd9d,0x11fd9f
+JP 焼津市民体育館　　　\
+EN Yaizu Civic Gym     \
+
+@ 056b04 words=10 inplace
+JP 清水市営体育館　　　\
+EN Shimizu City Gym    \
+
+@ 056b1a words=10 inplace
+JP 富士市立富士体育館　\
+EN Fuji City Gym       \
+
+@ 056b30 words=10 inplace
+JP 静岡産業会館　　　　\
+EN Shizuoka Ind. Hall  \
+
+@ 056b46 words=10 inplace
+JP 浜松アリーナ　　　　\
+EN Hamamatsu Arena     \
+
+@ 056b5c words=10 inplace
+JP 豊田市体育館　　　　\
+EN Toyota City Gym     \
+
+@ 056b72 words=10 inplace
+JP 半田市民ホール　　　\
+EN Handa Civic Hall    \
+
+@ 056b88 words=10 inplace
+JP 露橋スポーツセンター\
+EN Tsuyuhashi Sports C.\
+
+@ 056b9e words=10 inplace
+JP 岡崎市体育館　　　　\
+EN Okazaki City Gym    \
+
+@ 056bb4 words=10 inplace
+JP 名古屋Rホール　　　\
+EN Nagoya Rainbow Hall \
+
+@ 056bca words=10 inplace
+JP 阿児アリーナ　　　　\
+EN Ago Arena           \
+
+@ 056be0 words=10 inplace
+JP 上野市勤労者センター\
+EN Ueno Workers' Center\
+
+@ 056bf6 words=10 table=0xafea8
+JP 尾鷲市体育文化会館　\
+EN Owase Sports Hall   \
+
+@ 056c0c words=10 inplace
+JP 津市体育館　　　　　\
+EN Tsu City Gym        \
+
+@ 056c22 words=10 inplace
+JP 四日市中央緑地体育館\
+EN Yokkaichi Chuo Gym  \
+
+@ 056c38 words=10 inplace
+JP 守山市パチンコ駐車場\
+EN Moriyama Pachinko   \
+
+@ 056c4e words=10 inplace
+JP 彦根市パチンコ駐車場\
+EN Hikone Pachinko Lot \
+
+@ 056c64 words=10 inplace
+JP 石部町雨山体育館　　\
+EN Ishibe Ameyama Gym  \
+
+@ 056c7a words=10 inplace
+JP 長浜市民体育館　　　\
+EN Nagahama Civic Gym  \
+
+@ 056c90 words=10 inplace
+JP 滋賀県立体育館　　　\
+EN Shiga Pref. Gym     \
+
+@ 056ca6 words=10 inplace
+JP 醍醐グランドーム　　\
+EN Daigo Gran Dome     \
+
+@ 056cbc words=10 inplace
+JP 亀山市運動公園体育館\
+EN Kameyama Sports Park\
+
+@ 056cd2 words=10 inplace
+JP 三段池公園体育館　　\
+EN Sandanike Park Gym  \
+
+@ 056ce8 words=10 inplace
+JP KBSホール　　　　\
+EN KBS Hall            \
+
+@ 056cfe words=10 inplace
+JP 京都府立体育館　　　\
+EN Kyoto Pref. Gym     \
+
+@ 056d14 words=10 inplace
+JP 万博お祭り広場特設R\
+EN Expo Festival Plaza \
+
+@ 056d2a words=10 inplace
+JP 大阪府立体育館第2館\
+EN Osaka Pref. Gym 2   \
+
+@ 056d40 words=10 inplace
+JP 臨海スポーツセンター\
+EN Rinkai Sports Center\
+
+@ 056d56 words=10 inplace
+JP 大阪府立体育館　　　\
+EN Osaka Pref. Gym     \
+
+@ 056d6c words=10 inplace
+JP 大阪城ホール　　　　\
+EN Osaka-jo Hall       \
+
+@ 056d82 words=10 inplace
+JP 八鹿町総合体育館　　\
+EN Yoka Town Gym       \
+
+@ 056d98 words=10 inplace
+JP 高砂市総合体育館　　\
+EN Takasago Gen. Gym   \
+
+@ 056dae words=10 inplace
+JP 姫路市厚生会館　　　\
+EN Himeji Kosei Hall   \
+
+@ 056dc4 words=10 inplace
+JP 尼崎市記念公園体育館\
+EN Amagasaki Park Gym  \
+
+@ 056dda words=10 inplace
+JP 神戸W記念ホール　　\
+EN Kobe World Hall     \
+
+@ 056df0 words=10 inplace
+JP 中央卸売市場西特設R\
+EN Central Market Ring \
+
+@ 056e06 words=10 inplace
+JP 西奈良県民センター　\
+EN West Nara Center    \
+
+@ 056e1c words=10 inplace
+JP 奈良中央体育館　　　\
+EN Nara Central Gym    \
+
+@ 056e32 words=10 inplace
+JP あやめ池遊園地特設R\
+EN Ayameike Park Ring  \
+
+@ 056e48 words=10 inplace
+JP 奈良県橿原体育館　　\
+EN Nara Kashihara Gym  \
+
+@ 056e5e words=10 inplace
+JP 海南市立総合体育館　\
+EN Kainan City Gym     \
+
+@ 056e74 words=10 inplace
+JP 新宮市立総合体育館　\
+EN Shingu City Gym     \
+
+@ 056e8a words=10 inplace
+JP 和歌山市松下体育館　\
+EN Wakayama Matsushita \
+
+@ 056ea0 words=10 inplace
+JP 岩出町民総合体育館　\
+EN Iwade Town Gym      \
+
+@ 056eb6 words=10 table=0xafea6
+JP 和歌山県立体育館　　\
+EN Wakayama Pref. Gym  \
+
+@ 056ecc words=10 inplace
+JP 境港市パチンコ駐車場\
+EN Sakaiminato Pachinko\
+
+@ 056ee2 words=10 inplace
+JP 三朝町総合Sセンター\
+EN Misasa Sports Center\
+
+@ 056ef8 words=10 inplace
+JP 米子産業体育館　　　\
+EN Yonago Industry Gym \
+
+@ 056f0e words=10 inplace
+JP 鳥取産業会館　　　　\
+EN Tottori Ind. Hall   \
+
+@ 056f24 words=10 inplace
+JP 鳥取市民体育館　　　\
+EN Tottori Civic Gym   \
+
+@ 056f3a words=10 inplace
+JP 出雲市パチンコ駐車場\
+EN Izumo Pachinko Lot  \
+
+@ 056f50 words=10 inplace
+JP 松江市総合体育館　　\
+EN Matsue General Gym  \
+
+@ 056f66 words=10 inplace
+JP 益田市民体育館　　　\
+EN Masuda Civic Gym    \
+
+@ 056f7c words=10 inplace
+JP 出雲市体育館　　　　\
+EN Izumo City Gym      \
+
+@ 056f92 words=10 inplace
+JP 出雲ドーム　　　　　\
+EN Izumo Dome          \
+
+@ 056fa8 words=10 inplace
+JP 鷲羽山ハイランド　　\
+EN Washuzan Highland   \
+
+@ 056fbe words=10 inplace
+JP 津山市総合体育館　　\
+EN Tsuyama General Gym \
+
+@ 056fd4 words=10 inplace
+JP 倉敷体育館　　　　　\
+EN Kurashiki Gym       \
+
+@ 056fea words=10 table=0xafeaa,0xcfd8e,0xcfd90,0xd7d9d
+JP 岡山武道館　　　　　\
+EN Okayama Budokan     \
+
+@ 057000 words=10 inplace
+JP 岡山県体育館　　　　\
+EN Okayama Pref. Gym   \
+
+@ 057016 words=10 inplace
+JP 尾道市公会堂　　　　\
+EN Onomichi Public Hall\
+
+@ 05702c words=10 inplace
+JP 東区スポーツセンター\
+EN East Ward Sports Ctr\
+
+@ 057042 words=10 inplace
+JP 福山市体育館　　　　\
+EN Fukuyama City Gym   \
+
+@ 057058 words=10 inplace
+JP 広島サンプラザ　　　\
+EN Hiroshima Sun Plaza \
+
+@ 05706e words=10 inplace
+JP 広島グリーンアリーナ\
+EN Hiroshima G. Arena  \
+
+@ 057084 words=10 inplace
+JP 柳井市立体育館　　　\
+EN Yanai City Gym      \
+
+@ 05709a words=10 inplace
+JP 岩国市体育館　　　　\
+EN Iwakuni City Gym    \
+
+@ 0570b0 words=10 inplace
+JP 徳山市体育館　　　　\
+EN Tokuyama City Gym   \
+
+@ 0570c6 words=10 inplace
+JP 下関市体育館　　　　\
+EN Shimonoseki Gym     \
+
+@ 0570dc words=10 inplace
+JP 萩市民体育館　　　　\
+EN Hagi Civic Gym      \
+
+@ 0570f2 words=10 inplace
+JP 吉野川河川敷緑地特R\
+EN Yoshino River Ring  \
+
+@ 057108 words=10 inplace
+JP 阿南市Sセンター　　\
+EN Anan Sports Center  \
+
+@ 05711e words=10 inplace
+JP 脇町体育館　　　　　\
+EN Waki Town Gym       \
+
+@ 057134 words=10 inplace
+JP 三野町民体育館　　　\
+EN Mino Town Gym       \
+
+@ 05714a words=10 inplace
+JP 徳島市立体育館　　　\
+EN Tokushima City Gym  \
+
+@ 057160 words=10 inplace
+JP 琴平町営駐車場特設R\
+EN Kotohira Lot Ring   \
+
+@ 057176 words=10 inplace
+JP 香川県立三豊体育館　\
+EN Kagawa Mitoyo Gym   \
+
+@ 05718c words=10 inplace
+JP 丸亀市民体育館　　　\
+EN Marugame Civic Gym  \
+
+@ 0571a2 words=10 inplace
+JP 高松市総合体育館　　\
+EN Takamatsu Gen. Gym  \
+
+@ 0571b8 words=10 inplace
+JP 高松市民文化センター\
+EN Takamatsu Cult. Ctr \
+
+@ 0571ce words=10 inplace
+JP 松山CS体育館　　　\
+EN Matsuyama CS Gym    \
+
+@ 0571e4 words=10 inplace
+JP テクノポート今治　　\
+EN Techno Port Imabari \
+
+@ 0571fa words=10 inplace
+JP 今治市公会堂　　　　\
+EN Imabari Public Hall \
+
+@ 057210 words=10 inplace
+JP 川之江市民体育館　　\
+EN Kawanoe Civic Gym   \
+
+@ 057226 words=10 inplace
+JP 松山市総合体育館　　\
+EN Matsuyama Gen. Gym  \
+
+@ 05723c words=10 inplace
+JP 安芸市パチンコ駐車場\
+EN Aki Pachinko Lot    \
+
+@ 057252 words=10 inplace
+JP 南国市パチンコ駐車場\
+EN Nankoku Pachinko Lot\
+
+@ 057268 words=10 inplace
+JP 中村市Sセンター　　\
+EN Nakamura Sports Ctr \
+
+@ 05727e words=10 inplace
+JP 高知県民文化ホール　\
+EN Kochi Culture Hall  \
+
+@ 057294 words=10 inplace
+JP 高知県民体育館　　　\
+EN Kochi Pref. Gym     \
+
+@ 0572aa words=10 inplace
+JP 久留米市体育館　　　\
+EN Kurume City Gym     \
+
+@ 0572c0 words=10 inplace
+JP 西日本総合展示場　　\
+EN West Japan Expo Hall\
+
+@ 0572d6 words=10 inplace
+JP 博多スターレーン　　\
+EN Hakata Starlanes    \
+
+@ 0572ec words=10 inplace
+JP 福岡国際センター　　\
+EN Fukuoka Intl. Center\
+
+@ 057302 words=10 inplace
+JP 福岡ドーム　　　　　\
+EN Fukuoka Dome        \
+
+@ 057318 words=10 inplace
+JP 有田文化体育館　　　\
+EN Arita Culture Gym   \
+
+@ 05732e words=10 inplace
+JP 伊万里市パチンコ店　\
+EN Imari Pachinko Hall \
+
+@ 057344 words=10 inplace
+JP 鳥栖市民体育館　　　\
+EN Tosu Civic Gym      \
+
+@ 05735a words=10 inplace
+JP 佐賀県総合体育館　　\
+EN Saga Pref. Gym      \
+
+@ 057370 words=10 inplace
+JP 佐賀スポーツセンター\
+EN Saga Sports Center  \
+
+@ 057386 words=10 inplace
+JP 大村市民体育館　　　\
+EN Omura Civic Gym     \
+
+@ 05739c words=10 inplace
+JP 大瀬戸町民体育館　　\
+EN Oseto Town Gym      \
+
+@ 0573b2 words=10 inplace
+JP 平戸文化センター　　\
+EN Hirado Culture Ctr  \
+
+@ 0573c8 words=10 inplace
+JP 佐世保市体育文化館　\
+EN Sasebo Sports Hall  \
+
+@ 0573de words=10 inplace
+JP 長崎国際体育館　　　\
+EN Nagasaki Intl. Gym  \
+
+@ 0573f4 words=10 inplace
+JP 鏡勤労者体育センター\
+EN Kagami Workers' Gym \
+
+@ 05740a words=10 inplace
+JP 八代市総合体育館　　\
+EN Yatsushiro Gen. Gym \
+
+@ 057420 words=10 inplace
+JP 人吉文化センター　　\
+EN Hitoyoshi Cult. Ctr \
+
+@ 057436 words=10 inplace
+JP 熊本県立総合体育館　\
+EN Kumamoto Pref. Gym  \
+
+@ 05744c words=10 inplace
+JP 熊本市体育館　　　　\
+EN Kumamoto City Gym   \
+
+@ 057462 words=10 inplace
+JP 別府競輪駐車場特設R\
+EN Beppu Velodrome Lot \
+
+@ 057478 words=10 inplace
+JP 佐伯市民体育館　　　\
+EN Saiki Civic Gym     \
+
+@ 05748e words=10 inplace
+JP 大分県立荷場町体育館\
+EN Oita Nibamachi Gym  \
+
+@ 0574a4 words=10 inplace
+JP 日出市総合体育館　　\
+EN Hiji General Gym    \
+
+@ 0574ba words=10 inplace
+JP 大分県営総合体育館　\
+EN Oita Pref. Gym      \
+
+@ 0574d0 words=10 inplace
+JP 延岡市民体育館　　　\
+EN Nobeoka Civic Gym   \
+
+@ 0574e6 words=10 inplace
+JP 都城市体育館　　　　\
+EN Miyakonojo Gym      \
+
+@ 0574fc words=10 inplace
+JP 日向文化交流センター\
+EN Hyuga Culture Center\
+
+@ 057512 words=10 inplace
+JP 宮崎県体育館　　　　\
+EN Miyazaki Pref. Gym  \
+
+@ 057528 words=10 inplace
+JP 宮崎市総合体育館　　\
+EN Miyazaki City Gym   \
+
+@ 05753e words=10 inplace
+JP 大口市パチンコ駐車場\
+EN Okuchi Pachinko Lot \
+
+@ 057554 words=10 inplace
+JP 鹿屋市体育館　　　　\
+EN Kanoya City Gym     \
+
+@ 05756a words=10 inplace
+JP 鹿児島県立体育館　　\
+EN Kagoshima Pref. Gym \
+
+@ 057580 words=10 inplace
+JP 国分市総合体育館　　\
+EN Kokubu General Gym  \
+
+@ 057596 words=10 inplace
+JP 鹿児島アリーナ　　　\
+EN Kagoshima Arena     \
+
+@ 0575ac words=10 inplace
+JP 沖縄Cセンター　　　\
+EN Okinawa Conv. Center\
+
+@ 0575c2 words=10 inplace
+JP 奥武山体育館　　　　\
+EN Onoyama Gym         \
+
+@ 0575d8 words=10 inplace
+JP 沖縄市体育館　　　　\
+EN Okinawa City Gym    \
+
+@ 0575ee words=10 inplace
+JP 宜野湾市立体育館　　\
+EN Ginowan City Gym    \
+
+@ 057604 words=10 inplace
+JP 那覇市民体育館　　　\
+EN Naha Civic Gym      \
+
+@ 0576b0 words=4 inplace
+JP IWWF\
+
+@ 0576ba words=4 inplace
+JP WWCA\
+
+@ 0576c4 words=4 inplace
+JP EWA　\
+
+@ 0576ce words=4 inplace
+JP GWA　\
+
+@ 0576d8 words=4 inplace
+JP AAC　\
+
+@ 0576e2 words=4 inplace
+JP アジア　\
+EN Asia    \
+
+@ 0576ec words=4 inplace
+JP IWWF\
+
+@ 0576f6 words=4 inplace
+JP WWCA\
+
+@ 057700 words=4 inplace
+JP GWA　\

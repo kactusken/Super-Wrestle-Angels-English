@@ -1,0 +1,1831 @@
+# Bank $93 (file 0x98000): 90 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 098000 words=247 table=0x43fac,0x43fae,0x43fb0,0x8984c,0x8984e,0x89850,0x89852,0x8985e,0x89860,0x89862,0x89864,0x4c259,0x4c30d,0xef475,0xef477,0xef479
+JP {start}{box}社長「未成年だろ、きみは。
+JP 　　　これにした方が良くないか?」{wait}
+JP {9E}{box}選手「ウーロン茶・・・。
+JP 　　　何それ、ナンパのつもり?」{wait}
+JP {box}社長「まっ、そんなところかな。実は
+JP 　　　是非武藤君に我が団体に来て欲
+JP 　　　しいんですよ。」{wait}
+JP {box}選手「スカウトってわけね。
+JP 　　　うーん、ちょっと興味あるな。
+JP 　　　どーしよー。」{wait}
+JP {box}社長「私達は武藤君が必要なんです。
+JP 　　　来て貰えませんか?」{wait}
+JP {box}選手「随分と熱心ですね。」{wait}
+JP {box}社長「どうしても、君に来て欲しいん
+JP 　　　だよ!!武藤君!!」{wait}
+EN {start}{box}President: You're a minor,
+EN right? Wouldn't this be better?{wait}
+EN {9E}{box}Megumi: Oolong tea...?
+EN What, is this a pickup line?{wait}
+EN {box}President: Something like that.
+EN Actually, I'd love for you to join
+EN my promotion, Megumi.{wait}
+EN {box}Megumi: So it's a scouting pitch.
+EN Hmm, I'm kinda interested.
+EN What should I do...{wait}
+EN {box}President: We need you, Megumi.
+EN Won't you come with us?{wait}
+EN {box}Megumi: You're awfully eager.{wait}
+EN {box}President: I just have to have
+EN you, Megumi!!{wait}
+
+@ 0981f0 words=103 table=0x4c25b
+JP {start}{box}選手「あはは、まいったなぁ。
+JP 　　　よーし、いいわ。」{wait}
+JP {box}社長「来てくれるのかい?」{wait}
+JP {box}選手「いっちゃいましょう・・・・・
+JP 　　　かわりに、ここのツケ払って貰
+JP 　　　えない?たまっちゃってさ。」{wait}
+EN {start}{box}Megumi: Ahaha, you got me.
+EN Okay, fine!{wait}
+EN {box}President: You'll come?{wait}
+EN {box}Megumi: Let's do it.....
+EN But in exchange, could you cover
+EN my tab here? It's kinda piled up.{wait}
+
+@ 0982c0 words=79 table=0x4c25d
+JP {start}{box}選手「・・でも、今は団体を移る気に
+JP 　　　なれないの。」{wait}
+JP {box}社長「そんなぁ。」{wait}
+JP {box}選手「ごめんなさい。社長さん。
+JP 　　　ウーロン茶だけ頂きます。」{wait}
+EN {start}{box}Megumi: ...But I'm not in the
+EN mood to switch promotions now.{wait}
+EN {box}President: Aw, come on.{wait}
+EN {box}Megumi: Sorry, Boss.
+EN I'll just take the oolong tea.{wait}
+
+@ 098360 words=259 table=0x4c25f
+JP {9E}{start}{box}選手「ボール取って下さーい。」{wait}
+JP {box}社長「結城千種君だね。」{wait}
+JP {box}選手「そうですけど、誰ですか?」{wait}
+JP {box}社長「きみをスカウトしに来たんだ。
+JP 　　　ウチの団体に来ないか?」{wait}
+JP {box}選手「ええ?ス、スカウトですか?
+JP 　　　あたしプロレスやってるんで、
+JP 　　　プロ野球まではちょっと・・」{wait}
+JP {box}社長「どこの世界に草野球の9番を
+JP 　　　打つ女の子をスカウトしに来る
+JP 　　　球団があるの?{wait}
+JP {box}　　　プロレスだよプロレス!」{wait}
+JP {box}選手「ええ?プロレスの・・・」{wait}
+JP {box}社長「どうだい?うちの団体で闘って
+JP 　　　みないか?」{wait}
+EN {9E}{start}{box}Chigusa: Toss me the ball, please!{wait}
+EN {box}President: Chigusa Yuki, right?{wait}
+EN {box}Chigusa: Yes, but who are you?{wait}
+EN {box}President: I came to scout you.
+EN Why not join my promotion?{wait}
+EN {box}Chigusa: Huh? S-scout me? I'm
+EN already a pro wrestler, so pro
+EN baseball is a bit much...{wait}
+EN {box}President: What team would scout
+EN a girl who bats ninth on a
+EN sandlot team?{wait}
+EN {box}Wrestling! I'm talking wrestling!{wait}
+EN {box}Chigusa: Huh? Wrestling...?{wait}
+EN {box}President: How about it? Want to
+EN fight for my promotion?{wait}
+
+@ 098568 words=98 table=0x4c261
+JP {start}{box}選手「あたしも他団体からのお誘いが
+JP 　　　来るようになったんだー。
+JP 　　　うれしいなー。」{wait}
+JP {box}社長「じゃあOKだね。」{wait}
+JP {box}選手「別のところでもやってみたいと
+JP 　　　思ってたとこなの。」{wait}
+EN {start}{box}Chigusa: Wow, other promotions
+EN are starting to invite me now.
+EN That makes me happy!{wait}
+EN {box}President: Then it's a yes?{wait}
+EN {box}Chigusa: I was just thinking I'd
+EN like to try somewhere else.{wait}
+
+@ 09862e words=49 table=0x4c263
+JP {start}{box}選手「そうですねー。でも今の団体を
+JP 　　　辞める気はないんですよ。
+JP 　　　ごめんなさい。」{wait}
+EN {start}{box}Chigusa: Hmm, well... But I'm
+EN not planning to leave my current
+EN promotion. Sorry.{wait}
+
+@ 098692 words=225 table=0x4c265
+JP {start}{box}社長「市ヶ谷さん・・ですよね?」{wait}
+JP {9E}{box}選手「あら、なんですの責方?」{wait}
+JP {box}社長「私こういう者です。」{wait}
+JP {box}選手「プロレス団体の社長ですの?
+JP 　　　で・・どういった御用件?」{wait}
+JP {box}社長「実は市ヶ谷さんにウチの団体に
+JP 　　　来て欲しいんですが・・。」{wait}
+JP {box}選手「オーッホッホッホ!{wait}
+JP {box}　　　全世界に、1000億のファン
+JP 　　　を持つ私の美貌と力が欲しいと
+JP 　　　言うことですわね。」{wait}
+JP {box}社長「そうです。是非ウチの団体に来
+JP 　　　て下さい。」{wait}
+EN {start}{box}President: Beauty Ichigaya...?{wait}
+EN {9E}{box}Beauty: My, and who are you?{wait}
+EN {box}President: Here's my card.{wait}
+EN {box}Ichigaya: President of a wrestling
+EN promotion? And... what brings
+EN you here?{wait}
+EN {box}President: Actually, I'd like you
+EN to join my promotion...{wait}
+EN {box}Ichigaya: Oh-ho-ho-ho!{wait}
+EN {box}You want my beauty and power,
+EN adored by a hundred billion fans
+EN the world over, is that it?{wait}
+EN {box}President: Exactly. Please, come
+EN join my promotion.{wait}
+
+@ 098856 words=136 table=0x4c267
+JP {start}{box}選手「そうですわね。入ってあげても
+JP 　　　よろしくてよ。」{wait}
+JP {box}社長「本当ですか?!」{wait}
+JP {box}選手「ただし、私はトップ以外は承知
+JP 　　　しませんことよ!」{wait}
+JP {box}社長「そ、そりゃもう。当然です。」{wait}
+JP {box}選手「オーッホッホッホ!これで責方
+JP 　　　の団体も安心ですわね!」{wait}
+EN {start}{box}Ichigaya: Very well. I suppose I
+EN could join you.{wait}
+EN {box}President: Really?!{wait}
+EN {box}Ichigaya: However, I will accept
+EN nothing less than the top spot!{wait}
+EN {box}President: B-but of course.{wait}
+EN {box}Ichigaya: Oh-ho-ho-ho! Now your
+EN promotion has nothing to fear!{wait}
+
+@ 098968 words=126 table=0x4c269
+JP {start}{box}選手「私はそのようなちっぽけな所に
+JP 　　　入る気はございませんわ。」{wait}
+JP {box}社長「お願いします。市ヶ谷さん。」{wait}
+JP {box}選手「社長さん。本気で私をスカウト
+JP 　　　したいなら、この私に見合った
+JP 　　　団体になることね。{wait}
+JP {box}　　　オーッホッホッホ!!」{wait}
+EN {start}{box}Ichigaya: I have no intention of
+EN joining such a tiny outfit.{wait}
+EN {box}President: Please, Ms. Ichigaya.{wait}
+EN {box}Ichigaya: Mr. President, if you
+EN truly wish to scout me, become a
+EN promotion worthy of me.{wait}
+EN {box}Oh-ho-ho-ho-ho!!{wait}
+
+@ 098a66 words=359 table=0x4c26b
+JP {start}{box}社長「南利美さんですよね?」{wait}
+JP {9E}{box}選手「そうだけど。」{wait}
+JP {box}社長「捜しましたよ、南さん。
+JP 　　　こんな夜中にバイクに乗ってる
+JP 　　　なんてね。」{wait}
+JP {box}選手「あなた誰よ!?」{wait}
+JP {box}社長「私こういう者です。」{wait}
+JP {box}選手「プロレス団体の社長・・・・?
+JP 　　　その社長がこんな時間に何か用
+JP 　　　かしら?」{wait}
+JP {box}社長「実は南さんにうちの団体に来て
+JP 　　　頂きたくて捜したんです。」{wait}
+JP {box}選手「スカウトってわけね?」{wait}
+JP {box}社長「そうなんです。ウチの団体に、
+JP 　　　来て貰えませんか?」{wait}
+JP {box}選手「そうねぇ・・・・こういうのは
+JP 　　　どう?{wait}
+JP {box}　　　私と高速を一周して勝負する。
+JP 　　　・・・それで私に勝てば入団し
+JP 　　　てあげるわ。」{wait}
+JP {box}社長「いいでしょう。」{wait}
+JP {box}選手「その車で私に勝てるかしら?」{wait}
+JP {box}30分後{wait}
+EN {start}{box}President: You're Toshimi Minami?{wait}
+EN {9E}{box}Toshimi: That's right.{wait}
+EN {box}President: I've been looking for
+EN you. Riding a motorbike this late
+EN at night, huh?{wait}
+EN {box}Toshimi: Who the hell are you!?{wait}
+EN {box}President: Here's my card.{wait}
+EN {box}Toshimi: President of a wrestling
+EN promotion...? And what does he
+EN want at this hour?{wait}
+EN {box}President: I came looking for you
+EN because I want you to join us.{wait}
+EN {box}Toshimi: So it's a scouting trip?{wait}
+EN {box}President: Exactly. Will you come
+EN join our promotion?{wait}
+EN {box}Toshimi: Hmm... How about this?{wait}
+EN {box}One lap of the expressway, you
+EN against me. Beat me, and I'll
+EN join you.{wait}
+EN {box}President: You're on.{wait}
+EN {box}Toshimi: Think you can beat me in
+EN that car?{wait}
+EN {box}30 minutes later{wait}
+
+@ 098d36 words=90 table=0x4c26d
+JP {start}{box}選手「私が負けるなんて・・。」{wait}
+JP {box}社長「それじゃ、約束通り私の団体に
+JP 　　　来て貰えますか?」{wait}
+JP {box}選手「ふふっ、いいわ。約束ですもの
+JP 　　　行きましょう。その団体に。」{wait}
+EN {start}{box}Toshimi: I can't believe I lost...{wait}
+EN {box}President: Then, as promised,
+EN you'll join my promotion?{wait}
+EN {box}Toshimi: Heh, fine. A promise is a
+EN promise. I'll join you.{wait}
+
+@ 098dec words=66 table=0x4c26f
+JP {start}{box}選手「いい勝負だったけど残念ね。{wait}
+JP {box}　　　またいつか勝負しましょう。
+JP 　　　今度はパンクしないでね。
+JP 　　　社長さん。　」{wait}
+EN {start}{box}Toshimi: Good race, but too bad.{wait}
+EN {box}Let's race again sometime.
+EN Try not to blow a tire next time,
+EN Mr. President.{wait}
+
+@ 098e72 words=276 table=0x4c271
+JP {start}{box}社長「随分熱心にやってますね。
+JP 　　　小川さん。」{wait}
+JP {9E}{box}選手「誰ですか?勉強の邪魔しないで
+JP 　　　欲しいんですけど・・・。」{wait}
+JP {box}社長「すいません。実は私はある団体
+JP 　　　を経営しているんですが、{wait}
+JP {box}　　　ぜひ小川さんに我が団体に来て
+JP 　　　頂きたいのですが・・・。」{wait}
+JP {box}選手「なるほど、私をスカウトしたい
+JP 　　　っていうのね?」{wait}
+JP {box}社長「はい、私共の団体に来て頂けま
+JP 　　　せんか?」{wait}
+JP {box}選手「ほんとにぃ?・・・・・・・・
+JP 　　　何か信用できないなぁー。」{wait}
+JP {box}社長「信用して下さいよ。この真剣な
+JP 　　　目を見ても信用できません?」{wait}
+EN {start}{box}President: You're studying hard,
+EN Ms. Ogawa.{wait}
+EN {9E}{box}Hikaru: Who are you? Please don't
+EN interrupt my studying...{wait}
+EN {box}President: Sorry. Actually, I run
+EN a certain promotion, and{wait}
+EN {box}I'd really love for you to join
+EN us, Ms. Ogawa...{wait}
+EN {box}Hikaru: I see, so you want to
+EN scout me?{wait}
+EN {box}President: Yes. Would you come
+EN join our promotion?{wait}
+EN {box}Hikaru: Really?........
+EN Somehow I just don't trust you.{wait}
+EN {box}President: Please trust me. Can't
+EN you see the sincerity in my eyes?{wait}
+
+@ 09909c words=79 table=0x4c273
+JP {start}{box}選手「そうねぇ・・・。」{wait}
+JP {box}社長「お願いしますよ。」{wait}
+JP {box}選手「いいわ。信用してあげる。」{wait}
+JP {box}社長「それじゃ!」{wait}
+JP {box}選手「お世話になりますね。」{wait}
+EN {start}{box}Hikaru: Well...{wait}
+EN {box}President: Please?{wait}
+EN {box}Hikaru: All right. I'll trust you.{wait}
+EN {box}President: Then...!{wait}
+EN {box}Hikaru: I'm in your hands.{wait}
+
+@ 09913c words=87 table=0x4c275
+JP {start}{box}選手「どうも信用出来ないのよねぇ。
+JP 　　　どうしようかしら・・・。」{wait}
+JP {box}社長「お願いしますよ。」{wait}
+JP {box}選手「う~ん。ごめんなさい。
+JP 　　　やっぱり今はやめとくわ。」{wait}
+EN {start}{box}Hikaru: I just can't trust you.
+EN What should I do...{wait}
+EN {box}President: Please?{wait}
+EN {box}Hikaru: Hmm. Sorry. I'll pass for
+EN now after all.{wait}
+
+@ 0991ec words=280 table=0x4c277
+JP {start}{box}社長「すいません、永原ちづるさん
+JP 　　　ですよね。」{wait}
+JP {9E}{box}選手「今日は私プライベートで来てる
+JP 　　　から、サインはちょっと・・・
+JP 　　　えっ?違うんですか?」{wait}
+JP {box}社長「その服似合ってますね。」{wait}
+JP {box}選手「へへっ、ありがとう。ところで
+JP 　　　あなた・・・誰?」{wait}
+JP {box}社長「私、ある団体を経営しているん
+JP 　　　ですが、永原さん、私の団体で
+JP 　　　リングに上がってみません?」{wait}
+JP {box}選手「社長さんなの?びっくりした。
+JP 　　　もしかして、あたしをスカウト
+JP 　　　しにこんなところに来たの?」{wait}
+JP {box}社長「そういう事です。どうですか?
+JP 　　　来て頂けますか?」{wait}
+EN {start}{box}President: Excuse me, you're
+EN Chizuru Nagahara, right?{wait}
+EN {9E}{box}Chizuru: I'm off duty today, so
+EN no autographs, sorry... Huh?
+EN That's not it?{wait}
+EN {box}President: That outfit suits you.{wait}
+EN {box}Chizuru: Hehe, thanks. By the way,
+EN who... are you?{wait}
+EN {box}President: I run a promotion. Ms.
+EN Nagahara, how about stepping into
+EN my ring?{wait}
+EN {box}Chizuru: You're a president? Wow!
+EN Did you come all the way here
+EN just to scout me?{wait}
+EN {box}President: That's right. So? Will
+EN you join us?{wait}
+
+@ 09941e words=71 table=0x4c279
+JP {start}{box}選手「そうね、新しい団体に行くのも
+JP 　　　悪くないわよね。」{wait}
+JP {box}社長「来て貰えるんですか?」{wait}
+JP {box}選手「うん、お世話になっちゃう。」{wait}
+EN {start}{box}Chizuru: Well, moving to a new
+EN promotion doesn't sound bad.{wait}
+EN {box}President: You'll join us?{wait}
+EN {box}Chizuru: Yep, I'm all yours!{wait}
+
+@ 0994ae words=84 table=0x4c27b
+JP {start}{box}選手「ん~、でもねぇ。今のところも
+JP 　　　気に入ってるし、そんな気には
+JP 　　　なれないから。」{wait}
+JP {box}社長「そうですか。」{wait}
+JP {box}選手「ごめんね、また今度にして。」{wait}
+EN {start}{box}Chizuru: Hmm, but... I like where
+EN I am now, and I'm just not
+EN feeling it.{wait}
+EN {box}President: I see.{wait}
+EN {box}Chizuru: Sorry, maybe next time.{wait}
+
+@ 099558 words=231 table=0x4c27d
+JP {9E}{start}{box}選手「何、あんた?ひとんちの前で何
+JP 　　　してるの?道場破りなら私が受
+JP 　　　けて立つわよ。」{wait}
+JP {box}社長「違いますよ。越後さん。」{wait}
+JP {box}選手「じゃあ何よ?!」{wait}
+JP {box}社長「実は越後さんに、ウチの団体に
+JP 　　　来て頂きたくて、ここで待って
+JP 　　　たんですよ。」{wait}
+JP {box}選手「私をスカウトしに来たの?」{wait}
+JP {box}社長「はい!」{wait}
+JP {box}選手「あら、私もまだ捨てたもんじゃ
+JP 　　　ないわね。別の団体かあ・・・
+JP 　　　興味あるわね。」{wait}
+JP {box}社長「そうですか。じゃあ・・・」{wait}
+EN {9E}{start}{box}Shinobu: What do you want? Why
+EN are you lurking outside my house?
+EN Dojo challenge? I'll take you on.{wait}
+EN {box}President: No, no, Ms. Echigo.{wait}
+EN {box}Shinobu: Then what?!{wait}
+EN {box}President: I was waiting here
+EN because I want you to join our
+EN promotion.{wait}
+EN {box}Shinobu: You came to scout me?{wait}
+EN {box}President: Yes!{wait}
+EN {box}Shinobu: Well, I've still got it.
+EN Another promotion, huh...
+EN Sounds interesting.{wait}
+EN {box}President: Really? Then...{wait}
+
+@ 099728 words=109 table=0x4c27f
+JP {start}{box}選手「そうね・・・・・・・・。」{wait}
+JP {box}社長「来て頂けませんか?」{wait}
+JP {box}選手「そこまで頼まれると断われない
+JP 　　　わね。」{wait}
+JP {box}社長「来て貰えますか?」{wait}
+JP {box}選手「身辺の整理をしたら、すぐ挨拶
+JP 　　　に伺うわ。」{wait}
+EN {start}{box}Shinobu: Let's see...{wait}
+EN {box}President: Won't you join us?{wait}
+EN {box}Shinobu: Asked like that, I
+EN can't say no.{wait}
+EN {box}President: You'll come?{wait}
+EN {box}Shinobu: Once I've settled my
+EN affairs, I'll come say hello.{wait}
+
+@ 099804 words=97 table=0x4c281
+JP {start}{box}選手「今は駄目ね。やり残したことも
+JP 　　　あるし。」{wait}
+JP {box}社長「何とか来て貰えないかな?」{wait}
+JP {box}選手「悪いけど、稽古があるので私は
+JP 　　　これで・・・・・。」{wait}
+JP {box}社長「越後さーんっ。」{wait}
+EN {start}{box}Shinobu: Not now. I've still got
+EN unfinished business.{wait}
+EN {box}President: Isn't there any way?{wait}
+EN {box}Shinobu: Sorry, I have training,
+EN so excuse me.....{wait}
+EN {box}President: Ms. Echigooo!{wait}
+
+@ 0998c8 words=127 table=0x4c283
+JP {start}{box}社長「やっと見つけた。本当にこんな
+JP 　　　ところにいるなんて・・・。」{wait}
+JP {9E}{box}選手「どこにいようと、あたしの勝手
+JP 　　　でしょ!!・・誰よあんた?」{wait}
+JP {box}社長「私、ある団体を経営してるんだ
+JP 　　　けど、是非レイちゃんにウチの
+JP 　　　団体に来て。」{wait}
+EN {start}{box}President: Found you at last. To
+EN think you'd really be here...{wait}
+EN {9E}{box}Rei: Where I go is my business!!
+EN ...Who are you, anyway?{wait}
+EN {box}President: I run a promotion, and
+EN I'd love for you to join us, Rei.{wait}
+
+@ 0999c8 words=54 table=0x4c285
+JP {start}{box}選手「行くっ!行くから、ここに私が
+JP 　　　いたことは内緒よ!いいっ!」{wait}
+JP {box}社長「はっ・はいっ!!」{wait}
+EN {start}{box}Rei: I'll go! I'll go, so keep it
+EN secret that I was here! Got it?!{wait}
+EN {box}President: Y-yes ma'am!!{wait}
+
+@ 099a36 words=76 table=0x4c287
+JP {start}{box}選手「悪いけど、まだ買う本もあるし
+JP 　　　また、また今度ね!ここに私が
+JP 　　　いたことは内緒よ!いい!」{wait}
+JP {box}社長「・・・・・・・・・・はい。」{wait}
+EN {start}{box}Rei: Sorry, I've still got books
+EN to buy, so maybe next time! Keep
+EN it secret that I was here! Got it!{wait}
+EN {box}President: ..........Yes.{wait}
+
+@ 099ad0 words=307 table=0x4c289
+JP {start}{box}社長「キューティ金井ちゃんだね?」{wait}
+JP {9E}{box}選手「そうですけどぉー。おじさん、
+JP 　　　誰ですかぁ?」{wait}
+JP {box}社長「おじさん?・・・まぁいいか。
+JP 　　　ねえ、おじさんの団体に来る気
+JP 　　　ないかい?」{wait}
+JP {box}選手「おじさんの団体?おじさんは、
+JP 　　　社長さんなんですかぁ?」{wait}
+JP {box}社長「そうなんだ。君さえ良かったら
+JP 　　　私の団体に来てくれないか?」{wait}
+JP {box}選手「う~ん、どうしよっかなあ・・
+JP 　　　そうだ!おじさんがゲームで私
+JP 　　　に勝ったら入団してあげる。」{wait}
+JP {box}社長「ゲームでって・・・・・よーし
+JP 　　　やってやろーじゃないの!」{wait}
+JP {box}選手「じゃ、これで勝負しましょ。」{wait}
+JP {box}社長「OK!!じゃあ行くぞ!!」{wait}
+EN {start}{box}President: You're Cutie Kanai?{wait}
+EN {9E}{box}Cutie: Yeees. Mister, who are
+EN youuu?{wait}
+EN {box}President: Mister?... Oh well.
+EN Say, want to join this mister's
+EN promotion?{wait}
+EN {box}Cutie: Your promotion? Mister, are
+EN you a company president?{wait}
+EN {box}President: That's right. If you'd
+EN like, would you join my promotion?{wait}
+EN {box}Cutie: Hmm, what should I do...
+EN I know! If you beat me at a video
+EN game, I'll join.{wait}
+EN {box}President: A video game?.....
+EN All right, bring it on!{wait}
+EN {box}Cutie: Okay, let's play this one.{wait}
+EN {box}President: OK!! Here I come!!{wait}
+
+@ 099d38 words=52 table=0x4c28b
+JP {start}{box}選手「おじさんうまいじゃなーい!!
+JP 　　　約束だから、おじさんの団体に
+JP 　　　いってあげるね!」{wait}
+EN {start}{box}Cutie: Mister, you're good!!
+EN A promise is a promise, so I'll
+EN join your promotion!{wait}
+
+@ 099da2 words=69 table=0x4c28d
+JP {start}{box}選手「ざんねーん!!あたしの勝ち!{wait}
+JP {box}　　　あたしを入団させたいならぁ、
+JP 　　　もっとうまくなってから来て下
+JP 　　　ださぁい!」{wait}
+EN {start}{box}Cutie: Too baaad!! I win!{wait}
+EN {box}If you want me to join, come
+EN back when you get better at
+EN it, okaaay!{wait}
+
+@ 099e2e words=295 table=0x4c28f
+JP {start}{box}社長「君・・金森麗子さんだね?」{wait}
+JP {9E}{box}選手「そうですけどぉ・・・・・
+JP 　　　おじさん・・誰ですかぁ?」{wait}
+JP {box}社長「おじ・・・さんって?・・・」{wait}
+JP {box}選手「用がないんならどいて下さい。
+JP 　　　私ぃ、急いでるんですぅ。」{wait}
+JP {box}社長「急いでるようには・・・・。」{wait}
+JP {box}選手「??????????」{wait}
+JP {box}社長「実はね・・実はおじさん、ある
+JP 　　　プロレス団体の経営者でね。」{wait}
+JP {box}選手「そうなんですかぁ。と言う事は
+JP 　　　おじさんは、私をスカウトしに
+JP 　　　来たんですかぁ?」{wait}
+JP {box}社長「そうなんだよぉ。・・・・・。
+JP 　　　(見た目よりは頭いいんだな)
+JP 　　　・・・来て貰えないかなぁ?」{wait}
+EN {start}{box}President: You're... Reiko
+EN Kanamori, right?{wait}
+EN {9E}{box}Reiko: Yeees, that's me.....
+EN Mister... who are you?{wait}
+EN {box}President: Mis...ter?...{wait}
+EN {box}Reiko: If you don't need anything,
+EN please move. I'm in a huuurry.{wait}
+EN {box}President: You don't look like
+EN you're in a hurry....{wait}
+EN {box}Reiko: ??????????{wait}
+EN {box}President: Well, you see... this
+EN mister runs a wrestling promotion.{wait}
+EN {box}Reiko: Is that sooo? Does that
+EN mean you came to scout me,
+EN mister?{wait}
+EN {box}President: That's riiight......
+EN (She's sharper than she looks.)
+EN ...Won't you join us?{wait}
+
+@ 09a07e words=268 table=0x4c291
+JP {start}{box}選手「おじさんの団体ですかぁ・・?
+JP 　　　うーん。でもぉ、今のところも
+JP 　　　面白いしぃ。」{wait}
+JP {box}社長「どうしても、麗子ちゃんに来て
+JP 　　　欲しいんだけど・・・・・・・{wait}
+JP {box}　　　麗子ちゃん。是非私の団体で、
+JP 　　　頑張って貰えないかな?」{wait}
+JP {box}選手「わかりましたぁ!
+JP 　　　麗子ちゃんねぇ、おじさんが入
+JP 　　　ってる団体にいきまーすぅ!」{wait}
+JP {box}社長「本当かい?麗子ちゃん?」{wait}
+JP {box}選手「ほんとうでぇーす。おじさんの
+JP 　　　入ってる団体にいきまーす。」{wait}
+JP {box}社長「麗子ちゃん・・・・でも、別に
+JP 　　　私が入ってる訳じゃ・・・・」{wait}
+EN {start}{box}Reiko: Your promotion, Mister...?
+EN Hmm. But my place now is
+EN fun too...{wait}
+EN {box}President: I really want you to
+EN join us, Reiko...{wait}
+EN {box}Reiko, please. Won't you give it
+EN your all in my promotion?{wait}
+EN {box}Reiko: Okaaay!
+EN Reiko's gonna go to the
+EN promotion you're in, Mister!{wait}
+EN {box}President: Really, Reiko?{wait}
+EN {box}Reiko: Reeeally. I'm going to the
+EN promotion you're in!{wait}
+EN {box}President: Reiko... but I'm not
+EN exactly "in" it...{wait}
+
+@ 09a298 words=173 table=0x4c293
+JP {start}{box}選手「おじさんの団体ですかぁ・・?
+JP 　　　うーん。でもぉ、今のところも
+JP 　　　面白いしぃ。」{wait}
+JP {box}社長「麗子ちゃん。頼むよウチに来て
+JP 　　　頑張って貰えないかな?」{wait}
+JP {box}選手「でもぉー。知らないおじさんに
+JP 　　　付いて行っちゃ駄目だし。」{wait}
+JP {box}社長「私は、そんな変なおじさんじゃ
+JP 　　　・・・・。」{wait}
+JP {box}選手「やっぱり、やめときますぅ。」{wait}
+EN {start}{box}Reiko: Your promotion, Mister...?
+EN Hmm. But my place now is
+EN fun too...{wait}
+EN {box}President: Please, Reiko. Won't
+EN you come work hard for us?{wait}
+EN {box}Reiko: But I'm not supposed to go
+EN off with strange men.{wait}
+EN {box}President: I'm not that kind of
+EN strange man...{wait}
+EN {box}Reiko: I'll pass after all.{wait}
+
+@ 09a3f4 words=305 table=0x4c295
+JP {start}{box}社長「捜しましたよ、山元さん。・・
+JP 　　　ここで何をしてるんですか?」{wait}
+JP {9E}{box}選手「曲の練習をしてましたの。
+JP 　　　失礼ですが、何処かでお会いし
+JP 　　　ましたかしら?」　{wait}
+JP {box}社長「いえ、会うのは初めてですが、
+JP 　　　責女のファイトはよく拝見して
+JP 　　　います。」{wait}
+JP {box}選手「ファンの方ですの?」{wait}
+JP {box}社長「いえ、実は私、プロレス団体の
+JP 　　　経営者でして・・・。」{wait}
+JP {box}選手「じゃあ、社長さんですの?」{wait}
+JP {box}社長「有り体に言えばそうです。
+JP 　　　実は山元さん。今日はあなたを
+JP 　　　スカウトに来ました。」{wait}
+JP {box}選手「私を・・・ですか?」　{wait}
+JP {box}社長「山元さん、ウチの団体に来て貰
+JP 　　　えませんか?」{wait}
+EN {start}{box}President: There you are, Ms.
+EN Yamamoto. What are you doing?{wait}
+EN {9E}{box}Hiromi: Practicing a song. Pardon
+EN me, but have we met somewhere
+EN before?{wait}
+EN {box}President: No, this is our first
+EN meeting, but I've often seen
+EN you fight.{wait}
+EN {box}Hiromi: Are you a fan, then?{wait}
+EN {box}President: Actually, I run a
+EN wrestling promotion...{wait}
+EN {box}Hiromi: So you're a president?{wait}
+EN {box}President: Put plainly, yes.
+EN Ms. Yamamoto, I'm here today
+EN to scout you.{wait}
+EN {box}Hiromi: Me...?{wait}
+EN {box}President: Ms. Yamamoto, won't
+EN you join my promotion?{wait}
+
+@ 09a658 words=133 table=0x4c297
+JP {start}{box}選手「・・・・・・。」{wait}
+JP {box}社長「あなたのファイトは見せられる
+JP 　　　ものがあります。{wait}
+JP {box}　　　どうですか?ウチのリングで活
+JP 　　　躍してもらえませんか?」{wait}
+JP {box}選手「・・そこまでおっしゃるのなら
+JP 　　　社長さんのリングで、闘わせて
+JP 　　　頂きますわ。」　{wait}
+EN {start}{box}Hiromi: ......{wait}
+EN {box}President: Your fighting is
+EN something people should see.{wait}
+EN {box}What do you say? Won't you
+EN shine in our ring?{wait}
+EN {box}Hiromi: ...If you insist that
+EN much, I shall fight in your
+EN ring, President.{wait}
+
+@ 09a764 words=145 table=0x4c299
+JP {start}{box}選手「・・・・。」{wait}
+JP {box}社長「私の団体に来て頂きません?」{wait}
+JP {box}選手「申し訳ありませんけど、私には
+JP 　　　そのお話、お受けできません。
+JP 　　　・・・・。」{wait}
+JP {box}社長「どうしてですか?」{wait}
+JP {box}選手「私、今の団体を辞める気には、
+JP 　　　なりませんの・・・・・・。
+JP 　　　ごめんなさい。」{wait}
+EN {start}{box}Hiromi: ....{wait}
+EN {box}President: Won't you join us?{wait}
+EN {box}Hiromi: I'm terribly sorry, but
+EN I cannot accept your offer.
+EN ....{wait}
+EN {box}President: Why not?{wait}
+EN {box}Hiromi: I have no wish to leave
+EN my current promotion...
+EN Forgive me.{wait}
+
+@ 09a888 words=324 table=0x4c29b
+JP {start}{box}社長「サイクリングですか?
+JP 　　　西町珠理さん?」{wait}
+JP {9E}{box}選手「ええ、こんなにいい天気ですし
+JP 　　　体動かしてないと、何だかもっ
+JP 　　　たいなくて・・」{wait}
+JP {box}社長「これだけいい天気になるのは、
+JP 　　　久しぶりですもんね。」{wait}
+JP {box}選手「それより、私にご用でもあるん
+JP 　　　ですか?」{wait}
+JP {box}社長「これは失礼。こうみえても私、
+JP 　　　あるプロレス団体の経営者なん
+JP 　　　ですが・・・。」{wait}
+JP {box}選手「・・その社長さんが、私に何か
+JP 　　　用ですか・・・もしかしたら、
+JP 　　　スカウト・・で・すか・・?」{wait}
+JP {box}社長「実は先日、君の試合を拝見して
+JP 　　　一目見て気に入ってしまった。{wait}
+JP {box}　　　よかったらウチで、そのファイ
+JP 　　　トを見せてくれないか?」{wait}
+EN {start}{box}President: Out cycling,
+EN Ms. Juri Nishimachi?{wait}
+EN {9E}{box}Juri: Yes. On a day this nice,
+EN it feels like a waste not to
+EN get moving...{wait}
+EN {box}President: It's been a while
+EN since we had weather this good.{wait}
+EN {box}Juri: More importantly, did you
+EN want something from me?{wait}
+EN {box}President: Pardon me. I may not
+EN look it, but I run a wrestling
+EN promotion...{wait}
+EN {box}Juri: ...And what would a
+EN president want with me...? Is
+EN this... a... scouting...?{wait}
+EN {box}President: I saw your match the
+EN other day and loved it at once.{wait}
+EN {box}If you like, would you show
+EN that fight in our promotion?{wait}
+
+@ 09ab12 words=155 table=0x4c29d
+JP {start}{box}選手「・・・・・・・・・・・」{wait}
+JP {box}社長「どうしました、西町さん?」{wait}
+JP {box}選手「すいません、まさか本当に私を
+JP 　　　スカウトなんて・・。
+JP 　　　信じられないな。」{wait}
+JP {box}社長「あなたの実力を正当に評価して
+JP 　　　判断して説得に来たんです。
+JP 　　　ウチに来て貰えませんか?」{wait}
+JP {box}選手「はい、よろこんで。」{wait}
+EN {start}{box}Juri: ...........{wait}
+EN {box}President: What's wrong,
+EN Ms. Nishimachi?{wait}
+EN {box}Juri: Sorry, I just can't believe
+EN you'd really scout me...{wait}
+EN {box}President: I judged your skill
+EN fairly and came to persuade you.
+EN Won't you join us?{wait}
+EN {box}Juri: Yes, I'd be glad to.{wait}
+
+@ 09ac4a words=138 table=0x4c29f
+JP {start}{box}選手「・・・・・。
+JP 　　　お気持ちは、嬉しいのですけど{wait}
+JP {box}　　　今の団体には一緒にやってきた
+JP 　　　仲間もいますし、やりたい事も
+JP 　　　残ってるんで・・・・。」{wait}
+JP {box}社長「どうしても・・・・駄目・・・
+JP 　　　みたい・・だね。」{wait}
+JP {box}選手「申し訳ありません・・・・。」{wait}
+EN {start}{box}Juri: .....
+EN I'm happy you feel that way,{wait}
+EN {box}but I have friends I've come
+EN this far with, and things I
+EN still want to do here....{wait}
+EN {box}President: So it's... no
+EN matter what... I guess.{wait}
+EN {box}Juri: I'm very sorry....{wait}
+
+@ 09ad60 words=132 table=0x4c2a1
+JP {start}{box}社長「ナイスファイトでしたね。」{wait}
+JP {9E}{box}選手「え?ああ、どうも。」{wait}
+JP {box}社長「私、あるプロレス団体を経営し
+JP 　　　ている者ですが、{wait}
+JP {box}　　　上原さんにウチの団体に来てい
+JP 　　　ただけないかと・・」{wait}
+JP {box}選手「え?それはまた、急なことを言
+JP 　　　うわね。」{wait}
+EN {start}{box}President: Nice fight out there.{wait}
+EN {9E}{box}Uehara: Huh? Oh, thanks.{wait}
+EN {box}President: I run a wrestling
+EN promotion, and{wait}
+EN {box}I was hoping you'd join us,
+EN Ms. Uehara...{wait}
+EN {box}Uehara: Huh? That's sudden.{wait}
+
+@ 09ae6a words=68 table=0x4c2a3
+JP {start}{box}社長「どうでしょうか?」{wait}
+JP {box}選手「そこまで見込んでくれるなら行
+JP 　　　かない訳にいかないわね。
+JP 　　　よし、行こうじゃない。」{wait}
+EN {start}{box}President: What do you say?{wait}
+EN {box}Uehara: If you think that much of
+EN me, I can't say no.
+EN All right, let's do it.{wait}
+
+@ 09aef4 words=58 table=0x4c2a5
+JP {start}{box}社長「上原さん、お願いしますよ。」{wait}
+JP {box}選手「そうね・・・。そんなに興味も
+JP 　　　湧かないから今度にして。」{wait}
+EN {start}{box}President: Please, Ms. Uehara.{wait}
+EN {box}Uehara: Hmm... I'm not that into
+EN it. Ask me some other time.{wait}
+
+@ 09af6a words=140 table=0x4c2a7
+JP {start}{box}社長「ミミ吉原さんですね?」{wait}
+JP {9E}{box}選手「ええ、そうですけど?
+JP 　　　どちらさん・・・?」{wait}
+JP {box}社長「私、ある団体の経営者ですが、
+JP 　　　ウチのリングに上がってもらえ
+JP 　　　ませんか。ミミさん。」{wait}
+JP {box}選手「引き抜きたいってこと?」{wait}
+JP {box}社長「まあ、有り体にいえば・・・」{wait}
+EN {start}{box}President: You're Mimi Yoshihara?{wait}
+EN {9E}{box}Mimi: Yeah, that's me.
+EN And you are...?{wait}
+EN {box}President: I run a promotion.
+EN Would you step into our ring,
+EN Mimi?{wait}
+EN {box}Mimi: You mean poach me?{wait}
+EN {box}President: Well, put plainly...{wait}
+
+@ 09b084 words=89 table=0x4c2a9
+JP {start}{box}選手「スカウトされるのは認められて
+JP 　　　るってことよね。」{wait}
+JP {box}社長「そうですとも。どうです?」{wait}
+JP {box}選手「面白そうだなぁ・・うーん。
+JP 　　　思いきって行ってみるか!」{wait}
+EN {start}{box}Mimi: Being scouted means you
+EN think I'm good, right?{wait}
+EN {box}President: Exactly. How about it?{wait}
+EN {box}Mimi: Sounds fun... Hmm.
+EN Okay, I'll take the plunge!{wait}
+
+@ 09b138 words=109 table=0x4c2ab
+JP {start}{box}選手「そうですか・・・うーん。」{wait}
+JP {box}社長「迷ってるなら、新しいところで
+JP 　　　チャレンジしてみません?」{wait}
+JP {box}選手「どうしようかな・・・・・・。
+JP 　　　やめとくわ。悪いけど、この話
+JP 　　　またにしてくれる。」{wait}
+EN {start}{box}Mimi: I see... Hmm.{wait}
+EN {box}President: If you're torn, why
+EN not try a new challenge?{wait}
+EN {box}Mimi: What should I do......
+EN I'll pass. Sorry, but let's
+EN talk another time.{wait}
+
+@ 09b214 words=282 table=0x4c2ad
+JP {start}{box}社長「あっ!祐希子さん、こんなとこ
+JP 　　　ろにいたんですか。」{wait}
+JP {9E}{box}社長「カレーですか?　2、6、9、
+JP 　　　15枚っ!?・・・・・・・・
+JP 　　　よく・・食べますね。」{wait}
+JP {box}選手「プロレスやってるとお腹が減る
+JP 　　　のっ。これも仕事の内よ。」{wait}
+JP {box}社長「そうですよね。ところでですね
+JP 　　　私、こういう者なのですが。」{wait}
+JP {box}選手「へっ~。社長さんか。それで、
+JP 　　　何の用なの?」{wait}
+JP {box}社長「祐希子さんにウチの団体に来て
+JP 　　　欲しい訳なんですよ。」　{wait}
+JP {box}選手「なるほど・・・・・、スカウト
+JP 　　　ってわけね。」{wait}
+JP {box}社長「そうなんですよ。どうです?」{wait}
+EN {start}{box}President: Ah! There you are,
+EN Yukiko.{wait}
+EN {9E}{box}President: Curry? 2, 6, 9...
+EN 15 plates!?........
+EN You sure... can eat.{wait}
+EN {box}Yukiko: Wrestling makes you
+EN hungry. It's part of the job!{wait}
+EN {box}President: Of course. By the
+EN way, this is who I am.{wait}
+EN {box}Yukiko: Ooh, a president. So,
+EN what do you want?{wait}
+EN {box}President: I'd like you to join
+EN my promotion, Yukiko.{wait}
+EN {box}Yukiko: I see..... So you're
+EN scouting me.{wait}
+EN {box}President: That's right. Well?{wait}
+
+@ 09b44a words=175 table=0x4c2af
+JP {start}{box}選手「そうねぇ。本気で私をスカウト
+JP 　　　する気なら高くつくわよー。」{wait}
+JP {box}社長「それは覚悟の上です!!
+JP 　　　是非ウチの団体に!!!!!」{wait}
+JP {box}選手「よしっ!騙されたと思って行っ
+JP 　　　てみるかなぁ。」{wait}
+JP {box}社長「本当ですか!祐希子さんが来て
+JP 　　　くれるとウチも安泰ですよ!」{wait}
+JP {box}選手「この祐希子さまにど~んと任せ
+JP 　　　なさいって。」{wait}
+EN {start}{box}Yukiko: Hmm. If you're serious
+EN about scouting me, I won't
+EN come cheap!{wait}
+EN {box}President: I'm ready for that!!
+EN Please join us!!!!!{wait}
+EN {box}Yukiko: All right! I'll take a
+EN chance on you.{wait}
+EN {box}President: Really! With you, our
+EN future's secure!{wait}
+EN {box}Yukiko: Just leave it all to the
+EN great Yukiko!{wait}
+
+@ 09b5aa words=101 table=0x4c2b1
+JP {start}{box}選手「今のところから出て行く気がし
+JP 　　　ないのよねぇ。
+JP 　　　だから今回は諦めて。」{wait}
+JP {box}社長「そうですか・・・・・・。」{wait}
+JP {box}選手「まあ気が向いたら来てよ。
+JP 　　　店長、大盛りおかわりね。」{wait}
+EN {start}{box}Yukiko: I don't really feel
+EN like leaving my place now.
+EN So give up this time.{wait}
+EN {box}President: I see.......{wait}
+EN {box}Yukiko: Drop by if you feel
+EN like it. Chef, large refill!{wait}
+
+@ 09b676 words=179 table=0x4c2b3
+JP {start}{box}社長「相変わらずの猛練習ですね。」{wait}
+JP {9E}{box}選手「プロなら当然のことだろ・・・
+JP 　　　って、あんた誰だい?邪魔する
+JP 　　　気なら帰ってくれよ。」{wait}
+JP {box}社長「邪魔なんてしないですよ。
+JP 　　　責方に頼みがあるんです。」{wait}
+JP {box}選手「頼みだって?」{wait}
+JP {box}社長「私の団体に来て貰えませんか。
+JP 　　　来島さんのパワーファイトを、
+JP 　　　うちの団体で見たいんです。」{wait}
+EN {start}{box}President: Hard training as
+EN always, I see.{wait}
+EN {9E}{box}Kishima: That's a pro's job...
+EN Hey, who are you? If you're
+EN here to get in my way, beat it.{wait}
+EN {box}President: I won't get in your
+EN way. I have a favor to ask.{wait}
+EN {box}Kishima: A favor?{wait}
+EN {box}President: Join my promotion.
+EN I want to see your power
+EN fighting in our ring!{wait}
+
+@ 09b7de words=159 table=0x4c2b5
+JP {start}{box}選手「・・・・・どうするかな。」{wait}
+JP {box}社長「来島さんが満足する設備も揃え
+JP 　　　ます。アメリカ製でも何でも。
+JP 　　　どうです?」{wait}
+JP {box}選手「・うーん・・・・・・・。」{wait}
+JP {box}社長「悪い話じゃ・・ない、と思うん
+JP 　　　ですが。どうですか?」{wait}
+JP {box}選手「そう言われちゃ断われないな。
+JP 　　　それじゃいっちょやるか!」{wait}
+EN {start}{box}Kishima: .....What to do.{wait}
+EN {box}President: We'll get you all the
+EN gear you want. Even American.
+EN How about it?{wait}
+EN {box}Kishima: Hmm.......{wait}
+EN {box}President: It's not... a bad
+EN deal, I think. How about it?{wait}
+EN {box}Kishima: Put like that, I can't
+EN say no. All right, let's go!{wait}
+
+@ 09b91e words=146 table=0x4c2b7
+JP {start}{box}選手「みっちりとトレーニングできる
+JP 　　　設備があるなら考えるぜ。」{wait}
+JP {box}社長「トレーニング設備ですか・・・
+JP 　　　そこまではちょっと・・・・」{wait}
+JP {box}選手「満足に練習もできねぇとこには
+JP 　　　行けねぇな。悪りぃけど。{wait}
+JP {box}　　　設備が、一通り整ったらそん時
+JP 　　　また呼んでくれよ。」{wait}
+EN {start}{box}Wrestler: I'll think about it if
+EN you've got real training gear.{wait}
+EN {box}President: Training facilities?
+EN That's a bit beyond us...{wait}
+EN {box}Wrestler: Can't go where I can't
+EN even train properly. Sorry.{wait}
+EN {box}Once you've got the gear set up,
+EN call me again then.{wait}
+
+@ 09ba44 words=151 table=0x4c2b9
+JP {start}{box}社長「菊池さんですね?私、プロレス
+JP 　　　団体を経営している者なんです
+JP 　　　が・・・」{wait}
+JP {9E}{box}選手「団体の社長さん?・・あたしに
+JP 　　　用っていうのは?」{wait}
+JP {box}社長「あなたに私の団体のマットに、
+JP 　　　上がって頂きたいんです。」{wait}
+JP {box}選手「急に言われてもねぇ・・・。」{wait}
+JP {box}社長「どうです?」{wait}
+EN {start}{box}President: Riyu Kikuchi, right?
+EN I run a wrestling promotion,
+EN and...{wait}
+EN {9E}{box}Riyu: A promotion's president?
+EN What do you want with me?{wait}
+EN {box}President: I'd like you to step
+EN into the ring for my promotion.{wait}
+EN {box}Riyu: That's kind of sudden...{wait}
+EN {box}President: What do you say?{wait}
+
+@ 09bb74 words=151 table=0x4c2bb
+JP {start}{box}選手「う~ん、困ったなあ。別に今の
+JP 　　　団体に不満もないし・・・。」{wait}
+JP {box}社長「今と違うリングで、闘ってみま
+JP 　　　せんか?」{wait}
+JP {box}選手「そうねぇ、違った場所で闘う。
+JP 　　　プロレスラーには、それも大事
+JP 　　　な勉強よね。」{wait}
+JP {box}社長「じゃあ・・・?!」{wait}
+JP {box}選手「よろしく。お願いします。」{wait}
+EN {start}{box}Riyu: Hmm, this is tough. I'm not
+EN unhappy where I am now...{wait}
+EN {box}President: Why not try fighting
+EN in a different ring?{wait}
+EN {box}Riyu: Hmm, fighting somewhere new.
+EN For a pro wrestler, that's an
+EN important lesson too.{wait}
+EN {box}President: So...?!{wait}
+EN {box}Riyu: Count me in. Thank you!{wait}
+
+@ 09bca4 words=108 table=0x4c2bd
+JP {start}{box}選手「う~ん、困ったなあ。別に今の
+JP 　　　団体に不満はないし・・・。」{wait}
+JP {box}社長「そこを何とか!!」{wait}
+JP {box}選手「今の団体でまだやりたいことが
+JP 　　　あるし、悪いけど今の話は聞か
+JP 　　　なかったことにするわ。」{wait}
+EN {start}{box}Riyu: Hmm, this is tough. I'm not
+EN unhappy where I am now...{wait}
+EN {box}President: Please, I'm begging!!{wait}
+EN {box}Riyu: I still have things to do
+EN where I am. Sorry, but let's just
+EN pretend we never had this talk.{wait}
+
+@ 09bd7e words=175 table=0x4c2bf
+JP {start}{box}社長「伊集院さんですよね。
+JP 　　　私こういう者です・・・・」{wait}
+JP {9E}{box}選手「プロレス団体の方ですか?
+JP 　　　一体何のようですの?」{wait}
+JP {box}社長「私の団体に来て頂きたいんです
+JP 　　　が、どうですか・・・」{wait}
+JP {box}選手「スカウトにいらしたんですか。
+JP 　　　そうですわねぇ・・・・・。」{wait}
+JP {box}社長「伊集院さんのファイトをウチの
+JP 　　　団体で是非・・・・」{wait}
+EN {start}{box}President: You're Hikaru Ijuin,
+EN right? Here's my card...{wait}
+EN {9E}{box}Hikaru: A wrestling promoter?
+EN Whatever brings you to me?{wait}
+EN {box}President: I'd like you to join
+EN my promotion. How about it...?{wait}
+EN {box}Hikaru: You've come to scout me?
+EN My, my. Let me see...{wait}
+EN {box}President: I'd love to see you
+EN fight in our promotion...{wait}
+
+@ 09bede words=93 table=0x4c2c1
+JP {9E}{start}{box}選手「そこまで申されますなら・・」{wait}
+JP {box}社長「承諾して頂けますか?」{wait}
+JP {box}選手「今ここで・・・というわけには
+JP 　　　参りませんが、仮承諾という事
+JP 　　　で・・よろしいかしら?」{wait}
+EN {9E}{start}{box}Hikaru: If you insist so much...{wait}
+EN {box}President: Then you'll accept?{wait}
+EN {box}Hikaru: I can't commit right here
+EN and now... but shall we call it a
+EN tentative yes?{wait}
+
+@ 09bf9a words=54 table=0x4c2c3
+JP {start}{box}選手「・・・・せっかくですが、今は
+JP 　　　そのような申し出を、お受けす
+JP 　　　る訳には参りません。」{wait}
+EN {start}{box}Hikaru: ...It's kind of you, but
+EN I'm afraid I cannot accept such
+EN an offer at present.{wait}
+
+@ 09c008 words=242 table=0x4c2c5
+JP {start}{box}社長「こんなところで練習ですか?
+JP 　　　斉藤さん?」{wait}
+JP {9E}{box}選手「ここなら人を気にせず、練習に
+JP 　　　打ち込めるからな。
+JP 　　　それより、私に何か用?」{wait}
+JP {box}社長「申し遅れました。実は私、ある
+JP 　　　プロレス団体の経営者でして・
+JP 　　　・・・。」{wait}
+JP {box}選手「・・・それで?」{wait}
+JP {box}社長「斉藤さん。今とは違うリングで
+JP 　　　闘ってみませんか?」{wait}
+JP {box}選手「・・スカウトか・・。・」{wait}
+JP {box}社長「斉藤さんには、ウチのリングで
+JP 　　　闘って貰いたいんですよ!!」{wait}
+JP {box}選手「・・・。」{wait}
+EN {start}{box}President: Training out here,
+EN Saito?{wait}
+EN {9E}{box}Akiko: Here I can train without
+EN anyone bugging me. More to the
+EN point, what do you want?{wait}
+EN {box}President: Forgive me for not
+EN saying sooner. I actually run a
+EN wrestling promotion...{wait}
+EN {box}Akiko: ...And?{wait}
+EN {box}President: Saito, how about
+EN fighting in a different ring?{wait}
+EN {box}Akiko: ...A scout, huh...{wait}
+EN {box}President: I want you fighting
+EN in our ring, Saito!!{wait}
+EN {box}Akiko: .........{wait}
+
+@ 09c1ee words=154 table=0x4c2c7
+JP {start}{box}社長「斉藤さん、私の団体のリングに
+JP 　　　上がって貰えませんか?」{wait}
+JP {box}選手「・・・・・・・・・・・・。」{wait}
+JP {box}社長「・・・・・・・・。」{wait}
+JP {box}選手「わかりました。
+JP 　　　そろそろ特訓の成果をみたいと
+JP 　　　思ってたところだ。」{wait}
+JP {box}社長「来て貰えるんですね?!」{wait}
+JP {box}選手「・・・世話に・・なる。」{wait}
+EN {start}{box}President: Saito, will you step
+EN into my promotion's ring?{wait}
+EN {box}Akiko: ............{wait}
+EN {box}President: ........{wait}
+EN {box}Akiko: All right. I was just
+EN thinking it's time to test what
+EN my training's done for me.{wait}
+EN {box}President: You'll come, then?!{wait}
+EN {box}Akiko: ...Count... me in.{wait}
+
+@ 09c324 words=96 table=0x4c2c9
+JP {start}{box}社長「どうですか、斉藤さん?」{wait}
+JP {box}選手「・・・せっかくだが、まだやり
+JP 　　　残したことがたくさんある。」{wait}
+JP {box}社長「そんなぁ。ねぇ、斉藤さん。」{wait}
+JP {box}選手「練習の途中ですので・・。」{wait}
+EN {start}{box}President: What do you say, Saito?{wait}
+EN {box}Akiko: ...Thanks, but I've still
+EN got a lot left to do here.{wait}
+EN {box}President: Aw, come on. Saito...{wait}
+EN {box}Akiko: I'm training right now...{wait}
+
+@ 09c3e6 words=266 table=0x4c2cb
+JP {start}{box}社長「待って下さいよ。龍子さん。」{wait}
+JP {9E}{box}選手「あなた、どこの記者さん?
+JP 　　　記事になるような事は何もない
+JP 　　　と思うけど?」{wait}
+JP {box}社長「違いますよ、龍子さん。実は私
+JP 　　　こういう者です。」{wait}
+JP {box}選手「へえ、社長さんなの?若いのに
+JP 　　　やるわね。でどういった御用件
+JP 　　　かしら、社長さん?」{wait}
+JP {box}社長「どうですか龍子さん。
+JP 　　　ウチの団体の、リングで闘って
+JP 　　　もらえませんか?」{wait}
+JP {box}選手「・・どうして私を?」{wait}
+JP {box}社長「ウチの柱になってくれるのは、
+JP 　　　龍子さんしかいないと思ってま
+JP 　　　したので!!」{wait}
+EN {start}{box}President: Wait, please, Ryuko!{wait}
+EN {9E}{box}Ryuko: Which paper are you from?
+EN I don't think there's anything
+EN worth writing about here.{wait}
+EN {box}President: No, Ryuko. Actually,
+EN here's my card.{wait}
+EN {box}Ryuko: Oh, a company president?
+EN Not bad for someone so young. So
+EN what can I do for you, President?{wait}
+EN {box}President: How about it, Ryuko?
+EN Will you fight in our promotion's
+EN ring?{wait}
+EN {box}Ryuko: ...Why me?{wait}
+EN {box}President: Because I think only
+EN you can be the pillar of our
+EN promotion!!{wait}
+
+@ 09c5fc words=87 table=0x4c2cd
+JP {start}{box}選手「なるほどね・・。」{wait}
+JP {box}社長「お願いします。龍子さん!!」{wait}
+JP {box}選手「・・やれやれ。他人に見込まれ
+JP 　　　るのも楽じゃないわね。
+JP 　　　私は結構高くつくわよ。」{wait}
+EN {start}{box}Ryuko: I see...{wait}
+EN {box}President: Please, Ryuko!!{wait}
+EN {box}Ryuko: ...Sheesh. Being counted on
+EN isn't easy, is it? Just so you
+EN know, I don't come cheap.{wait}
+
+@ 09c6ac words=47 table=0x4c2cf
+JP {start}{box}選手「悪いけど、今はごたごたしたく
+JP 　　　なくてね。
+JP 　　　今度にしてくれるかしら。」{wait}
+EN {start}{box}Ryuko: Sorry, I don't want any
+EN trouble right now. Ask me
+EN another time, would you?{wait}
+
+@ 09c70c words=198 table=0x4c2d1
+JP {start}{box}社長「ちょっとよろしいですか?」{wait}
+JP {9E}{box}選手「新聞ならとってますから・・」{wait}
+JP {box}社長「違いますよ。私プロレス団体の
+JP 　　　経営者でして・・・。」{wait}
+JP {box}選手「ええ?ってことは社長さん?
+JP 　　　あはははは。私も人を見る目が
+JP 　　　ないなあ。」{wait}
+JP {box}社長「・・・堀さん、ウチのリングに
+JP 　　　上がってもらえませんか?」{wait}
+JP {box}選手「えっ?私をスカウトしてるの?
+JP 　　　うーん、でも旦那がなぁ・・」{wait}
+EN {start}{box}President: Got a moment?{wait}
+EN {9E}{box}Hori: We already take a paper...{wait}
+EN {box}President: No, no. I run a pro
+EN wrestling promotion...{wait}
+EN {box}Hori: Huh? So you're a company
+EN president? Ahahaha! I'm no good
+EN at sizing people up, huh?{wait}
+EN {box}President: ...Hori, will you
+EN step into our ring?{wait}
+EN {box}Hori: Huh? You're scouting me?
+EN Hmm, but my husband...{wait}
+
+@ 09c89a words=93 table=0x4c2d3
+JP {start}{box}社長「是非ウチに来て頂きたいんです
+JP 　　　けど、お願いできませんか?」{wait}
+JP {box}選手「違うリングに上がってみるのも
+JP 　　　いいかもね。あなたが社長さん
+JP 　　　だったら面白そうだし。」{wait}
+EN {start}{box}President: I'd really like you
+EN to join us. Will you?{wait}
+EN {box}Hori: Trying out a different ring
+EN might be fun. And with you as
+EN president, it could be a blast.{wait}
+
+@ 09c956 words=186 table=0x4c2d5
+JP {start}{box}選手「いやぁ、プロレス関係者が来る
+JP 　　　なんて、久しぶりだなぁ。あ、
+JP 　　　お昼ご飯食べていきません?」{wait}
+JP {box}社長「あ、はい。実はお腹空いてるん
+JP 　　　ですよね・・・・・・・。って{wait}
+JP {box}　　　そうじゃなくて、ウチの団体に
+JP 　　　来てもらえませんか?」{wait}
+JP {box}選手「・・せっかくだけど、今はこの
+JP 　　　生活が気に入ってるの。ごめん
+JP 　　　なさい。また気が向いたら。」{wait}
+EN {start}{box}Hori: Wow, it's been ages since a
+EN wrestling person dropped by! Oh,
+EN want to stay for lunch?{wait}
+EN {box}President: Oh, yes. Actually,
+EN I'm pretty hungry...... Wait,{wait}
+EN {box}that's not it! Will you come to
+EN our promotion?{wait}
+EN {box}Hori: ...Thanks, but I like my
+EN life as it is. Sorry. Maybe if
+EN I'm ever in the mood.{wait}
+
+@ 09cacc words=204 table=0x4c2d7
+JP {start}{box}社長「すいません、藤島さん。」{wait}
+JP {9E}{box}選手「どちらさまですか・・・?」{wait}
+JP {box}社長「ちょっと話いいですかね?」{wait}
+JP {box}選手「時間を取らないんでしたら。」{wait}
+JP {box}社長「実は藤島さんに、ウチの団体に
+JP 　　　来て欲しいと思って、スカウト
+JP 　　　に来たんだが・・・」{wait}
+JP {box}選手「でも・・もう芸能活動は・・」{wait}
+JP {box}社長「そうじゃなくて、プロレス!!
+JP 　　　藤島さんにウチの団体に、来て
+JP 　　　欲しいんだがどうかな。」{wait}
+EN {start}{box}President: Excuse me, Fujishima.{wait}
+EN {9E}{box}Hitomi: Who might you be...?{wait}
+EN {box}President: Mind if we talk a bit?{wait}
+EN {box}Hitomi: If it won't take long.{wait}
+EN {box}President: Fujishima, I'm here
+EN to scout you. I want you to join
+EN my promotion...{wait}
+EN {box}Hitomi: But... I'm done with show
+EN business...{wait}
+EN {box}President: No! Pro wrestling!!
+EN I want you in my promotion,
+EN Fujishima. What do you say?{wait}
+
+@ 09cc66 words=108 table=0x4c2d9
+JP {start}{box}選手「そうねえ・・・・」{wait}
+JP {box}社長「心機一転するチャンスですよ。
+JP 　　　どうですか?」{wait}
+JP {box}選手「うーん。」{wait}
+JP {box}社長「来て頂きませんか?」{wait}
+JP {box}選手「決めた!社長さんのところで、
+JP 　　　頑張ってみるか!!」{wait}
+EN {start}{box}Hitomi: Let me see...{wait}
+EN {box}President: It's a chance for a
+EN fresh start. How about it?{wait}
+EN {box}Hitomi: Hmm.{wait}
+EN {box}President: Won't you come?{wait}
+EN {box}Hitomi: I've decided! I'll give it
+EN my all with you, President!!{wait}
+
+@ 09cd40 words=69 table=0x4c2db
+JP {start}{box}選手「うーん。でもなぁー・・・。」{wait}
+JP {box}社長「来てもらえませんか?」{wait}
+JP {box}選手「やっぱり今は行けないなぁ。
+JP 　　　ごめんなさい。」{wait}
+EN {start}{box}Hitomi: Hmm. But still...{wait}
+EN {box}President: Won't you join us?{wait}
+EN {box}Hitomi: I just can't go right now.
+EN Sorry.{wait}
+
+@ 09cdcc words=271 table=0x4c2dd
+JP {start}{box}社長「宍戸君?」{wait}
+JP {9E}{box}選手「なんや、おっちゃん?」{wait}
+JP {box}社長「何で、工事現場のバイトなんか
+JP 　　　してるの?」{wait}
+JP {box}選手「トレーニングも兼ねとるんや。
+JP 　　　ゼニにもなるし、一石二鳥って
+JP 　　　ヤツやんか。」{wait}
+JP {box}社長「なるほどね。それより、宍戸君
+JP 　　　私はある団体を経営し・。」{wait}
+JP {box}選手「なんや社長なんか。・・・・・
+JP 　　　わかった!うちをスカウトしに
+JP 　　　来たんやろ?」{wait}
+JP {box}社長「・・・・まあそういう事だ。
+JP 　　　どうだろう宍戸君、来て貰える
+JP 　　　かな?」{wait}
+JP {box}選手「そやな、行ってもええで。」{wait}
+JP {box}社長「本当かい?」{wait}
+EN {start}{box}President: Shishido?{wait}
+EN {9E}{box}Kong: Whaddya want, mister?{wait}
+EN {box}President: Why are you working a
+EN construction site job?{wait}
+EN {box}Kong: It's trainin' too, see. And
+EN it pays! Two birds with one
+EN stone, y'know?{wait}
+EN {box}President: I see. Well, Shishido,
+EN I run a certain promotion and.{wait}
+EN {box}Kong: Oh, yer a president? ......
+EN Got it! Ya came to scout me,
+EN didn'tcha?{wait}
+EN {box}President: ...Well, that's about
+EN it. So, Shishido, will you
+EN come?{wait}
+EN {box}Kong: Sure, I'll come.{wait}
+EN {box}President: Really?{wait}
+
+@ 09cfec words=103 table=0x4c2df
+JP {9E}{start}{box}選手「ただし、今んとこよりも収入が
+JP 　　　あるんやったらな。」{wait}
+JP {box}社長「もちろんだよ。」{wait}
+JP {box}選手「よっしゃ、ほなOKや!!!!
+JP 　　　まだ、うちの仕事残っとるから
+JP 　　　失礼させてもらうで。」{wait}
+EN {9E}{start}{box}Kong: But only if ya pay more than
+EN I'm makin' now.{wait}
+EN {box}President: Of course.{wait}
+EN {box}Kong: All right, it's a deal!!!!
+EN I still got work to finish, so
+EN I'll be off.{wait}
+
+@ 09d0bc words=101 table=0x4c2e1
+JP {box}選手「うちのおる団体に飽きが来たら
+JP 　　　の話やけどな!」{wait}
+JP {box}社長「そんなぁ~。」{wait}
+JP {box}選手「まぁ、そんなにがっかりしな。
+JP 　　　社長にゃ悪いけどな。うちまだ
+JP 　　　仕事残ってるさかい。ほな。」{wait}
+EN {box}Kong: That's if I get sick of my
+EN current promotion, anyway!{wait}
+EN {box}President: Oh, come onnn.{wait}
+EN {box}Kong: Aw, don't look so down.
+EN Sorry, boss, but I still got work
+EN to do. Later.{wait}
+
+@ 09d188 words=312 table=0x4c2e3
+JP {9E}{start}{box}選手「ちょっとおじさん。さっきから
+JP 　　　私の事、ずっと下から覗いてる
+JP 　　　でしょ?」{wait}
+JP {box}社長「え?いや、決してそんなことは
+JP 　　　ない!・・と思う。」{wait}
+JP {box}選手「小さな声で、言っても説得力の
+JP 　　　かけらもないわよ。」{wait}
+JP {box}社長「・・・・実は君をスカウトしに
+JP 　　　来たんだが・・・」{wait}
+JP {box}選手「スカウト?って、モデルの?」{wait}
+JP {box}社長「違う違う!プロレス!
+JP 　　　こう見えても私は団体の経営者
+JP 　　　なんだよ。」{wait}
+JP {box}選手「じゃあ、社長さん?
+JP 　　　それならそうと言ってくれれば
+JP 　　　良かったのに・・・・」{wait}
+JP {box}社長「最近の娘は・・わからん。」{wait}
+JP {box}選手「スカウトかぁ・・・・・なんか
+JP 　　　いい響きね。」{wait}
+EN {9E}{start}{box}Tomomi: Hey, mister. You've
+EN been peeking up at me from down
+EN there this whole time, right?{wait}
+EN {box}President: What? No, I'd never
+EN do that! ...I think.{wait}
+EN {box}Tomomi: Mumbling it doesn't make
+EN it one bit convincing.{wait}
+EN {box}President: ...Actually, I came
+EN here to scout you...{wait}
+EN {box}Tomomi: Scout? Like, as a model?{wait}
+EN {box}President: No, no! Wrestling!
+EN Believe it or not, I run a
+EN wrestling promotion.{wait}
+EN {box}Tomomi: Oh, so you're a boss?
+EN You should've just said so
+EN from the start...{wait}
+EN {box}President: Kids these days...
+EN I just don't get them.{wait}
+EN {box}Tomomi: Scouted, huh... It has
+EN a nice ring to it.{wait}
+
+@ 09d3fa words=47 table=0x4c2e5
+JP {start}{box}社長「どうだい来てくれるかい?」{wait}
+JP {box}選手「オッケー。
+JP 　　　社長さん、よろしくね。」{wait}
+EN {start}{box}President: So, will you join us?{wait}
+EN {box}Tomomi: Okay!
+EN Nice to work with you, Boss.{wait}
+
+@ 09d45a words=131 table=0x4c2e7
+JP {start}{box}選手「でもぉ、今のところで頑張って
+JP 　　　来たのがもったいない気がする
+JP 　　　しぃ・・。」{wait}
+JP {box}社長「是非とも智美ちゃんに、ウチの
+JP 　　　団体に来て欲しいんだけど。」{wait}
+JP {box}選手「・・今回は社長さんに悪いけど
+JP 　　　なかったことにして!
+JP 　　　じゃあね。」{wait}
+EN {start}{box}Tomomi: But it'd feel like a
+EN waste of all the work I've put
+EN in where I am now...{wait}
+EN {box}President: Tomomi, I'd really
+EN love you to join my promotion.{wait}
+EN {box}Tomomi: ...Sorry, Boss, but
+EN let's forget this ever happened!
+EN Bye now.{wait}
+
+@ 09d562 words=193 table=0x4c2e9
+JP {start}{box}社長「長谷川美由紀さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・・・・・・
+JP 　　　どちら様・・です・・か?」{wait}
+JP {box}社長「私はある団体を経営している者
+JP 　　　なんですけが、{wait}
+JP {box}　　　長谷川さんにウチの団体に来て
+JP 　　　もらいたいと思いましてね。」{wait}
+JP {box}選手「ええ?それって、私をスカウト
+JP 　　　してるんですか?」{wait}
+JP {box}社長「どうだい、ウチの団体でやって
+JP 　　　みる気はないかい?」{wait}
+EN {start}{box}President: Miyuki Hasegawa, right?{wait}
+EN {9E}{box}Miyuki: Yes, but........
+EN who... are... you?{wait}
+EN {box}President: I'm someone who runs
+EN a certain promotion, and{wait}
+EN {box}I was hoping you'd come
+EN join my promotion, Miyuki.{wait}
+EN {box}Miyuki: What? You mean you're
+EN scouting me?{wait}
+EN {box}President: How about it? Want to
+EN give it a go with us?{wait}
+
+@ 09d6e6 words=92 table=0x4c2eb
+JP {start}{wait}{box}選手「新しいリングか・・・・何だか
+JP 　　　やり甲斐がありそうですね。」{wait}
+JP {box}社長「君ならそう言ってくれるだろう
+JP 　　　と思ってたよ。」{wait}
+JP {box}選手「いいわ。お世話になります。」{wait}
+EN {start}{wait}{box}Miyuki: A new ring... Somehow
+EN it sounds really worthwhile.{wait}
+EN {box}President: I just knew you'd
+EN say that.{wait}
+EN {box}Miyuki: All right. I'll join you.{wait}
+
+@ 09d7a0 words=65 table=0x4c2ed
+JP {start}{box}選手「今のところに不満があるわけじ
+JP 　　　ゃないですから。{wait}
+JP {box}　　　私、練習見なきゃいけませんの
+JP 　　　で失礼します。」{wait}
+EN {start}{box}Miyuki: It's not that I'm
+EN unhappy where I am.{wait}
+EN {box}I have to go watch practice,
+EN so if you'll excuse me.{wait}
+
+@ 09d824 words=189 table=0x4c2ef
+JP {start}{box}社長「豊多摩君だね?私はプロレスの
+JP 　　　団体を経営している者なんだが
+JP 　　　・・・・・。」{wait}
+JP {9E}{box}選手「団体の社長さん?・・あたしに
+JP 　　　何かご用ですか?」{wait}
+JP {box}社長「是非君に、我が団体のマットに
+JP 　　　上がって貰いたくて、お願いに
+JP 　　　来たんだけど・・・。」{wait}
+JP {box}選手「こんなところで話すような事、
+JP 　　　じゃないみたいですね。」{wait}
+JP {box}社長「どうですか・・・?」{wait}
+EN {start}{box}President: Toyotama, right? I
+EN run a wrestling promotion, and
+EN ...{wait}
+EN {9E}{box}Nami: A promotion's boss? ...What
+EN can I do for you?{wait}
+EN {box}President: I came to ask you to
+EN step into the ring for my
+EN promotion...{wait}
+EN {box}Nami: Sounds like this isn't the
+EN kind of thing to discuss here.{wait}
+EN {box}President: So what do you say...?{wait}
+
+@ 09d9a0 words=98 table=0x4c2f1
+JP {start}{box}選手「困ったなぁ。今の団体に不満が
+JP 　　　あるわけじゃないし・・・{wait}
+JP {box}　　　でも違った場所で闘うのも・・
+JP 　　　いいかもね。」{wait}
+JP {box}社長「それじゃ!」{wait}
+JP {box}選手「いいわ。お受けします。」{wait}
+EN {start}{box}Nami: Hmm, tough one. I'm not
+EN unhappy with my promotion...{wait}
+EN {box}But fighting somewhere new...
+EN might be nice.{wait}
+EN {box}President: Then...!{wait}
+EN {box}Nami: All right. I accept.{wait}
+
+@ 09da66 words=94 table=0x4c2f3
+JP {start}{box}選手「うーん。うーんうーーん。
+JP 　　　困ったなぁ。」{wait}
+JP {box}社長「そこをなんとか!」{wait}
+JP {box}選手「今はまだやる事もありますし、
+JP 　　　このお話は聞かなかったことに
+JP 　　　して下さい。」{wait}
+EN {start}{box}Nami: Hmm. Hmmm, hmmmm.
+EN This is tough.{wait}
+EN {box}President: Can't you reconsider?{wait}
+EN {box}Nami: I still have things to do
+EN here, so please pretend you
+EN never asked.{wait}
+
+@ 09db24 words=358 table=0x4c2f5
+JP {start}{box}社長「北都さんですね?」{wait}
+JP {9E}{box}選手「そうですけど・・。失礼ですが
+JP 　　　何処かでお会いしました?」{wait}
+JP {box}社長「会うのは初めてですが、試合は
+JP 　　　よく見てますよ。{wait}
+JP {box}　　　それにしても
+JP 　　　このあいだの試合はとても素晴
+JP 　　　らしかったですね。」{wait}
+JP {box}選手「あら、ファンの方でしたか。
+JP 　　　応援ありがとうございます。」{wait}
+JP {box}社長「違いますよ。私プロレス団体を
+JP 　　　経営してまして。どうです私の
+JP 　　　団体に来て貰えませんか?」{wait}
+JP {box}選手「まあ、社長さんでしたの!
+JP 　　　若いのに御立派ですわ。」{wait}
+JP {box}社長「アハハ、そうですか?」{wait}
+JP {box}選手「ええ。」{wait}
+JP {box}社長「いやぁ、そんな立派だなんて・
+JP 　　　・・じゃなくて、私はあなたを
+JP 　　　スカウトに来たんですよ。」{wait}
+JP {box}選手「あらあら、そうでしたわね。」{wait}
+EN {start}{box}President: Hiromi Hokuto, right?{wait}
+EN {9E}{box}Hiromi: Yes... Pardon me, but
+EN have we met somewhere?{wait}
+EN {box}President: We've never met, but
+EN I watch your matches a lot.{wait}
+EN {box}And I must say,
+EN your last match was simply
+EN wonderful.{wait}
+EN {box}Hiromi: Oh my, you're a fan?
+EN Thank you for your support.{wait}
+EN {box}President: No, I run a wrestling
+EN promotion. Would you consider
+EN joining my promotion?{wait}
+EN {box}Hiromi: My, a company president!
+EN So young, and so accomplished.{wait}
+EN {box}President: Ahaha, you think so?{wait}
+EN {box}Hiromi: Yes.{wait}
+EN {box}President: Oh, I'm not all that
+EN accomplished... No, wait! I came
+EN here to scout you!{wait}
+EN {box}Hiromi: Oh my, so you did.{wait}
+
+@ 09ddf2 words=130 table=0x4c2f7
+JP {start}{box}社長「あなたのファイトを、私の団体
+JP 　　　のリングで見せて下さい。」{wait}
+JP {box}選手「そう言われましても・・・。」{wait}
+JP {box}社長「君は私の団体に必要なんだ!」{wait}
+JP {box}選手「社長さん、・あなたの熱意には
+JP 　　　負けました。その熱意に答えて
+JP 　　　精一杯頑張ります。」{wait}
+EN {start}{box}President: Show me your fighting
+EN spirit in my promotion's ring.{wait}
+EN {box}Hiromi: Even if you say so...{wait}
+EN {box}President: My promotion needs you!{wait}
+EN {box}Hiromi: Boss... your passion has
+EN won me over. I'll answer it by
+EN doing my very best.{wait}
+
+@ 09def8 words=179 table=0x4c2f9
+JP {start}{box}社長「来て貰えませんか北都さん私の
+JP 　　　団体に!!」{wait}
+JP {box}選手「・・・・・・」{wait}
+JP {box}社長「北都さん!?」{wait}
+JP {box}選手「すみません、社長さんの熱意は
+JP 　　　わかるのですが・・今の団体を
+JP 　　　辞めるわけには・・・。」{wait}
+JP {box}社長「お願いしますよ北都さん。」{wait}
+JP {box}選手「社長さんには悪いんですが・・
+JP 　　　・・、このお話は無かった事に
+JP 　　　して下さい。」{wait}
+EN {start}{box}President: Won't you join my
+EN promotion, Hiromi!?{wait}
+EN {box}Hiromi: ......{wait}
+EN {box}President: Hiromi!?{wait}
+EN {box}Hiromi: I'm sorry. I understand
+EN your passion, but... I can't
+EN leave my promotion...{wait}
+EN {box}President: Please, Hiromi.{wait}
+EN {box}Hiromi: I'm sorry, Boss, but...
+EN please forget we ever had this
+EN talk.{wait}
+
+@ 09e060 words=414 table=0x4c2fb
+JP {start}{box}社長「井上美香さん・・・ですね?」{wait}
+JP {9E}{box}選手「んっ?なんだい、おっさん。
+JP 　　　そろそろステージに上がる時間
+JP 　　　なんだ。すまねぇなっ!」{wait}
+JP {box}社長「待って下さいよ、井上さん。」{wait}
+JP {box}選手「なんだよ、あんたは?!
+JP 　　　急いでるっていってるだろ!」{wait}
+JP {box}社長「実は私、あるプロレス団体の
+JP 　　　経営者でね。」{wait}
+JP {box}選手「それで、社長さんが私に何か用
+JP 　　　でもあるのかい?」{wait}
+JP {box}社長「今日はきみを誘いに来たんだが
+JP 　　　どうだろう?」{wait}
+JP {box}選手「デートかい?なら、ステージが
+JP 　　　ふけてからメシでも喰いにいく
+JP 　　　かい?」{wait}
+JP {box}社長「違います!レスラーをデートに
+JP 　　　誘ってどうするんですか?!」{wait}
+JP {box}選手「ハハッ。わかってるって!
+JP 　　　スカウトだろ?別にデートでも
+JP 　　　いいけどね。」{wait}
+JP {box}社長「茶下さないで下さい!!{wait}
+JP {box}　　　どうです?私の団体は美香
+JP 　　　さんのファイトが必要なん
+JP 　　　です!」{wait}
+EN {start}{box}President: Mika Inoue... right?{wait}
+EN {9E}{box}Mika: Huh? What is it, pops?
+EN I'm about to go on stage.
+EN Sorry 'bout that!{wait}
+EN {box}President: Wait a moment, Mika.{wait}
+EN {box}Mika: Who the heck are you?!
+EN I told ya I'm in a hurry!{wait}
+EN {box}President: Actually, I run a
+EN wrestling promotion.{wait}
+EN {box}Mika: So what does a boss want
+EN with me?{wait}
+EN {box}President: I came to invite you
+EN today. What do you say?{wait}
+EN {box}Mika: A date? Then wanna grab a
+EN bite after the show wraps up?{wait}
+EN {box}President: No! Why would I ask a
+EN wrestler out on a date?!{wait}
+EN {box}Mika: Haha. I know, I know!
+EN It's a scout, right? I wouldn't
+EN mind a date, though.{wait}
+EN {box}President: Don't tease me!!{wait}
+EN {box}Seriously, how about it? My
+EN promotion needs your fight,
+EN Mika!{wait}
+
+@ 09e39e words=83 table=0x4c2fd
+JP {start}{box}選手「またまたぁ!!そう言われると
+JP 　　　悪い気しないなぁ。」{wait}
+JP {box}社長「え?それじゃ・・。」{wait}
+JP {box}選手「うん、そーゆーこと!
+JP 　　　よろしくね、社長さん。」{wait}
+EN {start}{box}Mika: Oh, stop it!! Hearing that
+EN doesn't feel half bad.{wait}
+EN {box}President: Huh? Then...{wait}
+EN {box}Mika: Yup, that's the deal!
+EN Treat me right, Boss.{wait}
+
+@ 09e446 words=149 table=0x4c2ff
+JP {start}{box}選手「今回はパス!こっちの団体でも
+JP 　　　まだやることあるしね。」{wait}
+JP {box}社長「そこをなんとか。」{wait}
+JP {box}選手「そう言われてもなぁー。
+JP 　　　やべっぇー!!!!!!!
+JP 　　　ステージに遅れちまう。{wait}
+JP {box}　　　んじゃ、今度はデートに誘って
+JP 　　　くれよな。」{wait}
+JP {box}社長「・・・・・・・・・・・。」{wait}
+EN {start}{box}Mika: I'll pass this time! I've
+EN still got stuff to do here.{wait}
+EN {box}President: Can't you reconsider?{wait}
+EN {box}Mika: Even if you say that...
+EN Craaap!!!!!!!
+EN I'm gonna be late for my show.{wait}
+EN {box}Next time, ask me out on a
+EN date instead, 'kay?{wait}
+EN {box}President: ...........{wait}
+
+@ 09e572 words=253 table=0x4c301
+JP {start}{box}社長「神田幸子さんですね?」{wait}
+JP {9E}{box}選手「・・そうですが。」{wait}
+JP {box}社長「捜しましたよ。ボクシングジム
+JP 　　　の人に聞いたらここにいるって
+JP 　　　聞いて来たんですよ。」{wait}
+JP {box}選手「・・用件がないのなら、これで
+JP 　　　失礼します。」{wait}
+JP {box}社長「待って下さい!神田さん。実は
+JP 　　　私、あるプロレス団体の経営を
+JP 　　　してまして・・。」{wait}
+JP {box}選手「私をスカウトに・・。」{wait}
+JP {box}社長「そうなんすよ。分かってるなら
+JP 　　　話が早い!{wait}
+JP {box}　　　あなたのファイトをウチの団体
+JP 　　　で、発揮して貰えませんか?」{wait}
+EN {start}{box}President: Sachiko Kanda, right?{wait}
+EN {9E}{box}Sachiko: ...Yes.{wait}
+EN {box}President: I've been looking for
+EN you. The folks at the boxing gym
+EN told me you'd be here.{wait}
+EN {box}Sachiko: ...If you have no
+EN business, I'll be going.{wait}
+EN {box}President: Wait, Sachiko!
+EN Actually, I run a wrestling
+EN promotion...{wait}
+EN {box}Sachiko: To scout me...{wait}
+EN {box}President: That's right! Glad
+EN you get it, that saves time!{wait}
+EN {box}Will you show your fighting
+EN in my promotion?{wait}
+
+@ 09e76e words=127 table=0x4c303
+JP {start}{box}選手「・・・・・・・・・・・・。」{wait}
+JP {box}社長「・・・(駄目かな)・・・。」{wait}
+JP {box}選手「・・そうですね。今の団体には
+JP 　　　未練はありません。リングは、
+JP 　　　どこでも同じですから。」{wait}
+JP {box}社長「それじゃあ!?」{wait}
+JP {box}選手「そのお話お受けします。」{wait}
+EN {start}{box}Sachiko: ............{wait}
+EN {box}President: ...(No good?)...{wait}
+EN {box}Sachiko: ...Well. I have no ties
+EN to my current promotion. A ring
+EN is a ring, wherever it is.{wait}
+EN {box}President: Then...!?{wait}
+EN {box}Sachiko: I accept your offer.{wait}
+
+@ 09e86e words=124 table=0x4c305
+JP {start}{box}選手「・・今の団体には多少なりとも
+JP 　　　義理があります。残念ですが、
+JP 　　　この話受ける事は出来ません。{wait}
+JP {box}　　　トレーニングがありから。」{wait}
+JP {box}社長「神田さんっ。」{wait}
+JP {box}選手「・・・・・・・・・・・・。」{wait}
+JP {box}社長「聞いちゃいねぇ。」{wait}
+EN {start}{box}Sachiko: ...I owe my promotion
+EN a little loyalty. I'm sorry,
+EN but I can't accept this offer.{wait}
+EN {box}I have training to do.{wait}
+EN {box}President: Sachiko!{wait}
+EN {box}Sachiko: ............{wait}
+EN {box}President: Not even listening.{wait}
+
+@ 09e968 words=191 table=0x4c307
+JP {9E}{start}{box}選手「お客様、ご注文は・・・・。」{wait}
+JP {box}社長「小島聡美さんだね。責女に話が
+JP 　　　あるんだけど・・・・・。」{wait}
+JP {box}選手「はいっ?なんでしょう?」{wait}
+JP {box}社長「実は私、プロレス団体の経営者
+JP 　　　なんだけど・・・。」{wait}
+JP {box}選手「ほんとにぃー?ナンパじゃない
+JP 　　　でしょうね?」{wait}
+JP {box}社長「違いますよぉ。確かに誘いに、
+JP 　　　来たんですけどね。レスラーと
+JP 　　　しての君を。」{wait}
+EN {9E}{start}{box}Satomi: May I take your order...?{wait}
+EN {box}President: You're Satomi Kojima,
+EN right? I'd like a word with you...{wait}
+EN {box}Satomi: Huh? What is it?{wait}
+EN {box}President: The thing is, I run a
+EN pro wrestling promotion...{wait}
+EN {box}Satomi: Really? This isn't some
+EN pickup line, is it?{wait}
+EN {box}President: No, no. I did come here
+EN to make you an offer, though.
+EN As a wrestler.{wait}
+
+@ 09eae8 words=227 table=0x4c309
+JP {start}{box}選手「私をスカウトに来たって事?」{wait}
+JP {box}社長「どうかな?来て貰えないかい?
+JP 　　　君のようなレスラーがウチには
+JP 　　　必要なんだ!!」{wait}
+JP {box}選手「私をスカウトに来てくれたのは
+JP 　　　嬉しいんだけど・・・・・・・
+JP 　　　何もバイト中に来なくても。」{wait}
+JP {box}社長「まぁま、それよりどうですか。
+JP 　　　ウチに来て頂けませんか?」{wait}
+JP {box}選手「まぁっ。OKよ。実は待ってた
+JP 　　　のよ。こういう機会を。{wait}
+JP {box}　　　今の団体にも飽きて来ちゃった
+JP 　　　しね。」{wait}
+EN {start}{box}Satomi: You came to scout me?{wait}
+EN {box}President: What do you say? Will
+EN you join us? We need a wrestler
+EN like you!!{wait}
+EN {box}Satomi: I'm flattered you want me,
+EN but.......
+EN why'd you come while I'm at work?{wait}
+EN {box}President: Now, now, never mind
+EN that. Will you come work for us?{wait}
+EN {box}Satomi: Oh! Okay. Actually, I was
+EN hoping for a chance like this.{wait}
+EN {box}I'm getting bored of my current
+EN promotion, too.{wait}
+
+@ 09ecb0 words=263 table=0x4c30b
+JP {start}{box}選手「スカウトかぁ。でへへへへ。
+JP 　　　悪くないけどなぁ・・・・。」{wait}
+JP {box}社長「来て貰えませんか?」{wait}
+JP {box}選手「・・・・ところで社長さん?
+JP 　　　私がここにいるって・・・・・
+JP 　　　誰に聞いたの?」{wait}
+JP {box}社長「この店のオーナー、つまり・・
+JP 　　　あなたの親父さんに・・{wait}。」
+JP {box}選手「あの親父ぃ・・・。
+JP 　　　ばらすなって言ったのに。
+JP 　　　許さないんだから!!!!」{wait}
+JP {box}社長「あのぉー、ウチの団体に。」{wait}
+JP {box}選手「なに!それどころじゃないわ。
+JP 　　　今日こそとっちめてやる!!」{wait}
+JP {box}社長「・・・こわい・・・・・」{wait}
+EN {start}{box}Satomi: Scouted, huh? Heh heh heh.
+EN It's not a bad offer, but....{wait}
+EN {box}President: Won't you join us?{wait}
+EN {box}Satomi: ....By the way, Boss?
+EN Who told you.....
+EN that I was here?{wait}
+EN {box}President: The owner of this
+EN place... that is... your dad...{wait}
+EN {box}Satomi: That old man...
+EN I told him not to tell anyone!
+EN He is so dead!!!!{wait}
+EN {box}President: Um, about joining...{wait}
+EN {box}Satomi: What?! Forget that!
+EN Today he's really gonna get it!!{wait}
+EN {box}President: ...Scary......{wait}

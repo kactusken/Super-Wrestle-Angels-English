@@ -1,0 +1,1520 @@
+# Bank $89 (file 0x48000): 224 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 04c52b words=51 table=0x4c0e7
+JP {start}{box}社長「{name}さん、
+JP 　　　ここのところ調子が
+JP 　　　いいみたいだね。」{wait}
+JP {box}選手「そう見えます?」{wait}
+EN {start}{box}President: {name},
+EN you're in good form lately.{wait}
+EN {box}Wrestler: You think so?{wait}
+
+@ 04c593 words=120 table=0x4c0e9
+JP {start}{box}社長「以前よりも技の切れ味が増した
+JP 　　　感じがするな。」{wait}
+JP {box}選手「社長にそう言われるとなんだか
+JP 　　　照れちゃいますね。」{wait}
+JP {box}社長「{name}さん、
+JP 　　　今後ともこの調子で
+JP 　　　頑張って下さい。」{wait}
+JP {box}選手「はい!頑張ります!!」{wait}
+EN {start}{box}President: Your moves seem
+EN sharper than they used to be.{wait}
+EN {box}Wrestler: Hearing that from you,
+EN Boss, makes me blush.{wait}
+EN {box}President: {name},
+EN keep up the good work.{wait}
+EN {box}Wrestler: Yes! I'll do my best!!{wait}
+
+@ 04c685 words=89 table=0x4c0eb
+JP {start}{box}社長「以前に比べると技のスピードが
+JP 　　　増してきている。」{wait}
+JP {box}選手「有難うございます、社長。」{wait}
+JP {box}社長「これからも頑張って下さい。」{wait}
+JP {box}選手「精一杯頑張ります。」{wait}
+EN {start}{box}President: Your moves are
+EN getting faster than before.{wait}
+EN {box}Wrestler: Thank you, Boss.{wait}
+EN {box}President: Keep it up.{wait}
+EN {box}Wrestler: I'll give it my all.{wait}
+
+@ 04c739 words=165 table=0x4c0ed
+JP {start}{box}社長「{name}さん、
+JP 　　　最近技の切れがいまひとつです
+JP 　　　ね。{wait}
+JP {box}　　　どうしたんですか?
+JP 　　　{name}さんらしくない
+JP 　　　ですよ!」{wait}
+JP {box}選手「・・・すいません社長。」{wait}
+JP {box}社長「ファンは君が、華麗に闘うのを
+JP 　　　見に来てくれる。{wait}
+JP {box}　　　彼らの期待を裏切らない。
+JP 　　　そんなファイトをして貰えない
+JP 　　　かな?」{wait}
+EN {start}{box}President: {name}, your
+EN moves lack bite lately.{wait}
+EN {box}What's wrong? This isn't
+EN like you, {name}!{wait}
+EN {box}Wrestler: ...Sorry, Boss.{wait}
+EN {box}President: The fans come to see
+EN you fight with style.{wait}
+EN {box}Don't let them down. Can you
+EN give them a fight like that?{wait}
+
+@ 04c885 words=32 table=0x4c0ef
+JP {start}{box}選手「・・・・・わかりました。
+JP 　　　努力してみます。」{wait}
+EN {start}{box}Wrestler: ...I understand.
+EN I'll try harder.{wait}
+
+@ 04c8c7 words=87 table=0x4c0f1
+JP {start}{box}選手「・・・。」{wait}
+JP {box}社長「{name}さん、
+JP 　　　ファンの為にも私の為にも
+JP 　　　頑張って貰えますか。」{wait}
+JP {box}選手「・・・・・・・はい。これまで
+JP 　　　以上に頑張ります。」{wait}
+EN {start}{box}Wrestler: ...{wait}
+EN {box}President: {name},
+EN give it your all, for the fans
+EN and for me, okay?{wait}
+EN {box}Wrestler: ......Yes. I'll try
+EN harder than ever.{wait}
+
+@ 04c977 words=183 table=0x4c0f3
+JP {start}{box}社長「どうしたんですか
+JP 　　　{name}さん?
+JP 　　　ここ最近元気がないですね。」{wait}
+JP {box}選手「そう見えます?」{wait}
+JP {box}社長「そうにしか見えませんけど・・
+JP 　　　何かあったんですか?」{wait}
+JP {box}選手「ここのところ以前よりも体力が
+JP 　　　落ちたって感じなんですよ。」{wait}
+JP {box}社長「そんなことありません!!!
+JP 　　　まだまだ、ここで頑張れます。
+JP 　　　だから、元気を出して!!!」{wait}
+EN {start}{box}President: What's wrong,
+EN {name}? You've seemed
+EN down lately.{wait}
+EN {box}Wrestler: Does it show?{wait}
+EN {box}President: It sure does...
+EN Did something happen?{wait}
+EN {box}Wrestler: I feel like my stamina
+EN isn't what it used to be.{wait}
+EN {box}President: That's not true!!!
+EN You've still got plenty left.
+EN So cheer up!!!{wait}
+
+@ 04cae7 words=122 table=0x4c0f5
+JP {start}{box}選手「不思議ね。社長にそう言われる
+JP 　　　だけで、今まで悩んでたものが
+JP 　　　吹き飛んだわ。」{wait}
+JP {box}社長「よかった。・・・・・・じゃあ
+JP 　　　また頑張って貰えますね?」{wait}
+JP {box}選手「もちろん!!今まで以上に頑張
+JP 　　　って見せるわ!!!」{wait}
+EN {start}{box}Wrestler: Funny. Just hearing
+EN that from you, Boss, blew all
+EN my worries away.{wait}
+EN {box}President: Good. ......So you'll
+EN keep at it?{wait}
+EN {box}Wrestler: Of course!! I'll work
+EN harder than ever!!!{wait}
+
+@ 04cbdd words=168 table=0x4c0f7
+JP {start}{box}選手「私まだ頑張れますよね?」{wait}
+JP {box}社長「何言ってるんだ、
+JP 　　　{name}さん。
+JP 　　　当たり前じゃないか!!」{wait}
+JP {box}選手「そうですよね。こんな事で悩む
+JP 　　　なんて・・・私ったら・・。」{wait}
+JP {box}社長「わかってくれればいいんです。{wait}
+JP 　　　それよりも、1日でも早く
+JP 　　　{name}さんの,{wait}
+JP {box}　　　パワフルファイトを見せて下さ
+JP 　　　い。」{wait}
+EN {start}{box}Wrestler: I can still go, right?{wait}
+EN {box}President: What are you saying,
+EN {name}? Of course
+EN you can!!{wait}
+EN {box}Wrestler: You're right. Worrying
+EN about this... Silly me...{wait}
+EN {box}President: As long as you get it.{wait}
+EN Now get back out there soon,
+EN {name}, and show us your{wait}
+EN {box}powerhouse fighting!{wait}
+
+@ 04cd2f words=49 table=0x4c081
+JP {start}{box}社長「{name}さん、
+JP 　　　ここのところ調子が
+JP 　　　いいみたいだね。」{wait}
+JP {box}選手「そうかい?」{wait}
+EN {start}{box}President: {name},
+EN you're in good form lately.{wait}
+EN {box}Wrestler: Oh yeah?{wait}
+
+@ 04cd93 words=115 table=0x4c083
+JP {start}{box}社長「以前よりも技の切れ味が増した
+JP 　　　感じがするな。」{wait}
+JP {box}選手「当然だよ!社長さん。
+JP 　　　ちょっとは見直したかい?」{wait}
+JP {box}社長「当然ですよ、{name}さん!
+JP 　　　今後とも頑張って下さい。」{wait}
+JP {box}選手「まかせとけって!!」{wait}
+EN {start}{box}President: Your moves seem
+EN sharper than they used to be.{wait}
+EN {box}Wrestler: Of course, Boss!
+EN Bet you're impressed now, huh?{wait}
+EN {box}President: Yes, {name}!
+EN Keep up the good work.{wait}
+EN {box}Wrestler: Leave it to me!!{wait}
+
+@ 04ce7b words=96 table=0x4c085
+JP {start}{box}社長「以前に比べると技のスピードが
+JP 　　　増してきている。」{wait}
+JP {box}選手「だから?」{wait}
+JP {box}社長「これからも・・・・・・・・
+JP 　　　頑張って下さい。」{wait}
+JP {box}選手「私は好きなようにやるよ。」{wait}
+EN {start}{box}President: Your moves are
+EN getting faster than before.{wait}
+EN {box}Wrestler: So?{wait}
+EN {box}President: Just........keep
+EN at it, please.{wait}
+EN {box}Wrestler: I'll do things my way.{wait}
+
+@ 04cf3d words=157 table=0x4c087
+JP {start}{box}社長「{name}さん、
+JP 　　　最近技の切れがいま
+JP 　　　ひとつですね。{wait}
+JP {box}　　　どうしたんですか?
+JP 　　　{name}さんらしくないですよ!」{wait}
+JP {box}選手「わかってるよ。」{wait}
+JP {box}社長「ファンは君が、華麗に闘うのを
+JP 　　　見に来てくれる。{wait}
+JP {box}　　　彼らの期待を裏切らない。
+JP 　　　そんなファイトをして貰えない
+JP 　　　かな?」{wait}
+EN {start}{box}President: {name}, your
+EN moves lack bite lately.{wait}
+EN {box}What's wrong? This isn't
+EN like you, {name}!{wait}
+EN {box}Wrestler: I know.{wait}
+EN {box}President: The fans come to see
+EN you fight with style.{wait}
+EN {box}Don't let them down. Can you
+EN give them a fight like that?{wait}
+
+@ 04d079 words=33 table=0x4c089
+JP {start}{box}選手「うだうだとうるせえな!
+JP 　　　大きなお世話だよ!!」{wait}
+EN {start}{box}Wrestler: Quit your nagging!
+EN Mind your own business!!{wait}
+
+@ 04d0bd words=78 table=0x4c08b
+JP {start}{box}選手「・・わかってるよ。」{wait}
+JP {box}社長「{name}さん、
+JP 　　　ファンの為にも私の為にも頑張
+JP 　　　って貰えますか。」{wait}
+JP {box}選手「私の事はほっといて下さい。」{wait}
+EN {start}{box}Wrestler: ..I know.{wait}
+EN {box}President: {name},
+EN will you try, for the fans
+EN and for me?{wait}
+EN {box}Wrestler: Just leave me alone.{wait}
+
+@ 04d15b words=153 table=0x4c08d
+JP {start}{box}社長「どうしたんですか?
+JP 　　　{name}さん,ここ最近元気が
+JP 　　　ないですね。」{wait}
+JP {box}選手「何もないよ!」{wait}
+JP {box}社長「そうにしか見えませんけど・・
+JP 　　　何かあったんですか?」{wait}
+JP {box}選手「関係ないだろ!!」{wait}
+JP {box}社長「そんなことありません!!!
+JP 　　　あなたもウチの大事な選手の
+JP 　　　一人なんです!!」
+EN {start}{box}President: What's wrong?
+EN {name}, you've seemed
+EN down lately.{wait}
+EN {box}Wrestler: Nothing's wrong!{wait}
+EN {box}President: Doesn't look like it...
+EN Did something happen?{wait}
+EN {box}Wrestler: None of your business!!{wait}
+EN {box}President: Of course it is!!!
+EN You're one of our precious
+EN wrestlers too!!
+
+@ 04d28f words=47 table=0x4c08f
+JP {start}{box}選手「・・・・・・。」{wait}
+JP {box}社長「また頑張って貰えますね?」{wait}
+JP {box}選手「考えとくよ。」{wait}
+EN {start}{box}Wrestler: ......{wait}
+EN {box}President: Keep at it, okay?{wait}
+EN {box}Wrestler: I'll think about it.{wait}
+
+@ 04d2ef words=111 table=0x4c091
+JP {start}{box}選手「だから何?」{wait}
+JP {box}社長「とにかく、前みたいに頑張って
+JP 　　　欲しいんです。」{wait}
+JP {box}選手「気が向いたらね。話が終わった
+JP 　　　のならもう行くよ　。」
+JP {box}社長「ちょっと{name}さん。
+JP 　　　話はまだ・・・・・・・・。」{wait}
+EN {start}{box}Wrestler: So what?{wait}
+EN {box}President: Anyway, I want you to
+EN work hard like before.{wait}
+EN {box}Wrestler: If I feel like it.
+EN If that's all, I'm going.
+EN {box}President: Hey, {name}!
+EN I'm not finished.......{wait}
+
+@ 04d3cf words=31 table=0x4c0f9
+JP {box}{9900}{9600}流血ー!{9040}
+JP {box}おぉーっと!
+JP リングが真っ赤に染まる!{9040}
+EN {box}{9900}{9600}
+EN is bleeding!{9040}
+EN {box}Whoa!
+EN The ring is running red!{9040}
+
+@ 04d40f words=31 table=0x4c0fb
+JP 素早い動きからキレ味鋭いアー
+JP ムホイップで相手を投げます!{9040}
+EN A quick, sharp Arm Drag,
+EN and over she goes!{9040}
+
+@ 04d44f words=30 table=0x4c0fd
+JP 抱え上げて、ボディスラム。{9040}
+JP 力強くマットに叩きつける。{9040}
+EN Up she goes, Body Slam!{9040}
+EN Pounded hard into the mat!{9040}
+
+@ 04d48d words=30 table=0x4c0ff
+JP 抱え込んで鋭く引っこ抜いた!
+JP フロントスープレックス!!{9040}
+EN Grabs her and yanks her up!
+EN Front Suplex!!{9040}
+
+@ 04d4cb words=31 table=0x4c101
+JP 高~く抱え上げてそのまま後方
+JP ブレーンバスター、脳天砕きだ{9040}
+EN Up hiiigh, then back over:
+EN Brainbuster! Skull-crusher!{9040}
+
+@ 04d50b words=36 table=0x4c103
+JP ひねりを加えた強烈なバックド
+JP ロップ!{9040}
+JP {box}危険な角度から落ちたぞ!{9040}
+EN A vicious Backdrop with a
+EN twist!{9040}
+EN {box}What a dangerous angle!{9040}
+
+@ 04d555 words=47 table=0x4c105
+JP おおっっと!豪快な裏投げが決
+JP まったああ!!{9040}
+JP {box}後頭部をしたたか打ちつけてい
+JP るぞお!!{9040}
+EN Whoaaa! A massive Uranage
+EN lands!!{9040}
+EN {box}She cracked the back of her
+EN head on that!!{9040}
+
+@ 04d5b5 words=53 table=0x4c107
+JP 美しいブリッジを描く芸術的な
+JP ノーザンライトスープレックス{9040}
+JP {box}まさに北天に浮かぶ北斗七星の
+JP ごとし!{9040}
+EN A gorgeous bridge! A perfect
+EN Northern Lights Suplex!{9040}
+EN {box}Like the Big Dipper shining
+EN in the northern sky!{9040}
+
+@ 04d621 words=43 table=0x4c109
+JP 必殺のキャプチュード炸裂!!{9040}
+JP {box}捕獲した獲物の頭を噛み砕くか
+JP のような一撃だ!!{9040}
+EN The Capture Suplex!!{9040}
+EN {box}Like a beast crushing the
+EN skull of its prey!!{9040}
+
+@ 04d679 words=42 table=0x4c10b
+JP 出たあ!ぶっこ抜きジャーマン{9040}
+JP {box}叩きつけるような恐怖の一撃が
+JP 決まったあああ!{9040}
+EN Here it is! Deadlift German!{9040}
+EN {box}A terrifying, crushing slam
+EN connects!!!{9040}
+
+@ 04d6cf words=46 table=0x4c10d
+JP 難易度Dクラスの最終兵器!
+JP 驚異のJOサイクロン爆発!{9040}
+JP {box}マット上をサイクロンが襲う!{9040}
+EN The D-class ultimate weapon!
+EN The amazing JO Cyclone!{9040}
+EN {box}A cyclone tears up the mat!{9040}
+
+@ 04d72d words=31 table=0x4c10f
+JP スリーパーがガッチリ入った!{9040}
+JP 急激にスタミナが奪われる!{9040}
+EN Sleeper hold, locked in!{9040}
+EN Her stamina is draining!{9040}
+
+@ 04d76d words=28 table=0x4c111
+JP 脇固めの体勢に入ったぞ!{9040}
+JP 肩の関節が悲鳴を上げる!{9040}
+EN She's going for the Armbar!{9040}
+EN Her shoulder is screaming!{9040}
+
+@ 04d7a7 words=25 table=0x4c113
+JP 逆エビ固めの体勢だ!{9040}
+JP 強烈に体を絞り上げる!{9040}
+EN Boston Crab position!{9040}
+EN She's cranking it hard!{9040}
+
+@ 04d7db words=25 table=0x4c115
+JP 強烈なコブラツイストがガッチ
+JP リ決まったぞ!!{9040}
+EN A brutal Cobra Twist, locked
+EN in tight!!{9040}
+
+@ 04d80f words=28 table=0x4c117
+JP 恐怖の腕殺し、チキンWアーム
+JP ロックが決まったぁ!!{9040}
+EN The dreaded arm-breaker: the
+EN Double Chickenwing is on!!{9040}
+
+@ 04d849 words=40 table=0x4c119
+JP 入ったあ!アキレス腱固め!{9040}
+JP {box}我慢すると危険だ!
+JP アキレス腱がねじ切れる!{9040}
+EN It's on! Achilles Hold!{9040}
+EN {box}Don't tough it out! That
+EN tendon's gonna snap!{9040}
+
+@ 04d89b words=36 table=0x4c11b
+JP ストレッチプラムだ!!{9040}
+JP {box}首をそぎ落とすような強烈な絞
+JP め技だ!!{9040}
+EN Stretch Plum!!{9040}
+EN {box}A savage hold that could
+EN tear her neck right off!!{9040}
+
+@ 04d8e5 words=48 table=0x4c11d
+JP ステップオーバーしたあ!{9040}
+JP {box}がっちり決まったサソリ固め!{9040}
+JP {box}サソリの猛毒が全身に回る!!{9040}
+EN She steps over!{9040}
+EN {box}Scorpion Deathlock is on!{9040}
+EN {box}Its venom floods her body!!{9040}
+
+@ 04d947 words=36 table=0x4c11f
+JP フェイスロック!!{9040}
+JP {box}さあ耐えられるのか!?顔面が
+JP 苦痛に歪む!!{9040}
+EN Facelock!!{9040}
+EN {box}Can she hold out?! Her face
+EN twists in agony!!{9040}
+
+@ 04d991 words=43 table=0x4c121
+JP ガッチリ入ったああ!
+JP STF!!!{9040}
+JP {box}関節技の蟻地獄にはまってしま
+JP ったのか!?{9040}
+EN Locked in tight!
+EN STF!!!{9040}
+EN {box}Is she stuck in a submission
+EN death trap?!{9040}
+
+@ 04d9e9 words=33 table=0x4c123
+JP エルボーエルボーエルボォォ!{9040}
+JP {box}強烈なエルボーが顔面を直撃!{9040}
+EN Elbow! Elbow! Elbooow!{9040}
+EN {box}Brutal elbows to the face!{9040}
+
+@ 04da2d words=36 table=0x4c125
+JP 突き上げるような
+JP 　　アッパー気味の掌底!{9040}
+JP {box}これは効いている!!{9040}
+EN A rising, uppercut-style
+EN     palm strike!{9040}
+EN {box}That one hurt!!{9040}
+
+@ 04da77 words=34 table=0x4c127
+JP ラリアート炸裂!!{9040}
+JP {box}恐怖の首折り弾が
+JP ジャストミィィィト!!{9040}
+EN Lariat!!{9040}
+EN {box}The dreaded neck-snapper
+EN conneeeects!!{9040}
+
+@ 04dabd words=26 table=0x4c129
+JP DDT!!{9040}
+JP {box}反動を利用しての豪快な首折り
+JP だ{9040}
+EN DDT!!{9040}
+EN {box}Off the rebound, a nasty
+EN neck spike!{9040}
+
+@ 04daf3 words=34 table=0x4c12b
+JP 猛烈なキックの嵐!{9040}
+JP {box}ロー、ミドル、ハイと
+JP 的確に打ち分ける!{9040}
+EN A storm of kicks!{9040}
+EN {box}Low, middle, high, all
+EN right on target!{9040}
+
+@ 04db39 words=34 table=0x4c12d
+JP パイルドライバー!{9040}
+JP {box}脳天がマットに杭のように
+JP 打ち込まれる!{9040}
+EN Piledriver!{9040}
+EN {box}Her head is driven into the
+EN mat like a stake!{9040}
+
+@ 04db7f words=29 table=0x4c12f
+JP S式バックブリーカー!!{9040}
+JP 背骨への強烈な一撃です!!{9040}
+EN S-Backbreaker!!{9040}
+EN A brutal blow to the spine!!{9040}
+
+@ 04dbbb words=45 table=0x4c131
+JP 出たあ!ノーザンライトボム!{9040}
+JP {box}マットに脳天がめり込む!!
+JP まさにデインジャラス!!{9040}
+EN Northern Lights Bomb!!{9040}
+EN {box}Head first into the mat!!
+EN Dangerous stuff!!{9040}
+
+@ 04dc17 words=41 table=0x4c133
+JP パワースラム!!{9040}
+JP {box}ハイスピードでマットに叩きつ
+JP ける豪快なパワー殺法だ!!{9040}
+EN Power Slam!!{9040}
+EN {box}Driven into the mat at full
+EN speed! Pure power!!{9040}
+
+@ 04dc6b words=43 table=0x4c135
+JP パワーボム　ファイヤァァァ!{9040}
+JP {box}上空高く振り上げて叩き落とす
+JP 強烈な一撃ぃぃぃ!{9040}
+EN Powerbomb... FIIIRE!{9040}
+EN {box}Up high, then down hard!
+EN What a hiiit!{9040}
+
+@ 04dcc3 words=27 table=0x4c137
+JP 帰って来たところに、打点の高
+JP いドロップキ~ック!{9040}
+EN Off the rebound, a sky-high
+EN Dropkiiick!{9040}
+
+@ 04dcfb words=30 table=0x4c139
+JP 切れ味鋭いローリングソバット
+JP がアゴの先端にヒィィット!{9040}
+EN A razor-sharp Rolling Sobat
+EN right on the chin! Hiiit!{9040}
+
+@ 04dd39 words=27 table=0x4c13b
+JP ロープに飛んでのギロチンドロ
+JP ップ!人間断頭台だ!{9040}
+EN Off the ropes, a Guillotine
+EN Drop! Off with her head!{9040}
+
+@ 04dd71 words=27 table=0x4c13d
+JP 豪快なジャンピングニーパット{9040}
+JP 顔面に炸裂ぅぅ!!{9040}
+EN A huge Jumping Knee!{9040}
+EN Right in the faaace!!{9040}
+
+@ 04dda9 words=34 table=0x4c13f
+JP ロープに振って
+JP Fショルダータックル!{9040}
+JP {box}的確に相手を捕える!{9040}
+EN Into the ropes...
+EN Flying Shoulder Tackle!{9040}
+EN {box}Caught her square!{9040}
+
+@ 04ddef words=24 table=0x4c141
+JP 延髄斬り一閃!!{9040}
+JP まさに妖刀の切れ味だ!!{9040}
+EN A flashing Enzuigiri!!{9040}
+EN Sharp as a cursed blade!!{9040}
+
+@ 04de21 words=40 table=0x4c143
+JP フライングニールキック!!{9040}
+JP {box}鉈を振り下ろすような、強烈な
+JP 一撃だぁぁ!!{9040}
+EN Flying Knee Kick!!{9040}
+EN {box}Like a hatchet coming down!
+EN What a blooow!!{9040}
+
+@ 04de73 words=40 table=0x4c145
+JP トップロープからの急降下
+JP ミサイルキック!!{9040}
+JP {box}胸板に強烈にヒィィット!!{9040}
+EN A dive off the top rope...
+EN Missile Kick!!{9040}
+EN {box}Right in the chest! Hiiit!!{9040}
+
+@ 04dec5 words=43 table=0x4c147
+JP 閃光一閃、電光石火の
+JP フランケンシュタイナー!!{9040}
+JP {box}驚異のスピードで炸裂ぅぅ!!{9040}
+EN Quick as a lightning flash,
+EN a Frankensteiner!!{9040}
+EN {box}At blinding speed!!{9040}
+
+@ 04df1d words=49 table=0x4c149
+JP 弧を描き宙に舞う!
+JP ムーンサルトプレス!!{9040}
+JP {box}華麗なる無重力弾がリング上に
+JP 投下されたぁ!!{9040}
+EN Arcing through the air!
+EN Moonsault Press!!{9040}
+EN {box}A graceful zero-gravity bomb
+EN drops onto the ring!!{9040}
+
+@ 04df81 words=34 table=0x4c14b
+JP トップロープ越しの
+JP ブランチャー!{9040}
+JP {box}華麗なるルチャ殺法炸裂!{9040}
+EN Over the top rope...
+EN Plancha!{9040}
+EN {box}Gorgeous lucha libre!{9040}
+
+@ 04dfc7 words=30 table=0x4c14d
+JP さあ、冷静に間合いを取り、相
+JP 手の出方をうかがっている。{9040}
+EN Keeping her distance calmly,
+EN reading her opponent.{9040}
+
+@ 04e005 words=45 table=0x4c14f
+JP おおっと、何やら相手を挑発し
+JP ているようだ!{9060}
+JP {box}冷静さを失わせようという作戦
+JP か!?{9040}
+EN Whoa, she's taunting her
+EN opponent!{9060}
+EN {box}Trying to make her lose her
+EN cool?!{9040}
+
+@ 04e061 words=48 table=0x4c151
+JP レフェリーのブラインドをつい
+JP ての巧みな凶器攻撃!{9040}
+JP {box}これは会場からも
+JP ブーイングが飛ぶ!{9040}
+EN Behind the ref's back, a sly
+EN weapon attack!{9040}
+EN {box}And the crowd is
+EN booing!{9040}
+
+@ 04e0c3 words=34 table=0x4c153
+JP うまく丸め込んで
+JP スモールPホールド!{9040}
+JP {box}身動きがとれないぞ!{9040}
+EN She rolls her up...
+EN Small Package!{9040}
+EN {box}She's stuck!{9040}
+
+@ 04e109 words=31 table=0x4c155
+JP 虚をついての逆さ抑え込み!{9040}
+JP これはうまく抑え込んだっ!!{9040}
+EN A surprise reverse cradle!{9040}
+EN What a sneaky pin!!{9040}
+
+@ 04e149 words=27 table=0x4c157
+JP 一瞬の隙をついたっ!
+JP ローリングクラッチホールド!{9040}
+EN Seizing a split-second gap!
+EN Rolling Clutch Hold!{9040}
+
+@ 04e181 words=31 table=0x4c159
+JP ああっと!お客さんのイスを奪
+JP っての強烈なイス攻撃だぁ!!{9040}
+EN Whoa! She grabs a chair
+EN and lets her have it!!{9040}
+
+@ 04e1c1 words=34 table=0x4c15b
+JP 相手を思い切り鉄柱に打ちつけ
+JP ますっ!{9040}
+JP {box}鈍い音が会場に響く!{9040}
+EN She rams her into the ring
+EN post!{9040}
+EN {box}A sickening thud!{9040}
+
+@ 04e207 words=23 table=0x4c15d
+JP おおっとぉ、何やら気合いを入
+JP れているぞ!{9040}
+EN Whoa, she's getting fired
+EN up!{9040}
+
+@ 04e237 words=27 table=0x4c15f
+JP 相手をロープに振って、ダブル
+JP のドロップキック!!{9040}
+EN Into the ropes, and a Double
+EN Dropkick!!{9040}
+
+@ 04e26f words=31 table=0x4c161
+JP ツープラトンの
+JP ブレェェンバスター!!{9080}
+JP {box}これは強烈!!{9040}
+EN A double-team
+EN Brainbuuuster!!{9080}
+EN {box}Devastating!!{9040}
+
+@ 04e2af words=28 table=0x4c163
+JP 合体のパイルドライバー炸裂!{9040}
+JP 息の合った攻撃だ!!{9040}
+EN A double-team Piledriver!{9040}
+EN Perfect teamwork!!{9040}
+
+@ 04e2e9 words=34 table=0x4c165
+JP 合体のパワーボム!!{9040}
+JP {box}見事なコンビネーションを
+JP 見せます!!{9040}
+EN A double-team Powerbomb!!{9040}
+EN {box}Beautiful teamwork from
+EN these two!!{9040}
+
+@ 04e32f words=49 table=0x4c167
+JP トップロープからの豪快なダブ
+JP ルインパクトォォ!{9040}
+JP {box}これをやられてはひとたまりも
+JP な~い!!{9040}
+EN Off the top rope, a massive
+EN Double Impaaact!{9040}
+EN {box}Nobody can survive
+EN thaaat!!{9040}
+
+@ 04e393 words=25 table=0x4c169
+JP うまく体を切り返した!
+JP 　　　ボディプレスだ!{9060}
+EN Nice reversal into a...
+EN       Body Press!{9060}
+
+@ 04e3c7 words=21 table=0x4c16b
+JP リバースのスープレックスで切
+JP り返す!{9040}
+EN Countered with a
+EN Reverse Suplex!{9040}
+
+@ 04e3f3 words=16 table=0x4c16d,0x4c185,0x4c187,0x4c189
+JP おおっとぉ!壮絶な自爆だぁ!{9040}
+EN Whoa! She crashes and burns!{9040}
+
+@ 04e415 words=31 table=0x4c16f
+JP 相手のブレンバスターを、逆に
+JP ブレーンバスターで切り返す!{9040}
+EN She blocks the Brainbuster
+EN and hits one of her own!{9040}
+
+@ 04e455 words=26 table=0x4c171
+JP 相手のラリアートをかわしての
+JP 逆ラリアートォォ!{9040}
+EN She ducks the Lariat and
+EN fires one baaack!{9040}
+
+@ 04e48b words=26 table=0x4c173
+JP 一瞬の切り返し、ローリングク
+JP ラッチホールドだ!{9040}
+EN A split-second reversal!
+EN Rolling Clutch Hold!{9040}
+
+@ 04e4c1 words=24 table=0x4c175
+JP ああっと!何とパワーボムで切
+JP り返したぁ!!{9040}
+EN Whoa! She counters with a
+EN Powerbomb!!{9040}
+
+@ 04e4f3 words=21 table=0x4c177
+JP 相手の凶器を奪っての逆凶器攻
+JP 撃だ!!{9040}
+EN She steals the weapon and
+EN uses it on her!!{9040}
+
+@ 04e51f words=16 table=0x4c179
+JP みるみる体力が回復していく!{9040}
+EN She's recovering fast!{9040}
+
+@ 04e541 words=29 table=0x4c17b
+JP ああっとぉ!ラリアートを脇固
+JP めで切り返す早業だあ!!{9040}
+EN Whoa! She turns the Lariat
+EN into an Armbar! So fast!!{9040}
+
+@ 04e57d words=27 table=0x4c17d
+JP パワーボム狙いをウラカン・ラ
+JP ナで丸め込んだっ!!{9040}
+EN She turns the Powerbomb into
+EN a Huracanrana pin!!{9040}
+
+@ 04e5b5 words=4 table=0x4c17f
+JP 1111\
+
+@ 04e5bf words=26 table=0x4c181
+JP ムーンサルトプレスをかわされ
+JP たが上手く着地!!{9040}
+EN Her Moonsault is dodged, but
+EN she lands on her feet!!{9040}
+
+@ 04e5f5 words=19 table=0x4c183
+JP 場外での強烈なドロップキック
+JP ゥ!{9040}
+EN A big Dropkick outside the
+EN ring!{9040}
+
+@ 04e61d words=23 table=0x4c18b,0x4c18d,0x4c18f,0x4c191,0x4c193,0x4c195,0x4c197
+JP 場外で二人がかりのドロップキ
+JP ックゥ!!!{9040}
+EN A two-on-one Dropkick
+EN outside the ring!!!{9040}
+
+@ 04e64d words=8 table=0x4c059
+JP {9060}カット成功!
+EN {9060}Broke it up!
+
+@ 04e65f words=27 table=0x4c05b
+JP {9900}{9600}がカットに気を
+JP {9060}取られている間に上手く逃れた!
+EN {9900}{9600} is distracted...
+EN {9060}Wriggled free of the hold!
+
+@ 04e697 words=12 table=0x4c05d
+JP {9040}{9900}{9600}ギブアップ!!!
+EN {9040}{9900}{9600}
+EN gives up!!!
+
+@ 04e6b1 words=16 table=0x4c05f
+JP {9060}なんとかロープに逃れました!
+EN {9060}Just made it to the ropes!
+
+@ 04e6d3 words=15 table=0x4c061
+JP {9060}うまくロープに逃れました!
+EN {9060}Neatly reached the ropes!
+
+@ 04e6f3 words=13 table=0x4c063
+JP {9060}自力で振り解きました!
+EN {9060}Broke free on her own!
+
+@ 04e70f words=13 table=0x4c065
+JP {9060}{9900}{9A00}がカットに入った!
+EN {9060}{9900}{9A00}
+EN breaks it up!
+
+@ 04e72b words=8 table=0x4c067
+JP {9040}カット失敗!
+EN {9040}Too late!
+
+@ 04e73d words=31 table=0x4c0bd
+JP {box}そのままフォールにいった!!
+JP カウント　　　　　　　　　　
+EN {box}Straight into the pin!!
+EN Count                       
+
+@ 04e77d words=31 table=0x4c0bf
+JP {box}そのままフォールにはいる!!
+JP カウント　　　　　　　　　　
+EN {box}Going straight for the pin!!
+EN Count                       
+
+@ 04e7bd words=7 table=0x4c0c1
+JP カウント　1
+EN Count     1
+
+@ 04e7cd words=9 table=0x4c0c3
+JP カウント　1　2
+EN Count     1   2
+
+@ 04e7e1 words=11 table=0x4c0c5
+JP カウント　1　2　3
+EN Count     1   2   3
+
+@ 04e7f9 words=13 table=0x4c0c7
+JP {box}カウント1でかえした!
+EN {box}Kicked out at 1!
+
+@ 04e815 words=13 table=0x4c0c9
+JP {box}カウント2でかえした!
+EN {box}Kicked out at 2!
+
+@ 04e831 words=16 table=0x4c0cb
+JP {box}ロープに足がかかっています!
+EN {box}Her foot's on the rope!
+
+@ 04e853 words=15 table=0x4c0cd
+JP {box}カウント2.5でかえした!
+EN {box}Kicked out at 2.5!
+
+@ 04e873 words=15 table=0x4c0cf
+JP {box}カウント2.8でかえした!
+EN {box}Kicked out at 2.8!
+
+@ 04e893 words=15 table=0x4c0d1
+JP {box}カウント2.9でかえした!
+EN {box}Kicked out at 2.9!
+
+@ 04e8b3 words=31 table=0x4c0e3
+JP {box}そのままフォールにいった!!
+JP カウント　1　2　　　　　　
+EN {box}Straight into the pin!!
+EN Count     1   2             
+
+@ 04e8f3 words=31 table=0x4c0e5
+JP {box}そのままフォールにはいる!!
+JP カウント　1　2　　　　　　
+EN {box}Going straight for the pin!!
+EN Count     1   2             
+
+@ 04e933 words=10 table=0x4c0d3
+JP {box}{9060}{9600}とタッチ!!
+EN {box}{9060}Tags in {9600}!!
+
+@ 04e949 words=13 table=0x4c0d5
+JP {box}{9600}自ら場外に出ました!
+EN {box}{9600} leaves the ring!
+
+@ 04e965 words=13 table=0x4c0d7
+JP {9900}{9600}もあとを追います!!
+EN {9900}{9600} follows her out!!
+
+@ 04e981 words=16 table=0x4c0d9
+JP {box}両者勢いあまって場外転落!!
+EN {box}Both fall out of the ring!!
+
+@ 04e9a3 words=14 table=0x4c0dd
+JP {box}両者共,リングに復帰!!
+EN {box}Both back in the ring!!
+
+@ 04e9c1 words=16 table=0x4c0db
+JP {box}試合時間
+JP {9080}　　　{9C20}分　{9C21}秒
+EN {box}Match Time
+EN {9080}      {9C20}m {9C21}s
+
+@ 04e9e3 words=4 table=0x4c0df
+JP {box}{name}で
+EN {box}{name}!
+
+@ 04e9ef words=9 inplace
+JP {9080}{9400}が勝ちました
+EN {9080}{9400} wins!
+
+@ 04ea03 words=15 table=0x4c095
+JP {box}{name}の{name1}
+JP が入団しました。{wait}
+EN {box}Signed: {name1}
+EN Came from: {name}{wait}
+
+@ 04ea23 words=16 table=0x4c097
+JP {box}新人の
+JP {name1}が入団しました。{wait}
+EN {box}Signed rookie
+EN {name1}!{wait}
+
+@ 04ea45 words=15 table=0x4c099
+JP {box}{name}が
+JP {name1}と提携しました。{wait}
+EN {box}{name} has allied
+EN with {name1}!{wait}
+
+@ 04ea65 words=27 table=0x4c09b
+JP {box}「{name1}タッグベルトは返上、
+JP 　{name}預かりとなります」{wait}
+EN {box}"{name1} tag belts:
+EN vacated, and held by
+EN {name}."{wait}
+
+@ 04ea9d words=57 table=0x4c09d
+JP {box}「{name2}選手の保持する
+JP {name1}ベルトは、選手
+JP の申し出により返上されます。」{wait}
+JP {box}「ベルトは{name}預かりとなり
+JP ます。」{wait}
+EN {box}"{name2}'s
+EN {name1} belt is vacated
+EN at her request."{wait}
+EN {box}"{name} will hold the
+EN belt."{wait}
+
+@ 04eb11 words=61 table=0x4c09f
+JP {box}「{name2}選手　{name3}選手の保持
+JP する{name1}ベルトは、選手
+JP の申し出により返上されます。」{wait}
+JP {box}「ベルトは{name}預かりとなり
+JP ます。」{wait}
+EN {box}"{name2} and
+EN {name3}'s
+EN {name1} belt: vacated."{wait}
+EN {box}"{name} will hold the
+EN belt."{wait}
+
+@ 04eb8d words=100 table=0x4c1c1
+JP {box}旗揚げ興行を行なうためには最低
+JP {wait}6人のレスラーが必要です。
+JP {box}スカウトや新人募集でレスラーを
+JP {wait}集めて下さい。
+JP {box}今月から6ヶ月後までに旗揚げを
+JP しなければ資金操りは、かなり苦
+JP {wait}しくなります。
+EN {box}To hold our opening show, we
+EN {wait}need at least 6 wrestlers.
+EN {box}Scout them, or hold tryouts.
+EN {wait}
+EN {box}If we haven't opened within six
+EN months, money will get very
+EN {wait}tight.
+
+@ 04ec57 words=141 table=0x4c1c3
+JP {box}「本日は我が{name}の、旗
+JP 　揚げ興行にたくさんのご来場、
+JP 　ありがとうございます。{wait}
+JP {box}「私達はまだ小さな団体ですが、{wait}
+JP {box}　努力を重ね、いいファイトを行
+JP 　なって、どんどん大きくなって
+JP 　いきたいと思います。」{wait}
+JP {box}「これからも、皆様のあたたかい
+JP 　応援よろしくお願いします!」{wait}
+EN {box}"Thank you all so much for
+EN coming to the opening show
+EN of {name}!"{wait}
+EN {box}"We are still a small promotion,{wait}
+EN {box}but we'll keep working hard,
+EN put on great fights, and grow
+EN bigger and bigger!"{wait}
+EN {box}"Please keep giving us your
+EN warm support!"{wait}
+
+@ 04ed73 words=18 table=0x4c1c5
+JP {box}{name}の収支が赤字になり
+JP ました。{wait}
+EN {box}{name} is in the red
+EN this month.{wait}
+
+@ 04ed99 words=43 table=0x4c1c7
+JP {box}2ヶ月連続で収支決算が、赤字に
+JP なりました。次の月も赤字だと、
+JP {name}は倒産します。{wait}
+EN {box}We've been in the red two
+EN months running. Another, and
+EN {name} goes bankrupt.{wait}
+
+@ 04edf1 words=43 table=0x4c199
+JP {box}{name}のファンクラブを
+JP 設立したいと依頼がありました。
+JP {wait}ファンクラブを設立しますか?
+EN {box}Fans have asked to start a
+EN {name} fan club.
+EN {wait}Approve the fan club?
+
+@ 04ee49 words=22 table=0x4c19b
+JP {box}{name}のファンクラブ
+JP {wait}が設立されました。{wait}
+EN {box}A {name} fan club
+EN {wait}has been founded!{wait}
+
+@ 04ee77 words=35 table=0x4c19d
+JP {box}{name}に映画の出演依頼が
+JP 来ています。
+JP {wait}映画の出演依頼を受けますか?
+EN {box}{name} has been offered
+EN a movie role.
+EN {wait}Accept the movie role?
+
+@ 04eebf words=41 table=0x4c19f
+JP {box}{name}は映画の撮影の
+JP {wait}為に興行にでれません。{wait}
+JP {box}出演料2千万円が入りました。{wait}
+EN {box}{name} is filming a
+EN {wait}movie and misses shows.{wait}
+EN {box}Her fee: 20 million yen.{wait}
+
+@ 04ef13 words=32 table=0x4c1a1
+JP {box}{name}に
+JP TVの出演依頼が来ています。
+JP {wait}出演依頼を受けますか?
+EN {box}{name} has been offered
+EN a TV appearance.
+EN {wait}Accept the offer?
+
+@ 04ef55 words=15 table=0x4c1a3
+JP {box}{name}が
+JP {wait}TVに出演します。
+EN {box}{name} will
+EN {wait}appear on TV.
+
+@ 04ef75 words=35 table=0x4c1a5
+JP {box}{name}に一日署長の
+JP 依頼が来ています。
+JP {wait}一日署長の依頼を受けますか?
+EN {box}{name} is asked to be
+EN police chief for a day.
+EN {wait}Accept the job?
+
+@ 04efbd words=19 table=0x4c1a7
+JP {box}{name}が,
+JP {wait}一日署長にでかけます。{wait}
+EN {box}{name}
+EN {wait}is one-day police chief!{wait}
+
+@ 04efe5 words=24 table=0x4c1a9
+JP {box}道場に泥棒が入り,
+JP {9C10}千万円盗まれました。{wait}
+EN {box}A thief broke into the dojo:
+EN {9C10}0M yen was stolen!{wait}
+
+@ 04f017 words=13 table=0x4c1ab
+JP {box}{name}が怪我をしました。{wait}
+EN {box}{name} got injured.{wait}
+
+@ 04f033 words=15 table=0x4c1ad
+JP {box}{name}が,
+JP 入院をしました。{wait}
+EN {box}{name} is
+EN in the hospital.{wait}
+
+@ 04f053 words=17 table=0x4c1af
+JP {box}{name}が,
+JP 引退を表明しました。{wait}
+EN {box}{name} has
+EN announced retirement.{wait}
+
+@ 04f077 words=12 table=0x4c1b1
+JP {box}{name}が退院しました。{wait}
+EN {box}{name} left hospital.{wait}
+
+@ 04f091 words=26 table=0x4c1b3
+JP {box}入院していた{name}が,
+JP 長期療養の為引退しました。{wait}
+EN {box}{name} has retired
+EN after a long hospital stay.{wait}
+
+@ 04f0c7 words=34 table=0x4c1b5
+JP {box}{name}は
+JP {9C20}年{9C21}月目に旗揚げしましたが
+JP {9C22}年{9C23}月目に倒産しました。{wait}
+EN {box}{name}
+EN launched at {9C20} yrs {9C21} months,
+EN bankrupt at {9C22} yrs {9C23} months.{wait}
+
+@ 04f10d words=18 table=0x4c1b7
+JP {box}{name1}の{name}
+JP が殴り込んできました。{wait}
+EN {box}{name1}'s
+EN {name} invades our show!{wait}
+
+@ 04f133 words=38 table=0x4c1b9
+JP {box}{name}が失恋をしました。{wait}
+JP {box}信頼度と今月の使用可能APが
+JP 減少しました。{wait}
+EN {box}{name} is heartbroken.{wait}
+EN {box}Her trust and this month's AP
+EN have dropped.{wait}
+
+@ 04f181 words=18 table=0x4c1bb
+JP {box}{name}との提携が
+JP 破棄されました。{wait}
+EN {box}{name} broke off
+EN our alliance.{wait}
+
+@ 04f1a7 words=16 table=0x4c1bd
+JP {box}{name}の怪我が,
+JP 治りました。{wait}
+EN {box}{name}'s injury
+EN has healed.{wait}
+
+@ 04f1c9 words=17 table=0x4c1bf
+JP {box}{name}が,反乱軍に
+JP なりました。{wait}
+EN {box}{name} has joined the
+EN rebels!{wait}
+
+@ 04f1ed words=33 table=0x4c1cf
+JP {box}{name}は
+JP 旗揚げをすることが出来ずに
+JP {9C22}年{9C23}月目に倒産しました。{wait}
+EN {box}{name}
+EN never held an opening show,
+EN bankrupt at {9C22} yrs {9C23} months.{wait}
+
+@ 04f231 words=18 table=0x4c1d1
+JP {box}{name}は,
+JP バカンスにでかけます。{wait}
+EN {box}{name} is going
+EN on vacation.{wait}
+
+@ 04f257 words=17 table=0x4c1d3
+JP {box}{name}が,正規軍に
+JP 戻りました。{wait}
+EN {box}{name} rejoined
+EN the regulars.{wait}
+
+@ 04f27b words=46 table=0x4c0a9
+JP {box}スポンサーがつきました。{wait}
+JP {box}その為スポンサー料として
+JP 　{9C10}千万円の収入がありました。{wait}
+EN {box}We got a sponsor!{wait}
+EN {box}Sponsorship fees brought in
+EN  {9C10}0 million yen earned!{wait}
+
+@ 04f2d9 words=26 table=0x4c0ab
+JP {box}レスラーがバスで移動中に、
+JP 事故がありました!{wait}
+EN {box}The wrestlers' tour bus
+EN was in an accident!{wait}
+
+@ 04f30f words=13 table=0x4c0ad
+JP {box}{name}が入院をしました。{wait}
+EN {box}{name} is in hospital.{wait}
+
+@ 04f32b words=31 table=0x4c0af
+JP {box}保険に入っていたので,保険金が
+JP 　　{9C30}0万円入りました。{wait}
+EN {box}Thanks to our insurance policy,
+EN   {9C30}00,000 yen earned!{wait}
+
+@ 04f36b words=26 table=0x4c0b1
+JP {box}海外遠征中の
+JP {name}が,急に
+JP 引退を表明しました。{wait}
+EN {box}On tour abroad,
+EN {name} has suddenly
+EN retired!{wait}
+
+@ 04f3a1 words=16 table=0x4c0b3
+JP {box}{name}が引退を
+JP 表明しました。{wait}
+EN {box}{name} has decided
+EN to retire.{wait}
+
+@ 04f3c3 words=35 table=0x4c0b5
+JP {box}道場で火災が発生しました。
+JP 道場使用可能APが
+JP 　{9C30}減りました。{wait}
+EN {box}A fire broke out at the dojo.
+EN Usable dojo AP
+EN  dropped by {9C30}.{wait}
+
+@ 04f40b words=2 table=0x4c1d5
+JP {name}
+
+@ 04f411 words=50 table=0x4c1d7
+JP {box}最強の団体を決定する時が
+JP {wait}やってきました。
+JP {box}今回の激戦を勝ち抜いた最強
+JP {wait}の団体は!・・・・
+EN {box}It's time to decide
+EN {wait}the strongest promotion.
+EN {box}And the last one standing
+EN {wait}is...!
+
+@ 04f477 words=6 table=0x4c1d9
+JP {name}プロレス
+EN {name}!!
+
+@ 04f485 words=3 table=0x4c1db
+JP 　{name}
+
+@ 04f48d words=8 table=0x4c1dd
+JP 個人ランク{9C29}位
+EN Rank #{9C29}.
+
+@ 04f49f words=2 table=0x4c1df
+JP 戦
+EN M
+
+@ 04f4a5 words=2 table=0x4c1e1
+JP 勝
+EN W
+
+@ 04f4ab words=2 table=0x4c1e3
+JP 敗
+EN L
+
+@ 04f4b1 words=59 table=0x4c1c9
+JP {box}新日本女子から、
+JP Exタッグリーグへの参加要請
+JP がありました。{wait}
+JP {box}Exタッグリーグに選手を2名
+JP 参加させますか?
+EN {box}Shin Nihon Joshi has invited
+EN us to the Ex Tag League.{wait}
+EN {box}Send 2 wrestlers to the
+EN Ex Tag League?
+
+@ 04f529 words=31 table=0x4c1cb
+JP {box}新日本女子のExタッグリーグ
+JP に2名の選手が参加します。{wait}
+EN {box}We'll send two to
+EN Shin Nihon Joshi's Ex Tag League.{wait}
+
+@ 04f569 words=30 table=0x4c1cd
+JP {box}新日本女子のExタッグリーグ
+JP には今回は参加しません。{wait}
+EN {box}We'll skip the Ex Tag League
+EN this time.{wait}
+
+@ 04f5a7 words=28 table=0x4c1e5
+JP {box}本当にExタッグリーグに参加しなく
+JP てもいいですね?
+EN {box}You really want to skip the
+EN Ex Tag League?
+
+@ 04f5e1 words=1 table=0x4c1fd
+JP 
+
+@ 04f5e5 words=16 table=0x4c1ff
+JP {start}{box}「これが私達の実力よ!!」
+EN {start}{box}"That's our real power!!"
+
+@ 04f607 words=29 table=0x4c201
+JP {start}{box}「突然言われても・・なにか実感
+JP 　が湧きませんね。」
+EN {start}{box}"So sudden... It doesn't feel
+EN real yet."
+
+@ 04f643 words=48 table=0x4c203
+JP {start}{box}「オーッホッホッホ!これも全て
+JP 　私の実力と美貌の成せる技です
+JP 　わ。おーっほっほっほ!」
+EN {start}{box}"Oh-ho-ho-ho! All thanks to
+EN my skill and my beauty!
+EN Oh-ho-ho-ho!"
+
+@ 04f6a5 words=19 table=0x4c205
+JP {start}{box}「私がいる以上、当然の結果ね。」
+EN {start}{box}"With me here, of course we won."
+
+@ 04f6cd words=33 table=0x4c207
+JP {start}{box}「最強団体、私達の団体にもっと
+JP 　もふさわしい呼び名だわ。」
+EN {start}{box}"Strongest promotion... a title
+EN that suits us perfectly."
+
+@ 04f711 words=30 table=0x4c209
+JP {start}{box}「この団体がトップだなんて、
+JP 　私なんてラッキー!!」
+EN {start}{box}"Our promotion is on top?
+EN Lucky me!!"
+
+@ 04f74f words=15 table=0x4c20b
+JP {start}{box}「これが私達の実力よ。」
+EN {start}{box}"That's our true power."
+
+@ 04f76f words=31 table=0x4c20d
+JP {start}{box}「えっーこの団体がトップなの?
+JP 　レイちゃん感激ぃー。」
+EN {start}{box}"Whaaat? We're on top?
+EN Rei is sooo touched!"
+
+@ 04f7af words=33 table=0x4c20f
+JP {start}{box}「えーん。私達が一番なんて、
+JP 　夢のようですぅ。うるうる。」
+EN {start}{box}"Waaah! We're number one?
+EN It's like a dream! Sniffle..."
+
+@ 04f7f3 words=19 table=0x4c211
+JP {start}{box}「ほんとにすごっくうれしいわ。」
+EN {start}{box}"I'm sooo happy, really!"
+
+@ 04f81b words=32 table=0x4c213
+JP {start}{box}「これで私も有名人の一員になれた
+JP 　かしら?ふふふふふ。」
+EN {start}{box}"Does this make me a celebrity
+EN now? Fufufufufu."
+
+@ 04f85d words=14 table=0x4c215
+JP {start}{box}「最高の結果ですね。」
+EN {start}{box}"A perfect result."
+
+@ 04f87b words=19 table=0x4c217
+JP {start}{box}「こうなると思っていたけどね。」
+EN {start}{box}"I knew it would end like this."
+
+@ 04f8a3 words=36 table=0x4c219
+JP {start}{box}「最強団体になったことで、私達は
+JP 　さらに強くなれると思います。」
+EN {start}{box}"Being the strongest, I think
+EN we can grow even stronger."
+
+@ 04f8ed words=29 table=0x4c21b
+JP {start}{box}「みんなの努力が勝ち取った栄冠っ
+JP 　てところかな。」
+EN {start}{box}"I'd call it a crown we all
+EN earned with hard work."
+
+@ 04f929 words=18 table=0x4c21d
+JP {start}{box}「これも日頃の練習の賜物ね。」
+EN {start}{box}"All that training paid off."
+
+@ 04f94f words=32 table=0x4c21f
+JP {start}{box}「私達の団体がトップ団体なんて、
+JP 　まるで夢のようだわ。」
+EN {start}{box}"Our promotion is the top one?
+EN It's like a dream."
+
+@ 04f991 words=19 table=0x4c221
+JP {start}{box}「私に似合った結果じゃなくて?」
+EN {start}{box}"A result worthy of me, no?"
+
+@ 04f9b9 words=19 table=0x4c223
+JP {start}{box}「この団体をみんな見習ったら。」
+EN {start}{box}"Everyone should learn from us."
+
+@ 04f9e1 words=18 table=0x4c225
+JP {start}{box}「何事も一番がいいもんだな。」
+EN {start}{box}"Being number one feels good."
+
+@ 04fa07 words=25 table=0x4c227
+JP {start}{box}「私達の団結力が
+JP 　認められたんでしょう。」
+EN {start}{box}"Our teamwork must have
+EN been recognized."
+
+@ 04fa3b words=19 table=0x4c229
+JP {start}{box}「瞳、すっごくうれしいでぇす。」
+EN {start}{box}"Hitomi is suuuper happy!"
+
+@ 04fa63 words=35 table=0x4c22b
+JP {start}{box}「こうなって当たり前や!!なんせ
+JP 　うちがおる団体やからな!!」
+EN {start}{box}"Of course we won!!
+EN I'm in this promotion, ain't I!!"
+
+@ 04faab words=36 table=0x4c22d
+JP {start}{box}「どこもそこそこ強かったけど、所
+JP 　詮私達の敵じゃないって感じ。」
+EN {start}{box}"They were all decent, but
+EN none of them could touch us."
+
+@ 04faf5 words=43 table=0x4c22f
+JP {start}{box}「ここまで来れたのも日々のトレー
+JP 　ニングを怠らなかったからだと思
+JP 　います。」
+EN {start}{box}"We got this far because we
+EN never slacked on training."
+
+@ 04fb4d words=20 table=0x4c231
+JP {start}{box}「この団体にいてすごく嬉しいわ。」
+EN {start}{box}"I'm so glad to be here."
+
+@ 04fb77 words=29 table=0x4c233
+JP {start}{box}「これも私がこの団体で暴れ廻った
+JP 　結果でしょう。」
+EN {start}{box}"That's because I ran wild
+EN in this promotion."
+
+@ 04fbb3 words=36 table=0x4c235
+JP {start}{box}「俺達の団体がここまで来たのも熱
+JP 　いロックの魂があったからさ!」
+EN {start}{box}"We made it this far 'cause
+EN we've got hot rock'n'roll souls!"
+
+@ 04fbfd words=13 table=0x4c237
+JP {start}{box}「うれしい・・・。」
+EN {start}{box}"I'm happy..."
+
+@ 04fc19 words=14 table=0x4c239
+JP {start}{box}「最っっ好の気分ね。」
+EN {start}{box}"I feel the beeest!"
+
+@ 04fc37 words=28 table=0x4c23b
+JP {start}{box}「うちの団体は気合が違うからな。
+JP 　当然だろ!!」
+EN {start}{box}"Our promotion's got more guts.
+EN Of course!!"
+
+@ 04fc71 words=27 table=0x4c23d
+JP {start}{box}「NO・1ってやっぱり気持ち良い
+JP 　ですよね。」
+EN {start}{box}"Being No. 1 sure feels good,
+EN doesn't it?"
+
+@ 04fca9 words=35 table=0x4c23f
+JP {start}{box}「うちの団体がトップになったのも
+JP 　全員が根性入ってるからさ。」
+EN {start}{box}"We're on top because every
+EN one of us has real guts."
+
+@ 04fcf1 words=16 table=0x4c241
+JP {start}{box}「なんか夢見てるみたい。」
+EN {start}{box}"It's like I'm dreaming."
+
+@ 04fd13 words=13 table=0x4c243
+JP {start}{box}「とても嬉しいわ。」
+EN {start}{box}"I'm very happy."
+
+@ 04fd2f words=29 table=0x4c245
+JP {start}{box}「へぇ~、私達の団体って意外に大
+JP 　きかったんだ。」
+EN {start}{box}"Huh, our promotion's bigger
+EN than I thought."
+
+@ 04fd6b words=12 table=0x4c247
+JP {start}{box}「夢のようっす。」
+EN {start}{box}"Like a dream!"
+
+@ 04fd85 words=10 table=0x4c249
+JP {start}{box}「感無量ね。」
+EN {start}{box}"I'm so moved."
+
+@ 04fd9b words=10 table=0x4c1e9
+JP IWWFヘビー王者
+EN IWWF Heavy Champ
+
+@ 04fdb1 words=10 table=0x4c1eb
+JP WWCAヘビー王者
+EN WWCA Heavy Champ
+
+@ 04fdc7 words=9 table=0x4c1ed
+JP EWAヘビー王者
+EN EWA Heavy Champ
+
+@ 04fddb words=9 table=0x4c1ef
+JP GWAヘビー王者
+EN GWA Heavy Champ
+
+@ 04fdef words=9 table=0x4c1f1
+JP AACヘビー王者
+EN AAC Heavy Champ
+
+@ 04fe03 words=9 table=0x4c1f3
+JP アジアヘビー王者
+EN Asia Heavy Champ
+
+@ 04fe17 words=10 table=0x4c1f5
+JP IWWFタッグ王者
+EN IWWF Tag Champ
+
+@ 04fe2d words=10 table=0x4c1f7
+JP WWCAタッグ王者
+EN WWCA Tag Champ
+
+@ 04fe43 words=9 table=0x4c1f9
+JP GWAタッグ王者
+EN GWA Tag Champ
+
+@ 04fe57 words=10 table=0x4c1fb
+JP その他タイトル有り
+EN Other titles held
+
+@ 04fe6d words=6 table=0x4c06d
+# namewidth=4 (the prefecture)
+JP 出身地　{name}
+EN From {name}
+
+@ 04fe7b words=2 table=0x4c06f
+JP {name1}
+
+@ 04fe81 words=4 table=0x4c071
+JP 必殺技
+EN Finish
+
+@ 04fe8b words=10 inplace
+JP ・・・思考中・・・
+EN ...Thinking...
+
+@ 04fea1 words=10 inplace
+JP ・マッチメイク中・
+EN Booking matches...

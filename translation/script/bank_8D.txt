@@ -1,0 +1,175 @@
+# Bank $8D (file 0x68000): 44 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 06985c words=1 inplace
+JP ○\
+
+@ 069860 words=1 inplace
+JP △\
+
+@ 069864 words=1 inplace
+JP ×\
+
+@ 069868 words=6 table=0x68973,0x68977
+JP 通常シリーズ\
+EN Regular Tour\
+
+@ 069876 words=6 table=0x6896f,0x68979
+JP トーナメント\
+EN Tournament  \
+
+@ 069884 words=11 inplace
+JP (要シリーズ4戦以上)\
+EN (Needs 4+ show tour)\
+
+@ 06989c words=2 inplace
+JP 形式\
+EN Type\
+
+@ 0698a2 words=4 inplace
+JP チーム数\
+EN Teams   \
+
+@ 0698ac words=1 inplace
+JP 　\
+
+@ 0698b0 words=6 table=0x68971,0x68975
+JP 　リーグ戦　\
+EN    League   \
+
+@ 0698be words=2 inplace
+JP 現在\
+EN Now \
+
+@ 0698c4 words=1 inplace
+JP 人\
+EN   \
+
+@ 0698c8 words=14 inplace
+JP 出場する選手を決めて下さい　\
+EN Pick wrestlers for the card \
+
+@ 0698e6 words=14 inplace
+JP 今月の興行を中止しますか?　\
+EN Cancel this month's show?   \
+
+@ 069904 words=14 inplace
+JP 興行には最低6人は必要です　\
+EN A show needs 6+ wrestlers.  \
+
+@ 069922 words=14 table=0x6897b
+JP 出場選手数を偶数にして下さい\
+EN Wrestler count must be even \
+
+@ 069940 words=14 inplace
+JP 出場選手は最大18人までです\
+EN 18 wrestlers at most.       \
+
+@ 06995e words=14 inplace
+JP トーナメントには最低8人必要\
+EN Tournament needs 8 or more  \
+
+@ 06997c words=14 inplace
+JP タッグには16人必要です　　\
+EN Tag needs 16 wrestlers.     \
+
+@ 06999a words=14 inplace
+JP タッグには8人必要です　　　\
+EN Tag needs 8 wrestlers.      \
+
+@ 0699b8 words=14 inplace
+JP 通常シリーズに戻します　　　\
+EN Back to a regular tour.     \
+
+@ 0699d6 words=4 inplace
+JP シングル\
+EN Singles \
+
+@ 0699e0 words=4 inplace
+JP タッグ　\
+EN Tag     \
+
+@ 0699ea words=2 table=0x692e8
+JP 4組\
+EN Grp4\
+
+@ 0699f0 words=2 table=0x692ea
+JP 5組\
+EN Grp5\
+
+@ 0699f6 words=2 table=0x692ec
+JP 6組\
+EN Grp6\
+
+@ 0699fc words=2 table=0x692ee
+JP 7組\
+EN Grp7\
+
+@ 069a02 words=14 table=0x68fa6
+JP チーム1を決めて下さい　　　\
+EN Choose Team 1.              \
+
+@ 069a20 words=14 table=0x68fa8
+JP チーム2を決めて下さい　　　\
+EN Choose Team 2.              \
+
+@ 069a3e words=14 table=0x68faa
+JP チーム3を決めて下さい　　　\
+EN Choose Team 3.              \
+
+@ 069a5c words=14 table=0x68fac
+JP チーム4を決めて下さい　　　\
+EN Choose Team 4.              \
+
+@ 069a7a words=14 table=0x68fae
+JP チーム5を決めて下さい　　　\
+EN Choose Team 5.              \
+
+@ 069a98 words=14 table=0x68fb0
+JP チーム6を決めて下さい　　　\
+EN Choose Team 6.              \
+
+@ 069ab6 words=14 table=0x68fb2
+JP チーム7を決めて下さい　　　\
+EN Choose Team 7.              \
+
+@ 069ad4 words=14 table=0x68fb4
+JP チーム8を決めて下さい　　　\
+EN Choose Team 8.              \
+
+@ 069af2 words=14 table=0x68fb6
+JP 最終戦の前座無しで行います　\
+EN Final show: no undercard.   \
+
+@ 069b10 words=14 table=0x68fb8
+JP リーグ戦は7興行以上必要です\
+EN A league needs 7+ shows.    \
+
+@ 06ea2f words=8 inplace
+JP 　　選手残り　　\
+EN     remaining   \
+
+@ 06ea41 words=8 inplace
+JP 持っていません　\
+EN No belts held   \
+
+@ 06ea53 words=8 inplace
+JP 　ベルトの一覧　\
+EN    Belt List    \
+
+@ 06ea65 words=8 inplace
+JP 他興行で決定済み\
+EN Booked elsewhere\
+
+@ 06ea77 words=8 inplace
+JP 試合形式が不適合\
+EN Wrong match type\
+
+@ 06ea89 words=8 inplace
+JP 　選手のデータ　\
+EN  Wrestler Data  \
+
+@ 06ea9b words=80 inplace
+JP 　　　　　　　　IWWFヘビー級WWCAヘビー級EWAヘビー級　GWAヘビー級　AACヘビー級　アジアヘビー級　IWWFタッグ　WWCAタッグ　GWAタッグ　　\
+EN                 IWWF HeavyweightWWCA HeavyweightEWA Heavyweight GWA Heavyweight AAC Heavyweight Asia HeavyweightIWWF Tag        WWCA Tag        GWA Tag         \

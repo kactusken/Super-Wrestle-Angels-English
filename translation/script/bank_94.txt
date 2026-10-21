@@ -1,0 +1,2242 @@
+# Bank $94 (file 0xa0000): 259 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 0a0000 words=246 table=0x43fac,0x43fae,0x43fb0,0x8984c,0x8984e,0x89850,0x89852,0x8985e,0x89860,0x89862,0x89864,0x4c30d,0xef475,0xef477,0xef479
+JP {start}{box}社長「今晩は、紅さんですね?」{wait}
+JP {9E}{box}選手「あんた誰だい?」{wait}
+JP {box}社長「私、あるプロレス団体の経営者
+JP 　　　でして・・・」{wait}
+JP {box}選手「経営者だぁ?って事は・・・・
+JP 　　　社長さんかい?私に何か用かい
+JP 　　　社長さん?」{wait}
+JP {box}社長「是非ウチの団体に・・」{wait}
+JP {box}ブゥオォーーン{wait}
+JP {box}選手「省子っ!吹かすのやめな!!
+JP 　　　すまねぇな。おっさん。
+JP 　　　悪いヤツ等じゃねぇんだ。」{wait}
+JP {box}社長「すみませんねぇ。
+JP 　　　気を使て貰って。{wait}
+JP {box}　　　紅さん!私の団体で闘ってみま
+JP 　　　せんか?」{wait}
+EN {start}{box}President: Evening. Kyoko Kurenai?{wait}
+EN {9E}{box}Kyoko: Who the hell are you?{wait}
+EN {box}President: I run a certain pro
+EN wrestling promotion, you see...{wait}
+EN {box}Kyoko: You run it? So you're...
+EN the boss, huh? What do you want
+EN with me, Mr. Boss?{wait}
+EN {box}President: Please join our...{wait}
+EN {box}VROOOM!{wait}
+EN {box}Kyoko: Shoko! Quit revving it!!
+EN Sorry 'bout that, old man.
+EN They ain't bad kids.{wait}
+EN {box}President: No worries.
+EN Thanks for the consideration.{wait}
+EN {box}Kyoko! Won't you come fight
+EN for my promotion?{wait}
+
+@ 0a01ee words=173 table=0x4c30f
+JP {start}{box}選手「スカウトかい?あたしを?」{wait}
+JP {box}社長「そうです。あなたのファイトが
+JP 　　　欲しいんです。
+JP 　　　考えて貰えませんか?」{wait}
+JP {box}選手「そう言われちゃ断われないね。
+JP 　　　別に断わる理由もないしね。」{wait}
+JP {box}社長「それじゃ、来て貰えますか。」{wait}
+JP {box}選手「ああ、行かせてもらうぜ。
+JP 　　　よろしくな。おっさん。」{wait}
+JP {box}社長「おっさ・・・ん?」{wait}
+EN {start}{box}Kyoko: Scouting? Me?{wait}
+EN {box}President: That's right. I want
+EN your fighting spirit.
+EN Will you consider it?{wait}
+EN {box}Kyoko: Well, I can't refuse that.
+EN Got no reason to refuse anyway.{wait}
+EN {box}President: Then you'll come?{wait}
+EN {box}Kyoko: Yeah, I'll come.
+EN Glad to be aboard, old man.{wait}
+EN {box}President: Old... man...?{wait}
+
+@ 0a034a words=162 table=0x4c311
+JP {start}{box}選手「そう言われると、悪い気はしな
+JP 　　　いんだが・・・。」{wait}
+JP {box}社長「じゃあ、私の団体に!!」{wait}
+JP {box}選手「やっぱ、駄目だわ。
+JP 　　　今のところには少なからずとも
+JP 　　　義理もあるしな。」{wait}
+JP {box}社長「そうですか・・・・。」{wait}
+JP {box}選手「悪りいな。っと、もう出発だ!
+JP 　　　みんな行くよ!!
+JP 　　　じゃあな、社長さん。」{wait}
+EN {start}{box}Kyoko: Can't say I mind hearing
+EN that, but...{wait}
+EN {box}President: Then come join us!!{wait}
+EN {box}Kyoko: Nah, no good.
+EN I owe my current outfit
+EN a little loyalty.{wait}
+EN {box}President: I see.....{wait}
+EN {box}Kyoko: Sorry. Whoa, time to roll!
+EN Let's go, everybody!!
+EN See ya, boss man.{wait}
+
+@ 0a0490 words=263 table=0x4c313
+JP {start}{box}社長「あのぉ、カレンさん・・
+JP 　　　秋山カレンさんだよね?」{wait}
+JP {9E}{box}選手「そうですけど・・・。
+JP 　　　オジさん誰よ?
+JP 　　　変な勧誘ならお断りよ!」{wait}
+JP {box}社長「変な勧誘・・?違いますよ。
+JP 　　　私、プロレス団体の経営者して
+JP 　　　るんですけど・・・。」{wait}
+JP {box}選手「ふーん。ほんとかしら?
+JP 　　　そんな感じしないけど?」{wait}
+JP {box}社長「ほんとですよ。カレンさん。{wait}
+JP {box}　　　今日来たのは他でもない。
+JP 　　　カレンさん、あなたをスカウト
+JP 　　　に来たんですよ!!」{wait}
+JP {box}選手「ほんとに?」{wait}
+JP {box}社長「まだ、疑ってるんですか?」{wait}
+EN {start}{box}President: Um, Karen...
+EN Karen Akiyama, right?{wait}
+EN {9E}{box}Karen: Yes, but...
+EN Who are you, mister?
+EN If it's a weird sales pitch, no!{wait}
+EN {box}President: A weird pitch? No, no.
+EN I run a pro wrestling
+EN promotion, actually...{wait}
+EN {box}Karen: Hmm. Is that true?
+EN You don't really look like it.{wait}
+EN {box}President: It's true, Karen.{wait}
+EN {box}I came today for one reason only.
+EN Karen, I came here to scout
+EN you!!{wait}
+EN {box}Karen: Really?{wait}
+EN {box}President: You still doubt me?{wait}
+
+@ 0a06a0 words=168 table=0x4c315
+JP {start}{box}選手「冗談よ、冗談。でも驚いたわ。
+JP 　　　私をスカウトに来るなんて。」{wait}
+JP {box}社長「何を言ってるんですか!{wait}
+JP {box}　　　私の団体は、あなたの様な人が
+JP 　　　必要なんですよ。我が団体に来
+JP 　　　て貰えませんか?」{wait}
+JP {box}選手「うーん。うーん。うーん。
+JP 　　　なんてね。{wait}
+JP {box}　　　いいわよ、いったげる。
+JP 　　　だからお給料はずんでね!」{wait}
+EN {start}{box}Karen: Kidding! But I'm surprised.
+EN You came all this way to scout me?{wait}
+EN {box}President: What do you mean!{wait}
+EN {box}My promotion needs someone just
+EN like you. Won't you come join
+EN us?{wait}
+EN {box}Karen: Hmmm. Hmmm. Hmmm.
+EN Just kidding.{wait}
+EN {box}Sure, I'll come.
+EN So pay me well, okay?{wait}
+
+@ 0a07f2 words=108 table=0x4c317
+JP {start}{box}選手「うん。だって社長って貫禄が、
+JP 　　　感じられないしねぇ。」{wait}
+JP {box}社長「かん・・・ろ・・くですか?」{wait}
+JP {box}選手「そう、オジさんに社長の貫禄が
+JP 　　　あれば信用してあげたのに。」{wait}
+JP {box}社長「そりゃないよ。」{wait}
+EN {start}{box}Karen: Yeah. You just don't have
+EN that presidential air, you know?{wait}
+EN {box}President: Pres...i...dential air?{wait}
+EN {box}Karen: Yep. If you had it, mister,
+EN I might have believed you.{wait}
+EN {box}President: Not fair...{wait}
+
+@ 0a08cc words=275 table=0x4c319
+JP {start}{box}社長「あのぉ。遠藤さん?
+JP 　　　遠藤冴子さん・・だよね?」{wait}
+JP {9E}{box}選手「誰だよ、あんた?」{wait}
+JP {box}社長「私、あるプロレス団体の経営者
+JP 　　　でして、遠藤さんに折り入って
+JP 　　　お話があるんですが。」{wait}
+JP {box}選手「はなしだぁ?なんの?」{wait}
+JP {box}社長「実は、遠藤さんにウチの団体に
+JP 　　　来て貰いたいんですけど?
+JP 　　　どうですか?」{wait}
+JP {box}選手「あんたのところに?あたしが?
+JP 　　　あっはっはっは!
+JP 　　　こいつはいいや。」{wait}
+JP {box}社長「可笑しくなんかありません。
+JP 　　　私は本気です。　」{wait}
+JP {box}選手「ははははっ。まったくあんたも
+JP 　　　物好きだねぇ。」{wait}
+EN {start}{box}President: Um, Endo?
+EN You're Saeko Endo, right?{wait}
+EN {9E}{box}Saeko: And who're you?{wait}
+EN {box}President: I run a certain pro
+EN wrestling promotion, and I have
+EN something important to ask you.{wait}
+EN {box}Saeko: Ask me? Ask me what?{wait}
+EN {box}President: Actually, I'd like you
+EN to join my promotion.
+EN What do you say?{wait}
+EN {box}Saeko: Your promotion? Me?
+EN Ahahahaha!
+EN That's a good one.{wait}
+EN {box}President: This is no joke.
+EN I'm serious.{wait}
+EN {box}Saeko: Hahaha! Man, you're one
+EN weird guy, y'know that?{wait}
+
+@ 0a0af4 words=134 table=0x4c31b
+JP {start}{box}社長「遠藤さん。私の団体のリングで
+JP 　　　闘って下さい!!」{wait}
+JP {box}選手「気に入ったよおっさん。
+JP 　　　そんじゃ、あんたの団体で、闘
+JP 　　　わせてもらうよ。」{wait}
+JP {box}社長「来てくれるんですね?」{wait}
+JP {box}選手「ああっ、入ってやるよ。
+JP 　　　こんなあたしでいいならね。」{wait}
+EN {start}{box}President: Endo, please fight in
+EN my promotion's ring!!{wait}
+EN {box}Saeko: I like you, old man.
+EN All right, I'll fight
+EN for your promotion.{wait}
+EN {box}President: You'll join us?{wait}
+EN {box}Saeko: Yeah, I'm in.
+EN If you'll have someone like me.{wait}
+
+@ 0a0c02 words=118 table=0x4c31d
+JP {start}{box}社長「お願いしますよ、遠藤さん。」{wait}
+JP {box}選手「あたしゃ、今の団体に喰わせて
+JP 　　　もらってる。そこを裏切る事は
+JP 　　　できゃしないからね。」{wait}
+JP {box}社長「そんなぁ。」{wait}
+JP {box}選手「わかったんなら、とっとと帰ん
+JP 　　　な。おっさん!」{wait}
+EN {start}{box}President: Please, Endo.{wait}
+EN {box}Saeko: My current promotion's what
+EN puts food on my table. I ain't
+EN about to betray 'em.{wait}
+EN {box}President: Aw, come on.{wait}
+EN {box}Saeko: Got it? Then beat it,
+EN old man!{wait}
+
+@ 0a0cf0 words=251 table=0x4c31f
+JP {start}{box}社長「お弁当食べてるところ悪いけど
+JP 　　　もしかして・・宮本さん?」{wait}
+JP {9E}{box}選手「んぐっ!は、はい。
+JP 　　　そうですけど・・誰ですか?」{wait}
+JP {box}社長「ごめん、ごめん。
+JP 　　　実は私、あるプロレス団体を、
+JP 　　　経営してるんだけど・・・・・{wait}
+JP {box}　　　口の横、ご飯付いてますよ。」{wait}
+JP {box}選手「は・・とっ、取れました?」{wait}
+JP {box}社長「取れましたよ。
+JP 　　　宮本さん、私の団体に来て貰え
+JP 　　　ませんか?」{wait}
+JP {box}選手「えっ?私がですか?そんな事、
+JP 　　　突然言われても・・・・・・・
+JP 　　　困りますぅ。」{wait}
+EN {start}{box}President: Sorry to bug you at
+EN lunch, but... are you Miyamoto?{wait}
+EN {9E}{box}Yoko: Mmph! Y-yes.
+EN That's me... Who are you?{wait}
+EN {box}President: Sorry, sorry.
+EN Actually, I run a pro wrestling
+EN promotion.....{wait}
+EN {box}You've got rice on your cheek.{wait}
+EN {box}Yoko: Wha... d-did I get it?{wait}
+EN {box}President: You got it.
+EN Miyamoto, will you join
+EN my promotion?{wait}
+EN {box}Yoko: Huh? Me? Asking me so
+EN suddenly.......
+EN I don't know what to say...{wait}
+
+@ 0a0ee8 words=150 table=0x4c321
+JP {start}{box}社長「頼むよ。ウチの団体には、君の
+JP 　　　様なレスラーが、是非とも必要
+JP 　　　なんだよ!」{wait}
+JP {box}選手「そうまで言うなら、社長さんの
+JP 　　　ところでお世話になってもいい
+JP 　　　かな・・。」{wait}
+JP {box}社長「来てくれますか!宮本さん!」{wait}
+JP {box}選手「うん。社長さんの団体で、頑張
+JP 　　　らせてもらうわ。」{wait}
+EN {start}{box}President: Please. My promotion
+EN really needs a wrestler
+EN like you!{wait}
+EN {box}Yoko: If you insist that much,
+EN maybe I could join
+EN your promotion...{wait}
+EN {box}President: You'll come, Miyamoto?!{wait}
+EN {box}Yoko: Uh-huh. I'll do my best
+EN in your promotion.{wait}
+
+@ 0a1016 words=111 table=0x4c323
+JP {start}{box}社長「ウチの団体で、頑張って貰えま
+JP 　　　せんか?宮本さん!!」{wait}
+JP {box}選手「せっかくのお誘いですけど。」{wait}
+JP {box}社長「お願いしますよ、宮本さん。」{wait}
+JP {box}選手「ごめんなさい・・・・。
+JP 　　　私、今の団体が好きだから。」{wait}
+EN {start}{box}President: Won't you give it your
+EN all for us, Miyamoto?!!{wait}
+EN {box}Yoko: It's a kind offer, but...{wait}
+EN {box}President: Please, Miyamoto.{wait}
+EN {box}Yoko: I'm sorry.....
+EN I like my current promotion.{wait}
+
+@ 0a10f6 words=191 table=0x4c325
+JP {start}{box}社長「中林さん・・。」{wait}
+JP {9E}{box}選手「はい。誰です、あなた?」{wait}
+JP {box}社長「実は私、プロレス団体の経営者
+JP 　　　なんですが・・・・・。ウチの
+JP 　　　団体に来て貰えませんか?」{wait}
+JP {box}選手「スカウト・・・ですか・・?」{wait}
+JP {box}社長「あなたには格闘の才能がある!
+JP 　　　その才能を我が団体で、開花さ
+JP 　　　せませんか?」{wait}
+JP {box}選手「才能・・・ですか。
+JP 　　　私にはそんなのないですよ。」{wait}
+EN {start}{box}President: Nakabayashi...{wait}
+EN {9E}{box}Sayuri: Yes. Who are you?{wait}
+EN {box}President: Actually, I run a pro
+EN wrestling promotion..... Would
+EN you join us?{wait}
+EN {box}Sayuri: Scouting... me...?{wait}
+EN {box}President: You have a gift for
+EN fighting! Why not let it bloom
+EN in my promotion?{wait}
+EN {box}Sayuri: A gift... huh.
+EN I don't have anything like that.{wait}
+
+@ 0a1276 words=168 table=0x4c327
+JP {start}{box}社長「そんなことはありません!
+JP 　　　中林さんは必ず、スゴイ選手に
+JP 　　　なります。私が保証します。」{wait}
+JP {box}選手「そうまで言われると・・・・
+JP 　　　・・・・わかりました。」{wait}
+JP {box}社長「それじゃ!!
+JP 　　　来て貰えるんですね!!!!」{wait}
+JP {box}選手「はい!社長の口説き方には負け
+JP 　　　ました。お世話になりますね、
+JP 　　　社長さん。」{wait}
+EN {start}{box}President: That's not true!
+EN You'll become a great wrestler,
+EN Nakabayashi. I guarantee it.{wait}
+EN {box}Sayuri: When you say that much....
+EN ....All right.{wait}
+EN {box}President: Then!!
+EN You'll join us!!!!{wait}
+EN {box}Sayuri: Yes! You talked me into
+EN it. I'm in your hands now,
+EN Boss.{wait}
+
+@ 0a13c8 words=161 table=0x4c329
+JP {start}{box}社長「そんなことありません。{wait}
+JP {box}　　　あなたはトップに立てるだけの
+JP 　　　力を持ってます。その力を是非
+JP 　　　ウチの団体で!!」{wait}
+JP {box}選手「そんなに評価してくれてるのは
+JP 　　　嬉しいんですけど・・まだ今の
+JP 　　　団体で頑張りたいんです。」{wait}
+JP {box}社長「どうしても・・駄目かい?」{wait}
+JP {box}選手「すいません。社長さん。」{wait}
+EN {start}{box}President: That's not true.{wait}
+EN {box}You have what it takes to reach
+EN the top. I want that strength
+EN here, with us!!{wait}
+EN {box}Wrestler: I'm glad you think so
+EN highly of me... but I want to keep
+EN at it where I am.{wait}
+EN {box}President: Is there no way...?{wait}
+EN {box}Wrestler: I'm sorry, Boss.{wait}
+
+@ 0a150c words=223 table=0x4c32b
+JP {start}{box}社長「皆川・・・晴美さん?」{wait}
+JP {9E}{box}選手「そうですけど・・・・・・・
+JP 　　　なんですか、あなたは?」{wait}
+JP {box}社長「私?・・・・これは失礼。
+JP 　　　私、こういう者です。」{wait}
+JP {box}選手「プロレス団体の社長さんかぁ。{wait}
+JP {box}　　　それにしても、随分と若い社長
+JP 　　　さんね。そういう風には見えな
+JP 　　　かったわ。」{wait}
+JP {box}社長「よく言われますよ。今日ここに
+JP 　　　来たのは他でもありません。{wait}
+JP {box}　　　皆川さん、私の団体で、闘って
+JP 　　　みませんか?」{wait}
+EN {start}{box}President: Harumi... Minagawa?{wait}
+EN {9E}{box}Harumi: That's right... And who
+EN might you be?{wait}
+EN {box}President: Me? Oh, pardon me.
+EN Here's my card.{wait}
+EN {box}Harumi: A promotion's president?{wait}
+EN {box}You're awfully young for one.
+EN I'd never have guessed.{wait}
+EN {box}President: I hear that a lot. I'm
+EN here for one reason only.{wait}
+EN {box}Harumi, will you come fight
+EN for my promotion?{wait}
+
+@ 0a16cc words=139 table=0x4c32d
+JP {start}{box}選手「スカウトってわけですか?」{wait}
+JP {box}社長「そうです。私の団体はあなたが
+JP 　　　必要なんです。だから、責女を
+JP 　　　スカウトしに来たんです」{wait}
+JP {box}選手「わかりましたわ、社長さん。」{wait}
+JP {box}社長「それじゃ!!」{wait}
+JP {box}選手「はい、社長さんの団体に行かせ
+JP 　　　てもらいます。」{wait}
+EN {start}{box}Harumi: So you're scouting me?{wait}
+EN {box}President: Exactly. My promotion
+EN needs you. That's why I came
+EN to scout you.{wait}
+EN {box}Harumi: Very well, Boss.{wait}
+EN {box}President: Then...!!{wait}
+EN {box}Harumi: Yes, I'll join your
+EN promotion.{wait}
+
+@ 0a17e4 words=143 table=0x4c32f
+JP {start}{box}選手「スカウト・・ですね?」{wait}
+JP {box}社長「有り体に言えば・・・。」{wait}
+JP {box}選手「スカウトに来て貰えたのは、嬉
+JP 　　　しいんですけど・・・・{wait}
+JP {box}　　　私には社長さんの団体が肌に会
+JP 　　　わないと思うんですよ。」{wait}
+JP {box}社長「そんな・・・・・。」{wait}
+JP {box}選手「わがまま言ってすいません。」{wait}
+EN {start}{box}Harumi: A scouting visit... yes?{wait}
+EN {box}President: To put it bluntly...{wait}
+EN {box}Harumi: I'm flattered you came to
+EN scout me, but...{wait}
+EN {box}I just don't think your promotion
+EN is the right fit for me.{wait}
+EN {box}President: But...{wait}
+EN {box}Harumi: Sorry for being difficult.{wait}
+
+@ 0a1904 words=180 table=0x4c331
+JP {start}{box}社長「後野さん、後野まつりさんです
+JP 　　　よね?」{wait}
+JP {9E}{box}選手「誰?ナンパならお断りよ。」{wait}
+JP {box}社長「ナンパじゃないですよ。」{wait}
+JP {box}選手「じゃあ何?」{wait}
+JP {box}社長「はいっ。実は、プロレス団体を
+JP 　　　経営してまして・・・。」{wait}
+JP {box}選手「へぇ。私をスカウトにしに来た
+JP 　　　の?」{wait}
+JP {box}社長「そうなんですよ、後野さん。私
+JP 　　　の団体に来て貰えませんか?」{wait}
+EN {start}{box}President: Excuse me, are you
+EN Matsuri Ushirono?{wait}
+EN {9E}{box}Matsuri: Who's asking? If this is
+EN a pickup, forget it.{wait}
+EN {box}President: It's not a pickup.{wait}
+EN {box}Matsuri: Then what?{wait}
+EN {box}President: Well, actually, I run a
+EN wrestling promotion...{wait}
+EN {box}Matsuri: Oh? So you came to scout
+EN me?{wait}
+EN {box}President: That's right. Would you
+EN join my promotion?{wait}
+
+@ 0a1a6e words=210 table=0x4c333
+JP {start}{box}選手「悪くないな。あんたの団体なら
+JP 　　　言ってあげてもいいよ。」{wait}
+JP {box}社長「ほんとぉですか?!」{wait}
+JP {box}選手「ほんとさ。だってあなたの筋肉
+JP 　　　見ていると、何か運命みたいな
+JP 　　　ものを感じる・・・・・・。」{wait}
+JP {box}後野まつりは食い入るように私の胸板
+JP を見ていた。{wait}
+JP {box}選手「き・ん・に・く・さ・ん・。
+JP 　　　うふふ。」{wait}
+JP {box}背中に寒気が走った。{wait}
+JP {box}社長「それじゃ、これで失礼します。
+JP 　　　はっはは・・・。」{wait}
+EN {start}{box}Matsuri: Not bad. For you, I might
+EN just say yes.{wait}
+EN {box}President: R-really?!{wait}
+EN {box}Matsuri: Really. Looking at your
+EN muscles, I feel something like
+EN destiny...{wait}
+EN {box}Matsuri Ushirono was staring
+EN hungrily at my chest.{wait}
+EN {box}Matsuri: Mus-cle-y man...
+EN Hee hee hee.{wait}
+EN {box}A chill ran down my spine.{wait}
+EN {box}President: W-well, I'll be going
+EN then. Ha ha ha...{wait}
+
+@ 0a1c14 words=92 table=0x4c335
+JP {start}{box}選手「残念ね。私、貧弱な体の男って
+JP 　　　嫌いなの。」{wait}
+JP {box}社長「貧弱って・・・。」{wait}
+JP {box}選手「私をスカウトしたいんだったら
+JP 　　　もっと筋肉を付けてからにしな
+JP 　　　さい。」{wait}
+EN {start}{box}Matsuri: Too bad. I hate men
+EN with scrawny bodies.{wait}
+EN {box}President: Scrawny...?{wait}
+EN {box}Matsuri: If you want to scout me,
+EN go bulk up first.{wait}
+
+@ 0a1cce words=168 table=0x4c337
+JP {start}{box}社長「沢登さん?」{wait}
+JP {9E}{box}選手「はい、なんですか?」{wait}
+JP {box}社長「私、こういう者ですが・・。」{wait}
+JP {box}選手「社長さんですか・・・・。
+JP 　　　社長さんが私に何か?」{wait}
+JP {box}社長「真美さん、ウチの団体に来て見
+JP 　　　るつもりはないかい?」{wait}
+JP {box}選手「スカウトね?」{wait}
+JP {box}社長「その通り。ウチの団体には君の
+JP 　　　ファイトが欲しいんだよ。」{wait}
+EN {start}{box}President: Mami Sawanobori?{wait}
+EN {9E}{box}Mami: Yes, what is it?{wait}
+EN {box}President: Here's my card...{wait}
+EN {box}Mami: A company president...
+EN What do you want with me?{wait}
+EN {box}President: Mami, how would you
+EN like to join my promotion?{wait}
+EN {box}Mami: You're scouting me?{wait}
+EN {box}President: Exactly. My promotion
+EN wants your fighting spirit.{wait}
+
+@ 0a1e20 words=155 table=0x4c339
+JP {start}{box}選手「でもなぁ・・。今の団体も嫌い
+JP 　　　じゃないしなぁ・・・・・。」{wait}
+JP {box}社長「ウチの団体には、君の力が必要
+JP 　　　なんだ!!!」{wait}
+JP {box}選手「・・・・・こんな機会めったに
+JP 　　　無いわよねぇ・・・・・。
+JP 　　　よしっ。お願いするか。」{wait}
+JP {box}社長「来てくれるんだね。」{wait}
+JP {box}選手「はい。頑張りますね。」{wait}
+EN {start}{box}Mami: Well... I don't hate my
+EN current promotion...{wait}
+EN {box}President: My promotion needs your
+EN strength!!!{wait}
+EN {box}Mami: ...A chance like this
+EN doesn't come along often...
+EN Okay. Count me in.{wait}
+EN {box}President: So you'll come!{wait}
+EN {box}Mami: Yes. I'll do my best.{wait}
+
+@ 0a1f58 words=88 table=0x4c33b
+JP {start}{box}選手「そう言われても・・・・・。」{wait}
+JP {box}社長「君の力が必要なんだ!!」{wait}
+JP {box}選手「やっぱり駄目です。今の団体で
+JP 　　　もう少し頑張りたいんです。
+JP 　　　ごめんなさい。」{wait}
+EN {start}{box}Mami: Even if you say that...{wait}
+EN {box}President: I need your strength!!{wait}
+EN {box}Mami: No, I can't. I want to try a
+EN little longer where I am.
+EN I'm sorry.{wait}
+
+@ 0a200a words=109 table=0x4c3a1
+JP {start}{box}社長「宍戸さんだね。」{wait}
+JP {9E}{box}選手「そやけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「ほんまかいな?!
+JP 　　　すぐにでもいったるでぇ。」{wait}
+EN {start}{box}President: Shishido, right?{wait}
+EN {9E}{box}Kong: Yeah, what of it...?{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Kong: Fer real?!
+EN I'll be there in a flash!{wait}
+
+@ 0a20e6 words=101 table=0x4c3a3
+JP {start}{box}社長「渡部智美さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「え?うっそ!?やったぁ!」{wait}
+EN {start}{box}President: Tomomi Watanabe?{wait}
+EN {9E}{box}Tomomi: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Tomomi: Huh? No way!? Yaaay!{wait}
+
+@ 0a21b2 words=151 table=0x4c3a5
+JP {start}{box}社長「長谷川美由紀さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「ほ、ほんとですか?!
+JP 　　　す、すぐ行きます!すぐに!!{wait}
+JP {box}　　　あ、誰か練習みててね!
+JP 　　　私急用ができちゃった。」{wait}
+EN {start}{box}President: Miyuki Hasegawa?{wait}
+EN {9E}{box}Miyuki: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Miyuki: R-really?!
+EN I-I'll come! Right now!!{wait}
+EN {box}Somebody watch practice for
+EN me! Something came up!{wait}
+
+@ 0a22e2 words=121 table=0x4c3a7
+JP {start}{box}社長「豊多摩奈美さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「そうなんですか?
+JP 　　　わかりました。
+JP 　　　すぐに行きます。」{wait}
+EN {start}{box}President: Nami Toyotama?{wait}
+EN {9E}{box}Nami: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Nami: Is that so?
+EN Understood.
+EN I'll come right away.{wait}
+
+@ 0a23d6 words=125 table=0x4c3a9
+JP {start}{box}社長「北都ひろみさんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「まぁ、そうですの。
+JP 　　　感激ですわ。
+JP 　　　すぐに支度して参ります。」{wait}
+EN {start}{box}President: Hiromi Hokuto?{wait}
+EN {9E}{box}Hiromi: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Hiromi: Oh my, is that so?
+EN How delightful.
+EN I shall prepare at once.{wait}
+
+@ 0a24d2 words=111 table=0x4c3ab
+JP {start}{box}社長「井上美香さんだね。」{wait}
+JP {9E}{box}選手「そうだけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「マジかよ!アハハ、よしっ!!
+JP 　　　分かった!」{wait}
+EN {start}{box}President: Mika Inoue?{wait}
+EN {9E}{box}Mika: Yeah, so what...?{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Mika: No way! Ha ha, all right!!
+EN You got it!{wait}
+
+@ 0a25b2 words=136 table=0x4c3ad
+JP {start}{box}社長「神田幸子さんだね。」{wait}
+JP {9E}{box}選手「・・・・そうですけど。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「ああっ、プロレスの・・・・。
+JP 　　　なるほど、合格ですか・・。
+JP 　　　ありがとうございます。」{wait}
+EN {start}{box}President: Sachiko Kanda?{wait}
+EN {9E}{box}Sachiko: ...Yes, that's me.{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Sachiko: Ah, the wrestling...
+EN I see, so I passed...
+EN Thank you very much.{wait}
+
+@ 0a26c4 words=130 table=0x4c3af
+JP {start}{box}社長「小島聡美さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「私が?ほんとに?じゃ、すぐに
+JP 　　　支度して来るから、少し待って
+JP 　　　下さいね。」{wait}
+EN {start}{box}President: Satomi Kojima?{wait}
+EN {9E}{box}Satomi: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Satomi: Me? Really? Then I'll go
+EN get ready, so wait just a
+EN moment, okay?{wait}
+
+@ 0a27ca words=153 table=0x4c3b1
+JP {start}{box}社長「紅さんだね。」{wait}
+JP {9E}{box}選手「そうだけど・・・。
+JP 　　　何か用かい?　」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「あぁ、プロレスの。
+JP 　　　根性いれてやるか!!
+JP 　　　よろしくな、おっさん!!」{wait}
+JP {box}社長「おっ・・・・さ・・ん?」{wait}
+EN {start}{box}President: Kurenai, right?{wait}
+EN {9E}{box}Kyoko: Yeah...
+EN You want something?{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Kyoko: Ah, the wrestling thing.
+EN Time to show some guts!!
+EN Nice to meet ya, old man!!{wait}
+EN {box}President: Old... man...?{wait}
+
+@ 0a28fe words=129 table=0x4c3b3
+JP {start}{box}社長「秋山カレンさんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「受かったんですか?!ヘヘッ。
+JP 　　　じゃあ、準備が出来たら行きま
+JP 　　　すね!」{wait}
+EN {start}{box}President: Karen Akiyama?{wait}
+EN {9E}{box}Karen: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Karen: I passed?! Hehe.
+EN Then I'll come as soon as
+EN I'm ready!{wait}
+
+@ 0a2a02 words=147 table=0x4c3b5
+JP {start}{box}社長「遠藤冴子さんだね。」{wait}
+JP {9E}{box}選手「そうだけど・・・。
+JP 　　　あんだよ・・何か用?」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「プロレスの?合格かぁ!
+JP 　　　あたしもまだ、捨てたもんじゃ
+JP 　　　ないね!世話になるぜ!!」{wait}
+EN {start}{box}President: Saeko Endo?{wait}
+EN {9E}{box}Saeko: Yeah...
+EN Whaddaya want?{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Saeko: Wrestling? I passed!
+EN Guess I ain't washed up yet!
+EN I'm in your hands!!{wait}
+
+@ 0a2b2a words=116 table=0x4c3b7
+JP {start}{box}社長「宮本陽子さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「ほっ、本当ですか!準備したら
+JP 　　　すぐに伺いますね。」{wait}
+EN {start}{box}President: Yoko Miyamoto?{wait}
+EN {9E}{box}Yoko: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN tryouts. Can you come join us
+EN right away?{wait}
+EN {box}Yoko: R-really?! I'll come right
+EN over once I'm ready.{wait}
+
+@ 0a2c14 words=128 table=0x4c3b9
+JP {start}{box}社長「中林小百合さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだよ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「ほんとですかぁ!
+JP 　　　ありがとうございます!!
+JP 　　　夢みたいです!!!」{wait}
+EN {start}{box}President: Sayuri Nakabayashi?{wait}
+EN {9E}{box}Sayuri: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN rookie tryouts. Can you come
+EN join us right away?{wait}
+EN {box}Sayuri: Really?!
+EN Thank you so much!!
+EN It's like a dream!!!{wait}
+
+@ 0a2d16 words=137 table=0x4c3bb
+JP {start}{box}社長「皆川晴美さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「受かったんですか?よかった。
+JP 　　　連絡が遅いから駄目かと・・・
+JP 　　　あっ、早く準備しなきゃ!」{wait}
+EN {start}{box}President: Harumi Minagawa?{wait}
+EN {9E}{box}Harumi: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN rookie tryouts. Can you come
+EN join us right away?{wait}
+EN {box}Harumi: I passed? Thank goodness.
+EN You took so long, I thought...
+EN Oh! I'd better get ready!{wait}
+
+@ 0a2e2a words=97 table=0x4c3bd
+JP {start}{box}社長「後野まつりさんだね。」{wait}
+JP {9E}{box}選手「そうだけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「ひっひ。やった。」{wait}
+EN {start}{box}President: Matsuri Ushirono?{wait}
+EN {9E}{box}Matsuri: Yeah, so...?{wait}
+EN {box}President: You passed our recent
+EN rookie tryouts. Can you come
+EN join us right away?{wait}
+EN {box}Matsuri: Heh heh. Sweet.{wait}
+
+@ 0a2eee words=119 table=0x4c3bf
+JP {start}{box}社長「沢登真美さんだね。」{wait}
+JP {9E}{box}選手「そうです・・けど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「そうなんですか?よかった。
+JP 　　　すっごくうれしいです。」{wait}
+EN {start}{box}President: Mami Sawanobori?{wait}
+EN {9E}{box}Mami: Y-yes... that's me...{wait}
+EN {box}President: You passed our recent
+EN rookie tryouts. Can you come
+EN join us right away?{wait}
+EN {box}Mami: Really? Oh, good.
+EN I'm sooo happy.{wait}
+
+@ 0a2fde words=119 table=0x4c39b
+JP {start}{box}社長「金森麗子さんだね。」{wait}
+JP {9E}{box}選手「そうですけどぉ・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「わーい。そうなんですかぁ。
+JP 　　　ありがとうございますぅ。」{wait}
+EN {start}{box}President: Reiko Kanamori?{wait}
+EN {9E}{box}Reiko: Yeees, that's me...{wait}
+EN {box}President: You passed our recent
+EN rookie tryouts. Can you come
+EN join us right away?{wait}
+EN {box}Reiko: Yaaay! Really?
+EN Thank youuu.{wait}
+
+@ 0a30ce words=118 table=0x4c39d
+JP {start}{box}社長「山元広美さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「まぁ、そうでしたの!精一杯に
+JP 　　　頑張らせて頂きますわ。」{wait}
+EN {start}{box}President: Hiromi Yamamoto?{wait}
+EN {9E}{box}Hiromi: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN rookie tryouts. Can you come
+EN join us right away?{wait}
+EN {box}Hiromi: My, is that so! I shall
+EN do my very utmost.{wait}
+
+@ 0a31bc words=116 table=0x4c39f
+JP {start}{box}社長「西町珠理さんだね。」{wait}
+JP {9E}{box}選手「そうですけど・・・。」{wait}
+JP {box}社長「君、この間の新人募集テストに
+JP 　　　合格したんだ。
+JP 　　　早速来て欲しいんだが。」{wait}
+JP {box}選手「えっ、そうなんですか!?
+JP 　　　一生懸命頑張ります!!」{wait}
+EN {start}{box}President: Juri Nishimachi?{wait}
+EN {9E}{box}Juri: Yes, that's me...{wait}
+EN {box}President: You passed our recent
+EN rookie tryouts. Can you come
+EN join us right away?{wait}
+EN {box}Juri: Huh, really?!
+EN I'll give it my all!!{wait}
+
+@ 0a32a6 words=12 table=0x4c351,0x1507dd,0x1507df,0x1507e1,0x1507e3
+JP System・Menu
+EN System Menu
+
+@ 0a32c0 words=11 table=0x4c353
+JP サウンド　　テスト:
+EN Music Test         :
+
+@ 0a32d8 words=11 table=0x4c359
+JP 試合メッセージ速度:
+EN Message Speed      :
+
+@ 0a32f0 words=5 table=0x4c35b
+JP Exit
+EN Exit
+
+@ 0a32fc words=2 table=0x4c35d
+JP {9C10}
+
+@ 0a3302 words=11 table=0x4c355,0x4c35f
+JP SE　　　　テスト:
+EN SE Test            :
+
+@ 0a331a words=11 table=0x4c357
+JP MODE　　　　　:
+EN Mode               :
+
+@ 0a3332 words=11 table=0x4c361
+JP 試合難易度　　　　:
+EN Difficulty         :
+
+@ 0a334a words=5 table=0x4c34d
+JP ステレオ
+EN Stereo  
+
+@ 0a3356 words=5 table=0x4c34f
+JP モノラル
+EN Mono    
+
+@ 0a3362 words=3 table=0x4c347
+JP 遅い
+EN Slow
+
+@ 0a336a words=3 table=0x4c349
+JP 普通
+EN Norm
+
+@ 0a3372 words=3 table=0x4c34b
+JP 速い
+EN Fast
+
+@ 0a337a words=4 table=0x4c341
+JP 易しい
+EN Easy  
+
+@ 0a3384 words=4 table=0x4c343
+JP 普通　
+EN Normal
+
+@ 0a338e words=4 table=0x4c345
+JP 難しい
+EN Hard  
+
+@ 0a3398 words=10 table=0x4c365
+JP オープニング　　　
+EN Opening           
+
+@ 0a33ae words=10 table=0x4c367
+JP タイトル　　　　　
+EN Title             
+
+@ 0a33c4 words=10 table=0x4c369
+JP メニュー　　　　　
+EN Menu              
+
+@ 0a33da words=10 table=0x4c36b
+JP あおぞら女子　　　
+EN Aozora Joshi      
+
+@ 0a33f0 words=10 table=0x4c36d
+JP ラサール女子　　　
+EN LaSalle Joshi     
+
+@ 0a3406 words=10 table=0x4c36f
+JP コトブキ女子　　　
+EN Kotobuki Joshi    
+
+@ 0a341c words=10 table=0x4c371
+JP ぷるぷる女子　　　
+EN Puru Puru Joshi   
+
+@ 0a3432 words=10 table=0x4c373
+JP COMジム思考　　
+EN COM Gym Planning  
+
+@ 0a3448 words=10 table=0x4c375
+JP COMマッチメイク
+EN COM Matchmaking   
+
+@ 0a345e words=10 table=0x4c377
+JP COM試合　　　　
+EN COM Match         
+
+@ 0a3474 words=10 table=0x4c379
+JP BATTLE　1　
+EN Battle 1          
+
+@ 0a348a words=10 table=0x4c37b
+JP BATTLE　2　
+EN Battle 2          
+
+@ 0a34a0 words=10 table=0x4c37d
+JP BATTLE　3　
+EN Battle 3          
+
+@ 0a34b6 words=10 table=0x4c37f
+JP バカンス　　　　　
+EN Vacation          
+
+@ 0a34cc words=10 table=0x4c381
+JP 新人募集&スカウト
+EN Tryouts & Scout   
+
+@ 0a34e2 words=10 table=0x4c383
+JP 怪我&入院　　　　
+EN Injury & Hospital 
+
+@ 0a34f8 words=10 table=0x4c387
+JP サイン会　　　　　
+EN Autograph Session 
+
+@ 0a350e words=10 table=0x4c389
+JP Exタッグ要請　　
+EN Ex Tag Request    
+
+@ 0a3524 words=10 table=0x4c38b
+JP 失恋　　　　　　　
+EN Heartbreak        
+
+@ 0a353a words=10 table=0x4c38d
+JP 殴り込み　　　　　
+EN Invasion          
+
+@ 0a3550 words=10 table=0x4c38f
+JP 金くれ、おやじ　　
+EN Gimme Money, Pops 
+
+@ 0a3566 words=10 table=0x4c391
+JP 勝利　　　　　　　
+EN Victory           
+
+@ 0a357c words=10 table=0x4c393
+JP 決算　　　　　　　
+EN Financial Report  
+
+@ 0a3592 words=10 table=0x4c395
+JP ENDING1　　
+EN Ending 1          
+
+@ 0a35a8 words=10 table=0x4c397
+JP ENDING2　　
+EN Ending 2          
+
+@ 0a35be words=10 table=0x4c385
+JP 設備&提携　　　　
+EN Facility & Deals  
+
+@ 0a35d4 words=43 table=0x4c3c1
+JP {start}次期エース候補と呼ばれる新日本女子
+JP のホープ。
+JP 素晴らしい格闘センスとバネを持つ。
+EN {start}Touted as Shin Nihon Joshi's
+EN next ace. Superb instincts
+EN and springy power.
+
+@ 0a362c words=49 table=0x4c3c3
+JP {start}武藤と並ぶ次期エース候補。
+JP 脳天気な彼女がヨーロッパ遠征で身に
+JP つけたスープレックスは強力だ。
+EN {start}Next-ace hopeful like Muto.
+EN Carefree, but her suplexes from
+EN a Europe tour are fearsome.
+
+@ 0a3690 words=34 table=0x4c3c5
+JP {start}日本一高飛車な女。
+JP 祐希子等と互角に闘える数少ない日本
+JP 人選手。
+EN {start}Japan's haughtiest lady. One of
+EN few locals who rival Yukiko.
+
+@ 0a36d6 words=46 table=0x4c3c7
+JP {start}日本人屈指の関節技の使い手。
+JP 妥協をしないファイトスタイルはファ
+JP ンの間でも評価が高い。
+EN {start}Japan's top submission artist.
+EN Fans admire her no-compromise
+EN fighting style.
+
+@ 0a3734 words=51 table=0x4c3c9
+JP {start}関節技を主体とする中堅選手。菊池と
+JP は良き友でありライバルでもある。
+JP ニックネームはひかるちゃん。
+EN {start}Mid-card submission specialist.
+EN Friend and rival of Kikuchi.
+EN Fans call her Hikaru-chan.
+
+@ 0a379c words=46 table=0x4c3cb
+JP {start}ジャーマンスープレックスにこだわり
+JP 続ける実力派。将来を大きく嘱望視さ
+JP れる選手の一人。
+EN {start}Sticks to the German Suplex, a
+EN true talent. One of the most
+EN promising wrestlers.
+
+@ 0a37fa words=49 table=0x4c3cd
+JP {start}攻撃力に若干欠けてるが、打たれ強い
+JP 中堅選手。反骨精神が強くやや自身過
+JP 剰な面があるのが欠点。
+EN {start}A tough mid-carder, a bit weak
+EN on offense. Her flaws: defiance
+EN and overconfidence.
+
+@ 0a385e words=53 table=0x4c3cf
+JP {start}新女若手トリオの一人。投げ技は苦手
+JP だが関節技には見るものがある。
+JP キューティ、永原と仲が良いらしい。
+EN {start}One of Shin Nihon's young trio.
+EN Weak at throws, good at holds.
+EN Close pals with Cutie & Nagahara.
+
+@ 0a38ca words=53 table=0x4c3d1
+JP {start}女子プロのナンバー1アイドル。
+JP 泣き虫でとにかく弱い。彼女がメイン
+JP イベンターになれる日は来るのか?!
+EN {start}Joshi's No. 1 idol. A crybaby,
+EN and just plain weak. Will she
+EN ever main-event a show?!
+
+@ 0a3936 words=52 table=0x4c3d3
+JP {start}幼い頃からテニスを始め、現在は父の
+JP テニススクールでインストラクターを
+JP 務める。昨年のミス紅葉饅頭?
+EN {start}Tennis since childhood, now a
+EN coach at her dad's tennis school.
+EN Last year's Miss Momiji Manju?
+
+@ 0a39a0 words=45 table=0x4c3d5
+JP {start}奈良のとある公園で夜な夜な聞こえる
+JP 奇妙な音は、彼女のバイオリンが奏で
+JP ているらしい。
+EN {start}The eerie sounds heard nightly
+EN in a Nara park are said to be
+EN her violin.
+
+@ 0a39fc words=53 table=0x4c3d7
+JP {start}この世界で稀な真面目なヤツ。同期生
+JP に相談役としての信頼が厚い。その人
+JP の良さがマット上ではマイナス。
+EN {start}A rare earnest soul in this biz.
+EN Her peers trust her advice, but
+EN being nice hurts her in the ring.
+
+@ 0a3a68 words=55 table=0x4c3d9
+JP {start}理沙子と同じく、かつての日本マット
+JP 界を席巻した好選手。一次期メキシコ
+JP マット界の女王として君臨していた。
+EN {start}Like Risako, once a star of
+EN Japanese wrestling. She reigned
+EN as queen of Mexico for a time.
+
+@ 0a3ad8 words=51 table=0x4c3db
+JP {start}理沙子達と共にかつての新日本女子を
+JP 支えた。元全日本女子空手王者。
+JP 斉藤とはその頃からのライバル。
+EN {start}Pillar of old Shin Nihon Joshi
+EN with Risako. Ex-Japan karate
+EN champ, Saito's rival since then.
+
+@ 0a3b40 words=42 table=0x4c3dd
+JP {start}新日本女子のトップレスラー。
+JP ルチャ、異種格闘技戦等のスタイルも
+JP 巧みにこなす。
+EN {start}Shin Nihon Joshi's top wrestler.
+EN Adept at lucha and mixed-style
+EN fights too.
+
+@ 0a3b96 words=35 table=0x4c3df
+JP {start}祐希子のベストパートナー。強さには
+JP ストイックな姿勢を持っている。
+EN {start}Yukiko's best partner. Stoic
+EN in her pursuit of strength.
+
+@ 0a3bde words=53 table=0x4c3e1
+JP {start}ジュニア最強戦士。華麗な空中殺法と
+JP 強力なパワーファイトを併せ持つ。
+JP 現在のライバルは小川とデスピナ。
+EN {start}The strongest junior. Dazzling
+EN aerial moves and strong power.
+EN Rivals: Ogawa and Despina.
+
+@ 0a3c4a words=51 table=0x4c3e3
+JP {start}正真正銘の芦屋のお嬢様で伊集院財閥
+JP を取り仕切る女社長だが、プロレスで
+JP はパワーファイトをみせる。
+EN {start}A true Ashiya heiress who runs
+EN the Ijuin group as its boss, but
+EN in the ring she's a powerhouse.
+
+@ 0a3cb2 words=55 table=0x4c3e5
+JP {start}現全日本女子空手王者。変幻自在の強
+JP 力な蹴りはライバル南をマットに沈め
+JP たほど。強烈な牙は再び風を斬るか?
+EN {start}Reigning women's karate champ.
+EN Her shifty kicks floored Minami.
+EN Will her fangs cut the wind again?
+
+@ 0a3d22 words=43 table=0x4c3e7
+JP {start}プロレス団体「WARS」のエース。
+JP その実力は祐希子や市ヶ谷にも引けを
+JP 取らない。
+EN {start}Ace of the "WARS" promotion.
+EN She's every bit as strong as
+EN Yukiko or Ichigaya.
+
+@ 0a3d7a words=55 table=0x4c3e9
+JP {start}空中殺法を得意とするかつての中堅選
+JP 手。現在一児の母。可愛い娘にベルト
+JP を見せるために今日もリングに舞う。
+EN {start}A former high-flying mid-carder,
+EN now a mom. She flies again to
+EN win a belt to show her daughter.
+
+@ 0a3dea words=43 table=0x4c3eb
+JP {start}キューティの前のアイドルレスラーは
+JP 彼女。アイドルの座を奪い戻す事が出
+JP 来るのか?
+EN {start}The idol wrestler before Cutie.
+EN Can she win back the idol crown?
+
+@ 0a3e42 words=55 table=0x4c3ed
+JP {start}とにかくでかい新人レスラー。工事現
+JP 場で鍛えた筋力は新人の中でピカ一。
+JP 可愛い七人姉弟の為にトップを狙う。
+EN {start}A huge rookie. Muscles built on
+EN construction sites top her class.
+EN Aims high for her 7 cute siblings.
+
+@ 0a3eb2 words=48 table=0x4c3ef
+JP {start}ディスコに通う派手な新人レスラーの
+JP 彼女。お立ち台の次はマットで華を咲
+JP かせる事ができるか?
+EN {start}A flashy rookie who hits discos.
+EN After the dance stage, can she
+EN bloom on the mat?
+
+@ 0a3f14 words=45 table=0x4c3f1
+JP {start}母校の陸上部のコーチを務める異色の
+JP 新人レスラー。
+JP 礼儀正しいが怒ると恐い・・らしい。
+EN {start}A rookie who coaches track at
+EN her old school. Polite, but
+EN scary when mad... they say.
+
+@ 0a3f70 words=46 table=0x4c3f3
+JP {start}鳥取砂丘で鍛えた足腰の強さと天性の
+JP 身体の柔軟さを生かしてプロレス界の
+JP トップを目指す。
+EN {start}Legs built on Tottori's dunes
+EN plus natural flexibility: she
+EN aims for wrestling's top.
+
+@ 0a3fce words=53 table=0x4c3f5
+JP {start}りんご園を営む農家の箱入り娘。
+JP 歌手を目指して親の猛反対を振り切っ
+JP て箱から飛び出したはずだったが・・
+EN {start}A sheltered apple farmer's girl.
+EN She defied her folks to become
+EN a singer... or so she thought..
+
+@ 0a403a words=44 table=0x4c3f7
+JP {start}女子プロレスには歌のコーナーがある
+JP と聞いて、バックバンドを目指して来
+JP たのだが・・
+EN {start}Heard joshi had a singing spot,
+EN so she came to join the backing
+EN band, but..
+
+@ 0a4094 words=45 table=0x4c3f9
+JP {start}ボクサーを目指していたが、ある理由
+JP により断念。人前で笑顔を見せないの
+JP はそのためか?
+EN {start}Gave up boxing for some reason.
+EN Is that why she never smiles in
+EN public?
+
+@ 0a40f0 words=52 table=0x4c3fb
+JP {start}実家はファミリーレストランチェーン
+JP 店を経営。密やかにアイドルレスラー
+JP を目指している・・・らしい。
+EN {start}Her family runs a restaurant
+EN chain. Secretly aiming to be an
+EN idol wrestler... they say.
+
+@ 0a415a words=52 table=0x4c3fd
+JP {start}真面目な優等生だったが、憧れの先輩
+JP にふられて豹変。レディースを気取っ
+JP ているが現在免許は原付のみ。
+EN {start}A model student until her senpai
+EN crush dumped her. Now poses as a
+EN biker, with just a moped license.
+
+@ 0a41c4 words=51 table=0x4c3ff
+JP {start}ニュージーランドの血が流れるハーフ
+JP 娘。スレンダーなボディーから打ち出
+JP される技は以外とパワフル。
+EN {start}Half New Zealander. Moves fired
+EN from her slender body are
+EN surprisingly powerful.
+
+@ 0a422c words=47 table=0x4c401
+JP {start}地元でも1、2を争う元ヤンキー娘。
+JP 喧嘩で鍛えた力をマットの上で発揮す
+JP ることが出来るか?
+EN {start}A former delinquent, among her
+EN town's toughest. Can she bring
+EN her brawling power to the mat?
+
+@ 0a428c words=46 table=0x4c403
+JP {start}今年の春に高校卒業したばかりの新人
+JP レスラー。チャームポイントは鼻の上
+JP のバンソウコウ。
+EN {start}Fresh out of high school this
+EN spring. Charm point: the bandage
+EN on her nose.
+
+@ 0a42ea words=44 table=0x4c405
+JP {start}決して小柄とはいえないが、素速い動
+JP きを生かした試合運びには目を見張る
+JP ものがある。
+EN {start}Not small, but her speedy ring
+EN work is a sight to behold.
+
+@ 0a4344 words=52 table=0x4c407
+JP {start}可愛い顔とは裏腹に彼女のプロレスに
+JP 対する姿勢は厳しい。その実力は新人
+JP の中でもかなりのものだとか。
+EN {start}Despite her cute face, she's
+EN strict about wrestling. Said to
+EN be among the best rookies.
+
+@ 0a43ae words=44 table=0x4c409
+JP {start}関節技を得意とする中堅選手。
+JP 彼女の夢はマッチョな兄責に囲まれて
+JP 暮らすことだとか。
+EN {start}A submission-savvy mid-carder.
+EN Her dream: living surrounded by
+EN macho big brothers.
+
+@ 0a4408 words=43 table=0x4c40b
+JP {start}皆川と同時期入門の若手レスラー。
+JP おしとやかな割には意外と短気。
+JP 引っ越しが趣味。
+EN {start}Joined with Minagawa. Graceful
+EN but quick-tempered. Hobby:
+EN moving house.
+
+@ 0a4460 words=51 table=0x4c40d
+JP {start}アメリカマット界に君臨するヒールの
+JP 女王。その豪快なファイトは目の前の
+JP 敵全てをを粉砕するという。
+EN {start}Heel queen of American wrestling.
+EN Her wild style is said to crush
+EN every foe in her path.
+
+@ 0a44c8 words=49 table=0x4c40f
+JP {start}彗星のように現われた若き実力派。
+JP その可愛さからは想像もつかない程の
+JP 実力でトップレスラーに。
+EN {start}A young star who came like a
+EN comet. Cute, yet unbelievably
+EN strong; now a top wrestler.
+
+@ 0a452c words=52 table=0x4c411
+JP {start}幼い頃からチャンピオンの母を目指し
+JP てレスラーになった。人は彼女を親の
+JP 七光と言うがその実力は本物。
+EN {start}Became a wrestler to follow her
+EN champion mom. Some say it's all
+EN her mom's fame, but she's legit.
+
+@ 0a4596 words=44 table=0x4c413
+JP {start}これぞアメリカのプロレス!という様
+JP なレスラー。彼女の熱い試合運びには
+JP 定評がある。
+EN {start}She IS American pro wrestling!
+EN Her red-hot matches are well
+EN regarded.
+
+@ 0a45f0 words=51 table=0x4c415
+JP {start}仮面の責婦人。の愛称をもつメキシコ
+JP マット界の女王。華麗な空中殺法の前
+JP に多くのレスラーが破れた。
+EN {start}The "Masked Lady," queen of the
+EN Mexican ring. Many fell before
+EN her dazzling aerial attacks.
+
+@ 0a4658 words=53 table=0x4c417
+JP {start}チョチョとは人気を2分するメキシコ
+JP マット界の暴れ馬。その鋭い技の威力
+JP はチョチョカラスにも負けない。
+EN {start}Splits Mexico's fans with Chocho.
+EN A wild mustang whose sharp moves
+EN hit as hard as Chocho Caras's.
+
+@ 0a46c4 words=54 table=0x4c419
+JP {start}青い眼のニンジャと名乗る彼女、実は
+JP 日系4世である。彼女の衣装は本人の
+JP 手造りだとか。まめな選手である。
+EN {start}The "blue-eyed ninja" is actually
+EN 4th-generation Japanese. She makes
+EN her own costumes. Very diligent.
+
+@ 0a4732 words=50 table=0x4c41b
+JP {start}アメリカで1番の目立ちたがりを自負
+JP する彼女。彼女の派手さへのこだわり
+JP は渡部智美といい勝負??
+EN {start}Self-proclaimed biggest show-off
+EN in America. Her love of flash may
+EN rival Tomomi Watanabe's??
+
+@ 0a4798 words=48 table=0x4c41d
+JP {start}千の関節技を使いこなす現代の魔女と
+JP 言っても過言ではない。
+JP 某国の特殊部隊という経歴を持つ。
+EN {start}A modern witch of 1000 holds -
+EN no exaggeration. Said to be ex-
+EN special forces from some country.
+
+@ 0a47fa words=48 table=0x4c41f
+JP {start}典型的なヒールレスラー。
+JP 直線的な、パワーファイトをいかした
+JP 関節技や投げ技等を使いこなす。
+EN {start}A textbook heel wrestler. She
+EN uses holds and throws built on
+EN straight-ahead power fighting.
+
+@ 0a485c words=50 table=0x4c421
+JP {start}関節技を基本とした試合を展開するの
+JP が得意。彼女の表情は苦しい時でも、
+JP 変わることがないという。
+EN {start}Excels at matches built on holds.
+EN They say her face never changes,
+EN even when she's in pain.
+
+@ 0a48c2 words=51 table=0x4c423
+JP {start}かつてのIWWF王者。その実力は今
+JP も衰えていない。彼女のラリアットは
+JP 幾多の選手を引退させた程。
+EN {start}A former IWWF champ, as strong as
+EN ever. Her lariat has ended the
+EN careers of countless wrestlers.
+
+@ 0a492a words=48 table=0x4c425
+JP {start}ロックバンド出身のヒールレスラー。
+JP 凶器に使うギターの手入れだけは毎日
+JP 忘れない日課だとか。
+EN {start}A heel wrestler from a rock band.
+EN Daily, without fail, she tends the
+EN guitar she uses as a weapon.
+
+@ 0a498c words=50 table=0x4c427
+JP {start}女用心棒の経験のあるレスラー。
+JP そのファイトはまさに喧嘩そのもの。
+JP 男嫌いだという噂有り・・・。
+EN {start}A former hired bodyguard. Her
+EN fights are nothing but brawls.
+EN Rumor says she hates men...
+
+@ 0a49f2 words=45 table=0x4c429
+JP {start}ザ・USAと並ぶ典型的なアメリカン
+JP スタイルのレスラー。
+JP 好物はやはりハンバーガー??
+EN {start}Classic American style, just
+EN like The USA.
+EN Favorite food? Hamburgers??
+
+@ 0a4a4e words=52 table=0x4c42b
+JP {start}現IWWFの王者。彼女は天が与えた
+JP 逸材。とファンは口を揃えて言う。
+JP その風格はまさに女帝そのもの。
+EN {start}The reigning IWWF champion. Fans
+EN all call her a heaven-sent talent.
+EN Her bearing is truly an empress's.
+
+@ 0a4ab8 words=49 table=0x4c42d
+JP {start}現在世界最重のレスラー。顔に施した
+JP ペイントの下は日本人という説多し。
+JP はたして噂の真相は??
+EN {start}The world's heaviest wrestler.
+EN Many say she's Japanese under the
+EN face paint. Is the rumor true??
+
+@ 0a4b1c words=51 table=0x4c42f
+JP {start}小柄な体を十分にいかしたスピードの
+JP あるファイトをする姿から、ファン達
+JP は彼女をキラービーと呼ぶ。
+EN {start}For her speedy style that makes
+EN the most of her small frame, fans
+EN call her the Killer Bee.
+
+@ 0a4b84 words=54 table=0x4c431
+JP {start}アメリカを代表するパワー重視タイプ
+JP のファイトはファンを釘付けにする。
+JP スーパーカオスとはライバル関係。
+EN {start}America's top power fighter, she
+EN keeps fans glued to their seats.
+EN A rival of Super Chaos.
+
+@ 0a4bf2 words=49 table=0x4c433
+JP {start}師匠であるナスターシャハンも認める
+JP 次期エース候補。かなりの実力を秘め
+JP ているが、人気は・・・
+EN {start}Her mentor Nastassja Han calls her
+EN the next ace. Plenty of hidden
+EN talent, but her popularity...
+
+@ 0a4c56 words=52 table=0x4c435
+JP {start}かつてのJr最強選手。実力を認めら
+JP れIWWFにスカウトされる。
+JP 現在アルパナと好勝負を操り広げる。
+EN {start}Once the top junior wrestler,
+EN she was scouted by the IWWF. Now
+EN she has great bouts with Alpana.
+
+@ 0a4cc0 words=45 table=0x4c437
+JP {start}冷血的なファイトが得意。弱い者には
+JP 容赦なく攻撃する。
+JP 怒らせると血の雨が・・・・・・
+EN {start}A cold-blooded fighter who shows
+EN the weak no mercy. Make her mad,
+EN and blood will rain......
+
+@ 0a4d1c words=1 table=0x4c439
+JP 
+
+@ 0a4d20 words=8 table=0x4c43b
+JP アームホイップ
+EN Arm Drag
+
+@ 0a4d32 words=7 table=0x4c43d
+JP ボディスラム
+EN Body Slam
+
+@ 0a4d42 words=13 table=0x4c43f
+JP フロント・スープレックス
+EN Front Suplex
+
+@ 0a4d5e words=9 table=0x4c441
+JP ブレーンバスター
+EN Brainbuster
+
+@ 0a4d72 words=8 table=0x4c443
+JP バックドロップ
+EN Backdrop
+
+@ 0a4d84 words=4 table=0x4c445
+JP 裏投げ
+EN Throw
+
+@ 0a4d8e words=13 table=0x4c447
+JP ノーザンLスープレックス
+EN Northern Lights Suplex
+
+@ 0a4daa words=8 table=0x4c449
+JP キャプチュード
+EN Capture Suplex
+
+@ 0a4dbc words=13 table=0x4c44b
+JP ジャーマンスープレックス
+EN German Suplex
+
+@ 0a4dd8 words=10 table=0x4c44d
+JP J.O.サイクロン
+EN J.O. Cyclone
+
+@ 0a4dee words=10 table=0x4c44f
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 0a4e04 words=5 table=0x4c451
+JP ワキ固め
+EN Armbar
+
+@ 0a4e10 words=6 table=0x4c453
+JP 逆エビ固め
+EN Crab Hold
+
+@ 0a4e1e words=8 table=0x4c455
+JP コブラツイスト
+EN Cobra Twist
+
+@ 0a4e30 words=11 table=0x4c457
+JP チキンWアームロック
+EN Chickenwing Armlock
+
+@ 0a4e48 words=8 table=0x4c459
+JP アキレス腱固め
+EN Achilles Lock
+
+@ 0a4e5a words=9 table=0x4c45b
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 0a4e6e words=6 table=0x4c45d
+JP サソリ固め
+EN Scorpion
+
+@ 0a4e7c words=8 table=0x4c45f
+JP フェイスロック
+EN Face Lock
+
+@ 0a4e8e words=4 table=0x4c461
+JP STF
+
+@ 0a4e98 words=8 table=0x4c463
+JP エルボーバット
+EN Elbow Smash
+
+@ 0a4eaa words=3 table=0x4c465
+JP 掌底
+EN Palm
+
+@ 0a4eb2 words=6 table=0x4c467
+JP ラリアート
+EN Lariat
+
+@ 0a4ec0 words=4 table=0x4c469
+JP DDT
+
+@ 0a4eca words=12 table=0x4c46b
+JP コンビネーションキック
+EN Combination Kick
+
+@ 0a4ee4 words=9 table=0x4c46d
+JP パイルドライバー
+EN Piledriver
+
+@ 0a4ef8 words=11 table=0x4c46f
+JP S式バックブリーカー
+EN Backbreaker
+
+@ 0a4f10 words=10 table=0x4c471
+JP ノーザンライトボム
+EN N. Lights Bomb
+
+@ 0a4f26 words=7 table=0x4c473
+JP パワースラム
+EN Power Slam
+
+@ 0a4f36 words=6 table=0x4c475
+JP パワーボム
+EN Powerbomb
+
+@ 0a4f44 words=8 table=0x4c477
+JP ドロップキック
+EN Dropkick
+
+@ 0a4f56 words=10 table=0x4c479
+JP ローリングソバット
+EN Rolling Sobat
+
+@ 0a4f6c words=9 table=0x4c47b
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 0a4f80 words=12 table=0x4c47d
+JP ジャンピングニーパット
+EN Jumping Knee
+
+@ 0a4f9a words=11 table=0x4c47f
+JP Fショルダータックル
+EN Flying Shoulder
+
+@ 0a4fb2 words=5 table=0x4c481
+JP 延髄斬り
+EN Enzugiri
+
+@ 0a4fbe words=12 table=0x4c483
+JP フライングニールキック
+EN Flying Knee Kick
+
+@ 0a4fd8 words=8 table=0x4c485
+JP ミサイルキック
+EN Missile Kick
+
+@ 0a4fea words=12 table=0x4c487
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 0a5004 words=10 table=0x4c489
+JP ムーンサルトプレス
+EN Moonsault Press
+
+@ 0a501a words=7 table=0x4c48b
+JP プランチャー
+EN Plancha
+
+@ 0a502a words=7 table=0x4c48d
+JP 間合いをとる
+EN Back Off
+
+@ 0a503a words=3 table=0x4c48f
+JP 挑発
+EN Jeer
+
+@ 0a5042 words=5 table=0x4c491
+JP 凶器攻撃
+EN Weapon
+
+@ 0a504e words=10 table=0x4c493
+JP スモールPホールド
+EN Small Package
+
+@ 0a5064 words=7 table=0x4c495
+JP 逆さ抑え込み
+EN Inv. Cradle
+
+@ 0a5074 words=11 table=0x4c497
+JP ローリングCホールド
+EN Rolling Cradle
+
+@ 0a508c words=5 table=0x4c499
+JP イス攻撃
+EN Chair
+
+@ 0a5098 words=5 table=0x4c49b
+JP 鉄柱攻撃
+EN Ringpost
+
+@ 0a50a4 words=8 table=0x4c49d
+JP 気合いを入れる
+EN Psych Up
+
+@ 0a50b6 words=11 table=0x4c49f
+JP ダブルドロップキック
+EN Double Dropkick
+
+@ 0a50ce words=10 table=0x4c4a1
+JP 合体ブレンバスター
+EN Double Brainbuster
+
+@ 0a50e4 words=11 table=0x4c4a3
+JP 合体パイルドライバー
+EN Double Piledriver
+
+@ 0a50fc words=8 table=0x4c4a5
+JP 合体パワーボム
+EN Dbl. Powerbomb
+
+@ 0a510e words=9 table=0x4c4a7
+JP ダブルインパクト
+EN Double Impact
+
+@ 0a5122 words=7 table=0x4c4a9
+JP ボディプレス
+EN Body Press
+
+@ 0a5132 words=13 table=0x4c4ab
+JP リバース・スープレックス
+EN Reverse Suplex
+
+@ 0a514e words=3 table=0x4c4ad
+JP 自爆
+EN Miss
+
+@ 0a5156 words=8 table=0x4c4af
+JP ブレンバスター
+EN Brainbuster
+
+@ 0a5168 words=6 table=0x4c4b1
+JP ラリアート
+EN Lariat
+
+@ 0a5176 words=11 table=0x4c4b3
+JP ローリングCホールド
+EN Rolling Cradle
+
+@ 0a518e words=6 table=0x4c4b5
+JP パワーボム
+EN Powerbomb
+
+@ 0a519c words=5 table=0x4c4b7
+JP 凶器攻撃
+EN Weapon
+
+@ 0a51a8 words=3 table=0x4c4b9
+JP 回復
+EN Heal
+
+@ 0a51b0 words=5 table=0x4c4bb
+JP ワキ固め
+EN Armbar
+
+@ 0a51bc words=8 table=0x4c4bd
+JP ウラカン・ラナ
+EN Huracanrana
+
+@ 0a51ce words=5 table=0x4c4bf
+JP フォール
+EN Pin
+
+@ 0a51da words=5 table=0x4c4c1
+JP 自爆回避
+EN Dodge
+
+@ 0a51e6 words=6 table=0x4c4c3
+JP 勝ちポーズ
+EN Win Pose
+
+@ 0a51f4 words=247 table=0x4c4c5
+JP {start}{box}男　「初めまして、社長さん。あんた
+JP 　　　の団体の噂は聞いとるよ。」{wait}
+JP {box}社長「はぁ、そうですか。で、どうい
+JP 　　　ったご用件ですか?」{wait}
+JP {box}男　「実は{name}地方の祭りの資金
+JP 　　　操りが今年は厳しくてな。{wait}
+JP {box}　　　そこでじゃ社長さん{9C10}百万円
+JP 　　　寄付して貰えんかの?」{wait}
+JP {box}社長「寄付ですか?」{wait}
+JP {box}男　「もし寄付してくれるのなら、
+JP 　　　それなりの見返りを保証する
+JP 　　　じゃ。」{wait}
+JP {box}社長「そう言われましても・・・。」{wait}
+JP {box}男　「お願いじゃ。」{wait}
+JP {box}　おかね{9C10}百万円を寄付しますか?
+EN {start}{box}Man: Pleased to meet you, Boss.
+EN I've heard about your promotion.{wait}
+EN {box}President: Ah, is that so. What
+EN can I do for you?{wait}
+EN {box}Man: You see, {name}'s
+EN festival is broke this year.{wait}
+EN {box}So, Boss, how about donating
+EN {9C10}M AP to us?{wait}
+EN {box}President: A donation?{wait}
+EN {box}Man: If you do, I guarantee
+EN you'll be rewarded for it.{wait}
+EN {box}President: Even if you say so...{wait}
+EN {box}Man: Please, I beg you.{wait}
+EN {box}Donate {9C10}M AP?
+
+@ 0a53e4 words=90 table=0x4c4c7
+JP {box}{start}社長「わかりました。
+JP 　　　寄付させて頂きましょう。」{wait}
+JP {box}男　「寄付して下さるか?ありがとう
+JP 　　　この恩は忘れぬ。」{wait}
+JP {box}{name1}団体の{name}地方での
+JP 動員係数が{9C20}上がりました。{wait}
+EN {box}{start}President: Very well.
+EN I'll make a donation.{wait}
+EN {box}Man: You will? Thank you! I won't
+EN forget this kindness.{wait}
+EN {box}{name1}'s draw rating
+EN in the {name} region
+EN went up by {9C20}.{wait}
+
+@ 0a549a words=93 table=0x4c4c9
+JP {box}{start}社長「わかりました。
+JP 　　　寄付させて頂きましょう。」{wait}
+JP {box}男　「寄付して下さるか?ありがとう
+JP 　　　この恩は一生・・一生・・。」{wait}
+JP {box}男は詐欺師だった。
+JP お金も返って来なかった{wait}
+EN {box}{start}President: All right. I'll
+EN donate the money.{wait}
+EN {box}Man: You will? Thank you! I'll
+EN never forget this... ever...{wait}
+EN {box}The man was a con artist.
+EN The money never came back.{wait}
+
+@ 0a5556 words=156 table=0x4c4cb
+JP {box}{start}社長「私の団体も正直なところ苦しく
+JP 　　　てね。残念ですがこの話はなか
+JP 　　　ったことにして下さい。」{wait}
+JP {box}男　「そこを何とか頼みますじゃ。」{wait}
+JP {box}社長「今日はお引き取りください。
+JP 　　　私はこれで失礼します。」{wait}
+JP {box}男は詐欺師だった。お金を渡さなくて
+JP 良かった。{wait}
+JP {box}男　「ちっ、騙しそこねちまった。」{wait}
+EN {box}{start}President: Honestly, my own
+EN company is struggling too. Sorry,
+EN but I must say no.{wait}
+EN {box}Man: Please, I'm begging you!{wait}
+EN {box}President: Please leave now.
+EN Good day to you.{wait}
+EN {box}The man was a con artist. Glad
+EN you didn't hand over the money.{wait}
+EN {box}Man: Tch, my scam fell through.{wait}
+
+@ 0a5690 words=152 table=0x4c4cd
+JP {box}{start}社長「私の団体も正直なところ苦しく
+JP 　　　てね。残念ですがこの話はなか
+JP 　　　ったことにして下さい。」{wait}
+JP {box}男　「そこを何とか頼みますじゃ。」{wait}
+JP {box}社長「今日はお引き取りください。
+JP 　　　私はこれで失礼します。」{wait}
+JP {box}男　「社長さんには失望じゃ。」{wait}
+JP {box}{name1}団体の{name}での
+JP 動員係数が{9C20}下がりました。{wait}
+EN {box}{start}President: Honestly, my
+EN promotion is struggling too. I'm
+EN sorry, but I'll have to pass.{wait}
+EN {box}Man: Please, I'm begging you!{wait}
+EN {box}President: I'll ask you to leave.
+EN I'll be going now.{wait}
+EN {box}Man: You've let me down, Boss.{wait}
+EN {box}{name1}'s draw rating
+EN in {name}
+EN went down by {9C20}.{wait}
+
+@ 0a57c2 words=141 table=0x4c4cf
+JP {start}{box}アナ「新日本女子プロレス主催
+JP 　　　年末の祭典Exタッグリーグ
+JP 　　　が開幕しました。{wait}
+JP {box}　　　この一大イベントの制覇を目
+JP 　　　指し、今年度も各団体の強豪
+JP 　　　7チームが此処に集結!{wait}
+JP {box}　　　各団体の名誉を賭け今!!
+JP 　　　熱い戦いの火蓋が切って落と
+JP 　　　された!{wait}
+EN {start}{box}Announcer: Shin Nihon Joshi's
+EN year-end festival, the Ex Tag
+EN League, is now underway!{wait}
+EN {box}Seven top teams from all the
+EN promotions gather here once more
+EN to conquer this great event!{wait}
+EN {box}With their promotions' honor
+EN at stake, the fierce battles
+EN begin now!!{wait}
+
+@ 0a58de words=35 table=0x4c4e1
+JP 新王者にベルト防衛の意志が無い為
+JP ベルトは返上されました。　　　　{wait}
+EN The new champ won't defend it,
+EN so the belt has been vacated.   {wait}
+
+@ 0a5926 words=13 table=0x4c4e3
+JP {box}{name}預かりとなります。{wait}
+EN {box}{name} holds the belt.{wait}
+
+@ 0a5942 words=193 table=0x4c4e5
+JP {start}{box}祐希子「1番かぁ、いいんじゃない。
+JP 　　　　私達に相応しい響きだわ。」{wait}
+JP {box}来島　「そうだな。
+JP 　　　　いいんじゃないか。　」{wait}
+JP {box}祐希子「もう少し、本気出して暴れた
+JP 　　　　かったな。」{wait}
+JP {box}来島　「そうね。でも本気だしたら、
+JP 　　　　今頃はみんな病院のベッドの
+JP 　　　　上じゃない?」{wait}
+JP {box}祐希子「私達だけで弱いものイジメし
+JP 　　　　たみたいねぇ。」{wait}
+JP {box}来島　「ふふっ。」{wait}
+EN {start}{box}Yukiko: Number 1, huh? Not bad.
+EN It suits us just fine.{wait}
+EN {box}Kishima: Yeah. Not bad at all.{wait}
+EN {box}Yukiko: Wish I'd cut loose for
+EN real, though.{wait}
+EN {box}Kishima: True. But if we had,
+EN they'd all be lying in hospital
+EN beds by now, right?{wait}
+EN {box}Yukiko: Feels like we just picked
+EN on the weak ones, huh?{wait}
+EN {box}Kishima: Heh heh.{wait}
+
+@ 0a5ac6 words=166 table=0x4c4e7
+JP {start}{box}市ヶ谷「オーッホッホッホ!
+JP 　　　　当然ですわ。私達の美貌を
+JP 　　　　持ってすれば!!{wait}
+JP {box}　　　　ねぇ、ひかるさん?」{wait}
+JP {box}伊集院「そうですわね。やはり美しい
+JP 　　　　ものは全てにおいて、」{wait}
+JP {box}二人　「トップになる!!という事
+JP 　　　　ですわね!!!!!{wait}
+JP {box}　　　　オーッホッホッホ!!
+JP 　　　　オーッホッホッホ!!」{wait}
+EN {start}{box}Ichigaya: Ohhh ho ho ho!
+EN Naturally! With beauty like
+EN ours, how could we not!!{wait}
+EN {box}Don't you agree, Hikaru?{wait}
+EN {box}Ijuin: Indeed. Beautiful things
+EN always end up, in everything...{wait}
+EN {box}Both: ...on top!! That's how
+EN it is!!!!!{wait}
+EN {box}Ohhh ho ho ho ho!!
+EN Ohhh ho ho ho ho!!{wait}
+
+@ 0a5c14 words=223 table=0x4c4e9
+JP {start}{box}永原「やったわ。1番よ!!」{wait}
+JP {box}富沢「あたりまえじゃない!
+JP 　　　こんなに可愛い私達がいる団体
+JP 　　　ですもの。ほっーほっほ。」{wait}
+JP {box}金井「レイちゃん、その笑いかたぁ。
+JP 　　　市ヶ谷のオバさんみたぁい。」{wait}
+JP {box}永原「そう言えば・・・。」{wait}
+JP {box}富沢「えっ、うそ!私、そんな笑い方
+JP 　　　してたの?信じらんなぁい。」{wait}
+JP {box}金井「でもぉ、私達がぁ一番になれた
+JP 　　　からいいんじゃない?」{wait}
+JP {box}富沢「それもそうね。」{wait}
+JP {box}三人「万歳ーぃ!!」{wait}
+EN {start}{box}Nagahara: We did it. Number 1!!{wait}
+EN {box}Rei: Well, of course! With
+EN cuties like us in the promotion?
+EN Ohhh-ho ho ho.{wait}
+EN {box}Cutie: Rei, that laugh! You sound
+EN just like old lady Ichigaya.{wait}
+EN {box}Nagahara: Come to think of it...{wait}
+EN {box}Rei: What? No way! I was
+EN laughing like that? Unbelievable!{wait}
+EN {box}Cutie: But, like, we got to be
+EN number one, so who cares?{wait}
+EN {box}Rei: Good point.{wait}
+EN {box}All three: Hooray!!{wait}
+
+@ 0a5dd4 words=267 table=0x4c4eb
+JP {start}{box}藤島「ウチの団体が1位になれたのは
+JP 　　　金井ちゃんのおかげよ。{wait}
+JP {box}　　　(あなたなんか私に比べれば、
+JP 　　　　まだまだ、がきよ。)　」{wait}
+JP {box}金井「そんなことないですぅ。
+JP 　　　藤島先輩のおかげですぅ。{wait}
+JP {box}　　　(私に比べればぁ先輩はただの
+JP 　　　　おばさんですぅ。)」{wait}
+JP {box}藤島「これからも頑張りましょうね。{wait}
+JP {box}　　　(気安く先輩呼ばわりしないで
+JP 　　　　欲しいわ。あなたなんか尻の
+JP 　　　　青い子供じゃないの。)」{wait}
+JP {box}金井「はいですぅ。(おばさんに負け
+JP 　　　てられないですぅ。)」{wait}
+JP {box}二人「うふ、うふふふふ。」{wait}
+EN {start}{box}Hitomi: We made 1st place all
+EN thanks to you, Kanai.{wait}
+EN {box}(Next to me, you're still just
+EN a brat.){wait}
+EN {box}Cutie: Oh no, it's all thanks to
+EN you, Fujishima senpai!{wait}
+EN {box}(Next to me, senpai's just an
+EN old lady.){wait}
+EN {box}Hitomi: Let's keep it up!{wait}
+EN {box}(Don't you call me senpai so
+EN casually. You're just a wet-
+EN behind-the-ears kid.){wait}
+EN {box}Cutie: Yes, ma'am! (Can't lose to
+EN an old lady!){wait}
+EN {box}Both: Hee hee, hee hee hee.{wait}
+
+@ 0a5fec words=156 table=0x4c4ed
+JP {start}{box}祐希子「1番かぁ。我ながら自分の、
+JP 　　　　実力には驚かされるな。」{wait}
+JP {box}市ヶ谷「あーら、1番に成れたのは、
+JP 　　　　私の美貌と実力のおかげです
+JP 　　　　わ、祐希子さん。」{wait}
+JP {box}祐希子「何言ってんのよ!あんたは」{wait}
+JP {box}市ヶ谷「私は、当然の事を言っただけ
+JP 　　　　ですわ。」{wait}
+JP {box}二人「ふんっ!!!!!!」{wait}
+EN {start}{box}Yukiko: Number 1, huh? Even I'm
+EN amazed by my own strength.{wait}
+EN {box}Ichigaya: Oh my. We're #1 thanks
+EN to my beauty and skill, my dear
+EN Yukiko.{wait}
+EN {box}Yukiko: Excuse me?! Says who?!{wait}
+EN {box}Ichigaya: I merely stated the
+EN obvious.{wait}
+EN {box}Both: Hmph!!!!!!{wait}
+
+@ 0a6126 words=158 table=0x4c4ef
+JP {start}{box}ミミ　「1番かぁ。いい響きね。」{wait}
+JP {box}斉藤「・・・そうだな。」{wait}
+JP {box}ミミ「本当はあなたとの決着を着けた
+JP 　　　かったけど、しばらくはお預け
+JP 　　　ね。」{wait}
+JP {box}斉藤「・・・ああ。」{wait}
+JP {box}ミミ　「こんな時も無口なのね?」{wait}
+JP {box}斉藤「・・・・。」{wait}
+JP {box}ミミ　「嬉しいとか言えないの?」{wait}
+JP {box}斉藤「・・・うれしい。」{wait}
+EN {start}{box}Mimi: Number 1, huh. Sounds nice.{wait}
+EN {box}Akiko: ...Yeah.{wait}
+EN {box}Mimi: I really wanted to settle
+EN things with you, but that'll
+EN have to wait a while.{wait}
+EN {box}Akiko: ...Right.{wait}
+EN {box}Mimi: Quiet even now, huh?{wait}
+EN {box}Akiko: ....{wait}
+EN {box}Mimi: Can't you say you're happy?{wait}
+EN {box}Akiko: ...I'm happy.{wait}
+
+@ 0a6264 words=113 table=0x4c4f1
+JP {start}{box}紅　「見ろよ!1位だって。ウチ等の
+JP 　　　団体ってすごかったんだ。
+JP 　　　あははは。」{wait}
+JP {box}遠藤「なんていっても、他の団体とは
+JP 　　　気合が違うからな。」{wait}
+JP {box}紅　「そういや、そうだな。」{wait}
+JP {box}二人「あっはっははは。」{wait}
+EN {start}{box}Kyoko: Look! 1st place! Our
+EN promotion's awesome after all!
+EN Ahahaha.{wait}
+EN {box}Saeko: Well, we've got more guts
+EN than any other promotion.{wait}
+EN {box}Kyoko: Yeah, that's true.{wait}
+EN {box}Both: Ahahahaha.{wait}
+
+@ 0a6348 words=127 table=0x4c4f3
+JP {start}{box}菊地「1番かぁ。夢みたい。」{wait}
+JP {box}小川「そうね。でも私はあなたと同じ
+JP 　　　団体にいることの方が、夢みた
+JP 　　　いよ。」{wait}
+JP {box}菊地「そうよね。今度私達が闘う時が
+JP 　　　あれば負けないわよ。」{wait}
+JP {box}小川「わたしも負けないわ。」{wait}
+JP {box}二人「ふふっ。」{wait}
+EN {start}{box}Riyu: Number 1. Like a dream.{wait}
+EN {box}Hikaru: Yes. But being in the same
+EN promotion as you is more like a
+EN dream to me.{wait}
+EN {box}Riyu: Right. Next time we face
+EN each other, I won't lose!{wait}
+EN {box}Hikaru: I won't lose either.{wait}
+EN {box}Both: Heh heh.{wait}
+
+@ 0a6448 words=46 table=0x4c4f5
+JP {start}{box}「日本のちっぽけな弱小団体如きに
+JP 　チャンピオンの私自身が出向く事
+JP 　もないわね。」{wait}
+EN {start}{box}"Why would I, the champion,
+EN bother with some puny little
+EN Japanese promotion?"{wait}
+
+@ 0a64a6 words=39 table=0x4c4f7
+JP {start}{box}「この団体で最強の私を呼びたければ
+JP 　もっと大きな団体になることだ。」{wait}
+EN {start}{box}"If you want me, the best here,
+EN make your promotion bigger first."{wait}
+
+@ 0a64f6 words=47 table=0x4c4f9
+JP {start}{box}「実績を作ってもう少し大きな団体に
+JP 　なったら、私自らが闘ってあげても
+JP 　いいわよ。」{wait}
+EN {start}{box}"Build a record and grow a bit,
+EN and maybe I'll fight you myself."{wait}
+
+@ 0a6556 words=51 table=0x4c4fb
+JP {start}{box}「あなたの団体、思ったより小さいの
+JP 　ね。私を呼びたかったらもっとメジ
+JP 　ャーになることね。」{wait}
+EN {start}{box}"Your promotion's smaller than I
+EN thought. If you want me, make it
+EN big-time first."{wait}
+
+@ 0a65be words=57 table=0x4c4fd
+JP {start}{box}「私自身の来日は、もっと大きな団体
+JP 　になった時に考えてあげようじゃな
+JP 　い。まあせいぜい頑張ることね。」{wait}
+EN {start}{box}"I'll think about coming to Japan
+EN once you're a bigger promotion.
+EN Well, try your best, won't you."{wait}
+
+@ 0a6632 words=51 table=0x4c4ff
+JP {start}{box}「最近歯ごたえの無い奴ばかりで暇し
+JP 　てたところだから丁度いい。
+JP 　少しは私を満足させてね。」{wait}
+EN {start}{box}"Everyone's been so soft lately,
+EN I'm bored. This is perfect. Try
+EN to give me a little fun."{wait}
+
+@ 0a669a words=45 table=0x4c501
+JP {start}{box}「私を呼ぶんなら覚悟することだ。
+JP 　入院患者が2、3人出るのは確実だ
+JP 　からな。」{wait}
+EN {start}{box}"Call me and be ready. Two or
+EN three will land in the hospital."{wait}
+
+@ 0a66f6 words=44 table=0x4c503
+JP {start}{box}「プロレスで最も恐いのは関節技だっ
+JP 　て事を、私がきっちり教えてあげる
+JP 　わ。」{wait}
+EN {start}{box}"I'll teach you that joint locks
+EN are the scariest thing in
+EN wrestling."{wait}
+
+@ 0a6750 words=56 table=0x4c505
+JP {start}{box}「私の人気があれば、あなたの団体も
+JP 　安泰ってところね。まあ、近々私の
+JP 　華麗な空中殺法を披露するわ。」{wait}
+EN {start}{box}"With my popularity, your company
+EN is set. Soon I'll show off my
+EN dazzling high-flying moves."{wait}
+
+@ 0a67c2 words=49 table=0x4c507
+JP {start}{box}「わたしと戦おうなんていい度胸して
+JP 　るわ。私の強さ、その体でしっかり
+JP 　味わいなさい。」{wait}
+EN {start}{box}"You've got nerve wanting to fight
+EN me. Now feel my strength with
+EN your own body."{wait}
+
+@ 0a682c words=1 inplace
+JP 
+
+@ 0a6830 words=4 table=0x4c509
+JP ゴング
+EN Gong
+
+@ 0a683a words=4 table=0x4c50b
+JP マット
+EN Mat
+
+@ 0a6844 words=4 table=0x4c50d
+JP ワン　
+EN One
+
+@ 0a684e words=4 table=0x4c50f
+JP ツー　
+EN Two
+
+@ 0a6858 words=4 table=0x4c511
+JP スリー
+EN Three
+
+@ 0a6862 words=4 table=0x4c513
+JP ヲー!
+EN Ooh!
+
+@ 0a686c words=4 table=0x4c515
+JP 足踏み
+EN Stomp
+
+@ 0a6876 words=4 table=0x4c517
+JP ワー!
+EN Wah!
+
+@ 0a6880 words=4 table=0x4c519
+JP IN　
+
+@ 0a688a words=4 table=0x4c51b
+JP OUT
+
+@ 0a6894 words=4 table=0x4c51d
+JP パンチ
+EN Punch
+
+@ 0a689e words=4 table=0x4c51f
+JP タイプ
+EN Type
+
+@ 0a68a8 words=4 table=0x4c521
+JP 波の音
+EN Waves
+
+@ 0a68b2 words=4 table=0x4c523
+JP 飛行音
+EN Plane
+
+@ 0a68bc words=4 table=0x4c525
+JP イン1
+EN In 1
+
+@ 0a68c6 words=4 table=0x4c527
+JP イン2
+EN In 2
+
+@ 0a68d0 words=4 table=0x4c529
+JP イン3
+EN In 3

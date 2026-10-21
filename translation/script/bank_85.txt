@@ -1,0 +1,41 @@
+# Bank $85 (file 0x28000): 10 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 029729 words=3 table=0x29461,0x29469
+JP タッチ\
+EN Tag   \
+
+@ 029731 words=4 table=0x29463
+JP フォール\
+EN Pin     \
+
+@ 02973b words=4 table=0x2946b
+JP リターン\
+EN Return  \
+
+@ 029745 words=5 table=0x29465,0x2946d
+JP 選手データ\
+EN Stats     \
+
+@ 029751 words=4 table=0x29483
+JP 絶対表示\
+EN Absolute\
+
+@ 02975b words=4 table=0x29485
+JP 相対表示\
+EN Relative\
+
+@ 029765 words=3 table=0x29481
+JP 　ON\
+
+@ 02976d words=3 table=0x2947f
+JP OFF\
+
+@ 029775 words=6 inplace
+JP ロープによる\
+EN Rope Break\
+
+@ 029783 words=6 inplace
+JP 自力ではずす\
+EN Break Free\

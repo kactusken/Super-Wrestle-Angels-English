@@ -1,0 +1,87 @@
+# Bank $84 (file 0x20000): 21 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 027d58 words=6 table=0x27d2e
+JP 北斗原爆固め\
+EN Hokuto-plex\
+
+@ 027d66 words=4 table=0x27d30
+JP 原爆固め\
+EN G.Suplex\
+
+@ 027d70 words=7 table=0x27d32
+JP JOサイクロン\
+EN JO Cyclone\
+
+@ 027d80 words=3 table=0x27d34
+JP 裸絞め\
+EN Choke\
+
+@ 027d88 words=3 table=0x27d36
+JP 脇固め\
+EN Armbar\
+
+@ 027d90 words=5 table=0x27d38
+JP 逆エビ固め\
+EN Crab Hold\
+
+@ 027d9c words=7 table=0x27d3a
+JP コブラツイスト\
+EN Cobra Twist\
+
+@ 027dac words=8 table=0x27d3c
+JP 羽根折り式腕固め\
+EN Chickenwing Lock\
+
+@ 027dbe words=7 table=0x27d3e
+JP アキレス腱固め\
+EN Achilles Lock\
+
+@ 027dce words=8 table=0x27d40
+JP ストレッチプラム\
+EN Stretch Plum\
+
+@ 027de0 words=5 table=0x27d42
+JP サソリ固め\
+EN Scorpion\
+
+@ 027dec words=7 table=0x27d44
+JP フェイスロック\
+EN Face Lock\
+
+@ 027dfc words=5 table=0x27d46
+JP S・T・F\
+EN S.T.F.\
+
+@ 027e08 words=6 table=0x27d48
+JP パワースラム\
+EN Power Slam\
+
+@ 027e16 words=3 table=0x27d4a
+JP 首固め\
+EN Cradle\
+
+@ 027e1e words=6 table=0x27d4c
+JP 逆さ抑え込み\
+EN Inv. Cradle\
+
+@ 027e2c words=6 table=0x27d4e
+JP 回転エビ固め\
+EN Sunset Flip\
+
+@ 027e3a words=7 table=0x27d50
+JP ウラカン・ラナ\
+EN Huracanrana\
+
+@ 027e4a words=3 table=0x27d52
+JP 体固め\
+EN Cover\
+
+@ 027e52 words=4 table=0x27d54
+JP エビ固め\
+EN Roll-Up\
+
+@ 027e5c words=5 table=0x27d56
+JP 片エビ固め\
+EN Leg Hook\

@@ -1,0 +1,117 @@
+# Bank $83 (file 0x18000): 29 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 01e3df words=11 inplace
+JP $0123456789\
+
+@ 01e3f7 words=3 inplace
+JP ロード\
+EN Load\
+
+@ 01e3ff words=9 inplace
+JP 　　初期データ　　\
+EN    Initial Data   \
+
+@ 01f0ee words=224 inplace
+JP 不明　　北海道　青森県　岩手県　宮城県　秋田県　山形県　福島県　茨城県　栃木県　群馬県　埼玉県　千葉県　東京都　神奈川県新潟県　富山県　石川県　福井県　山梨県　長野県　岐阜県　静岡県　愛知県　三重県　滋賀県　京都府　大阪府　兵庫県　奈良県　和歌山県鳥取県　島根県　岡山県　広島県　山口県　徳島県　香川県　愛媛県　高知県　福岡県　佐賀県　長崎県　熊本県　大分県　宮崎県　鹿児島県沖縄県　　　　　　　　　　　　　アメリカメキシコロシア　ドイツ　カナダ　\
+EN Unknown HokkaidoAomori  Iwate   Miyagi  Akita   YamagataFukusimaIbaraki Tochigi Gunma   Saitama Chiba   Tokyo   KanagawaNiigata Toyama  IshikawaFukui   YamanasiNagano  Gifu    ShizuokaAichi   Mie     Shiga   Kyoto   Osaka   Hyogo   Nara    WakayamaTottori Shimane Okayama HirosimaYamaguchTokusimaKagawa  Ehime   Kochi   Fukuoka Saga    NagasakiKumamotoOita    MiyazakiKagosimaOkinawa                         USA     Mexico  Russia  Germany Canada  \
+
+@ 01f2b0 words=4 inplace
+JP 健康　　\
+EN Healthy \
+
+@ 01f2ba words=4 inplace
+JP 負傷　　\
+EN Injured \
+
+@ 01f2c4 words=4 inplace
+JP 入院　　\
+EN Hospital\
+
+@ 01f2ce words=4 inplace
+JP 海外遠征\
+EN Overseas\
+
+@ 01f2d8 words=4 inplace
+JP マスク　\
+EN Masked  \
+
+@ 01f2e2 words=6 inplace
+JP 本日のカード\
+EN Today's Card\
+
+@ 01f2f0 words=6 inplace
+JP 　リーグ戦　\
+EN    League   \
+
+@ 01f2fe words=6 inplace
+JP トーナメント\
+EN Tournament  \
+
+@ 01f30c words=9 inplace
+JP ・・・試合中・・・\
+EN ...In Progress... \
+
+@ 01f320 words=3 inplace
+JP 　○×\
+
+@ 01f328 words=6 inplace
+JP トーナメント\
+EN Tournament  \
+
+@ 01f336 words=4 inplace
+JP リーグ戦\
+EN League  \
+
+@ 01f340 words=7 inplace
+JP 優勝チームなし\
+EN No Winner     \
+
+@ 01f350 words=12 inplace
+JP 回目の防衛に成功しました\
+EN  successful defense(s)\
+
+@ 01f36a words=13 inplace
+JP ベルトの奪取に成功しました\
+EN Captured the belt!\
+
+@ 01f386 words=20 inplace
+JP 同点チームが2組あるので決勝戦を行います\
+EN Two teams tied - holding a playoff.\
+
+@ 01f3b0 words=11 table=0x1a609
+JP IWWFヘビー級ベルト\
+EN IWWF Heavyweight Belt\
+
+@ 01f3c8 words=11 table=0x1a60b
+JP WWCAヘビー級ベルト\
+EN WWCA Heavyweight Belt\
+
+@ 01f3e0 words=10 table=0x1a60d
+JP EWAヘビー級ベルト\
+EN EWA Heavyweight Belt\
+
+@ 01f3f6 words=10 table=0x1a60f
+JP GWAヘビー級ベルト\
+EN GWA Heavyweight Belt\
+
+@ 01f40c words=10 table=0x1a611
+JP AACヘビー級ベルト\
+EN AAC Heavyweight Belt\
+
+@ 01f422 words=10 table=0x1a613
+JP アジアヘビー級ベルト\
+EN Asian Heavyweight\
+
+@ 01f438 words=10 table=0x1a615
+JP IWWFタッグベルト\
+EN IWWF Tag Team Belt\
+
+@ 01f44e words=10 table=0x1a617
+JP WWCAタッグベルト\
+EN WWCA Tag Team Belt\
+
+@ 01f464 words=9 table=0x1a619
+JP GWAタッグベルト\
+EN GWA Tag Team Belt\

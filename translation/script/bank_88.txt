@@ -1,0 +1,419 @@
+# Bank $88 (file 0x40000): 106 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 040018 words=1 inplace
+JP 
+
+@ 04001c words=8 inplace
+JP アームホイップ
+EN Arm Drag
+
+@ 04002e words=7 inplace
+JP ボディスラム
+EN Body Slam
+
+@ 04003e words=13 inplace
+JP フロント・スープレックス
+EN Front Suplex
+
+@ 04005a words=9 inplace
+JP ブレーンバスター
+EN Brainbuster
+
+@ 04006e words=8 inplace
+JP バックドロップ
+EN Backdrop
+
+@ 040080 words=4 table=0xf780c,0x148d42,0x148d44,0x148d46,0x14bb54,0x14bb56,0x14bb58,0x14c9fc,0x14c9fe,0x14ca00,0x14ca02,0x14ca04,0x14ca06,0x14ca08,0x14ca0a,0x14ca0c,0x14dc0c,0x14dc0e,0x14dc10,0x14fafa,0x14fafc,0x14fafe,0x14fb00,0x14fb02,0x14fb04,0x14fb06,0x14fb08,0x14fb0a,0x14fb0c,0x14fb0e,0x150d64,0x150d66,0x150d68,0x150d6a,0x150d6c,0x1510b0,0x1510b2,0x1510b4,0x1510b6,0x15b844,0x15b846,0x15b848,0x15ba9a,0x15ba9c,0x15ba9e,0x148d43,0x148d45,0x148d47,0x148fbf,0x148fc1,0x148fc3,0x14b9a7,0x14b9a9,0x14b9ab,0x14bb55,0x14bb57,0x14bb59,0x14c9fd,0x14c9ff,0x14ca01,0x14ca03,0x14ca05,0x14ca07,0x14ca09,0x14ca0b,0x14dc0b,0x14dc0d,0x14dc0f,0x14fafb,0x14fafd,0x14faff,0x14fb01,0x14fb03,0x14fb05,0x14fb07,0x14fb09,0x14fb0b,0x14fb0d,0x150d65,0x150d67,0x150d69,0x150d6b,0x1510af,0x1510b1,0x1510b3,0x1510b5,0x158897,0x158899,0x15889b,0x15b843,0x15b845,0x15b847
+JP 裏投げ
+EN Throw
+
+@ 04008a words=13 table=0xf780e,0xf7810
+JP ノーザンLスープレックス
+EN Northern Lights Suplex
+
+@ 0400a6 words=8 inplace
+JP キャプチュード
+EN Capture Suplex
+
+@ 0400b8 words=13 inplace
+JP ジャーマンスープレックス
+EN German Suplex
+
+@ 0400d4 words=10 inplace
+JP J.O.サイクロン
+EN J.O. Cyclone
+
+@ 0400ea words=10 inplace
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 040100 words=5 inplace
+JP ワキ固め
+EN Armbar
+
+@ 04010c words=6 inplace
+JP 逆エビ固め
+EN Crab Hold
+
+@ 04011a words=8 inplace
+JP コブラツイスト
+EN Cobra Twist
+
+@ 04012c words=11 inplace
+JP チキンWアームロック
+EN Chickenwing Armlock
+
+@ 040144 words=8 inplace
+JP アキレス腱固め
+EN Achilles Lock
+
+@ 040156 words=9 inplace
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 04016a words=6 inplace
+JP サソリ固め
+EN Scorpion
+
+@ 040178 words=8 inplace
+JP フェイスロック
+EN Face Lock
+
+@ 04018a words=4 inplace
+JP STF
+
+@ 040194 words=8 inplace
+JP エルボーバット
+EN Elbow Smash
+
+@ 0401a6 words=3 inplace
+JP 掌底
+EN Palm
+
+@ 0401ae words=6 inplace
+JP ラリアート
+EN Lariat
+
+@ 0401bc words=4 inplace
+JP DDT
+
+@ 0401c6 words=12 inplace
+JP コンビネーションキック
+EN Combination Kick
+
+@ 0401e0 words=9 inplace
+JP パイルドライバー
+EN Piledriver
+
+@ 0401f4 words=11 inplace
+JP S式バックブリーカー
+EN Backbreaker
+
+@ 04020c words=10 inplace
+JP ノーザンライトボム
+EN N. Lights Bomb
+
+@ 040222 words=7 inplace
+JP パワースラム
+EN Power Slam
+
+@ 040232 words=6 inplace
+JP パワーボム
+EN Powerbomb
+
+@ 040240 words=8 inplace
+JP ドロップキック
+EN Dropkick
+
+@ 040252 words=10 inplace
+JP ローリングソバット
+EN Rolling Sobat
+
+@ 040268 words=9 inplace
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 04027c words=12 inplace
+JP ジャンピングニーパット
+EN Jumping Knee
+
+@ 040296 words=11 inplace
+JP Fショルダータックル
+EN Flying Shoulder
+
+@ 0402ae words=5 inplace
+JP 延髄斬り
+EN Enzugiri
+
+@ 0402ba words=12 inplace
+JP フライングニールキック
+EN Flying Knee Kick
+
+@ 0402d4 words=8 inplace
+JP ミサイルキック
+EN Missile Kick
+
+@ 0402e6 words=12 inplace
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 040300 words=10 inplace
+JP ムーンサルトプレス
+EN Moonsault Press
+
+@ 040316 words=7 inplace
+JP プランチャー
+EN Plancha
+
+@ 040326 words=7 inplace
+JP 間合いをとる
+EN Back Off
+
+@ 040336 words=3 inplace
+JP 挑発
+EN Jeer
+
+@ 04033e words=5 inplace
+JP 凶器攻撃
+EN Weapon
+
+@ 04034a words=10 inplace
+JP スモールPホールド
+EN Small Package
+
+@ 040360 words=7 inplace
+JP 逆さ抑え込み
+EN Inv. Cradle
+
+@ 040370 words=11 inplace
+JP ローリングCホールド
+EN Rolling Cradle
+
+@ 040388 words=5 inplace
+JP イス攻撃
+EN Chair
+
+@ 040394 words=5 inplace
+JP 鉄柱攻撃
+EN Ringpost
+
+@ 0403a0 words=8 inplace
+JP 気合いを入れる
+EN Psych Up
+
+@ 0403b2 words=11 inplace
+JP ダブルドロップキック
+EN Double Dropkick
+
+@ 0403ca words=10 inplace
+JP 合体ブレンバスター
+EN Double Brainbuster
+
+@ 0403e0 words=11 inplace
+JP 合体パイルドライバー
+EN Double Piledriver
+
+@ 0403f8 words=8 inplace
+JP 合体パワーボム
+EN Dbl. Powerbomb
+
+@ 04040a words=9 inplace
+JP ダブルインパクト
+EN Double Impact
+
+@ 04041e words=7 inplace
+JP ボディプレス
+EN Body Press
+
+@ 04042e words=13 inplace
+JP リバース・スープレックス
+EN Reverse Suplex
+
+@ 04044a words=3 inplace
+JP 自爆
+EN Miss
+
+@ 040452 words=8 inplace
+JP ブレンバスター
+EN Brainbuster
+
+@ 040464 words=6 inplace
+JP ラリアート
+EN Lariat
+
+@ 040472 words=11 inplace
+JP ローリングCホールド
+EN Rolling Cradle
+
+@ 04048a words=6 inplace
+JP パワーボム
+EN Powerbomb
+
+@ 040498 words=5 inplace
+JP 凶器攻撃
+EN Weapon
+
+@ 0404a4 words=3 inplace
+JP 回復
+EN Heal
+
+@ 0404ac words=5 inplace
+JP ワキ固め
+EN Armbar
+
+@ 0404b8 words=8 inplace
+JP ウラカン・ラナ
+EN Huracanrana
+
+@ 0404ca words=5 inplace
+JP フォール
+EN Pin
+
+@ 0404d6 words=5 inplace
+JP 自爆回避
+EN Dodge
+
+@ 0404e2 words=6 inplace
+JP 勝ちポーズ
+EN Win Pose
+
+@ 044354 words=3 inplace
+JP 　AP\
+
+@ 04435c words=10 inplace
+JP 未興行　　　　　　　\
+EN No shows yet        \
+
+@ 044372 words=10 inplace
+JP 前回興行より　　ヶ月\
+EN Last show:      mo.\
+
+@ 044388 words=10 inplace
+JP 過去1年未興行　　　\
+EN No show in a year   \
+
+@ 04439e words=10 inplace
+JP 今月興行予定　　　　\
+EN Show set this month \
+
+@ 0443b4 words=1 inplace
+JP ◎\
+
+@ 0443b8 words=1 inplace
+JP ○\
+
+@ 0443bc words=1 inplace
+JP △\
+
+@ 0443c0 words=1 inplace
+JP ×\
+
+@ 0443c4 words=3 inplace
+JP 会場名\
+EN Venue \
+
+@ 0443cc words=2 inplace
+JP 定員\
+EN Cap.\
+
+@ 0443d2 words=2 inplace
+JP 野外\
+EN Open\
+
+@ 0443d8 words=2 inplace
+JP 室内\
+EN Hall\
+
+@ 0443de words=2 inplace
+JP 球場\
+EN Park\
+
+@ 0443e4 words=4 inplace
+JP 人気分布\
+EN Pop. Map\
+
+@ 0443ee words=4 inplace
+JP 会場一覧\
+EN Venues  \
+
+@ 0443f8 words=4 inplace
+JP 興行削除\
+EN Cancel  \
+
+@ 044402 words=1 inplace
+# "Qu" + "it": tools/script.py RECORD_X moves "it" next to it
+JP 終\
+EN Qu\
+
+@ 044406 words=1 inplace
+JP 了\
+EN it\
+
+@ 04440a words=12 inplace
+JP 今月の興行を中止します。\
+EN This show is canceled.\
+
+@ 044424 words=8 inplace
+JP 最大勢力団体分布\
+EN Top Promo Map\
+
+@ 044436 words=7 inplace
+JP メニューに戻る\
+EN Back to Menu\
+
+@ 044446 words=3 table=0x44103
+JP 第1戦\
+EN Bout 1\
+
+@ 04444e words=3 table=0x44105
+JP 第2戦\
+EN Bout 2\
+
+@ 044456 words=3 table=0x44107
+JP 第3戦\
+EN Bout 3\
+
+@ 04445e words=3 table=0x44109
+JP 第4戦\
+EN Bout 4\
+
+@ 044466 words=3 table=0x4410b
+JP 第5戦\
+EN Bout 5\
+
+@ 04446e words=3 table=0x4410d
+JP 第6戦\
+EN Bout 6\
+
+@ 044476 words=3 table=0x4410f
+JP 第7戦\
+EN Bout 7\
+
+@ 04447e words=3 table=0x44111
+JP 最終戦\
+EN Final \
+
+@ 046243 words=4 inplace
+JP 道場許容\
+EN Dojo Cap\
+
+@ 04624d words=2 inplace
+JP AP\
+
+@ 046253 words=5 inplace
+JP マニュアル\
+EN Manual\
+
+@ 04625f words=5 inplace
+JP 耐久オート\
+EN Auto(Stam)\
+
+@ 04626b words=6 inplace
+JP AP必要です\
+EN  AP needed\
+
+@ 046279 words=7 inplace
+JP 基礎体力の限界\
+EN Stamina at max\

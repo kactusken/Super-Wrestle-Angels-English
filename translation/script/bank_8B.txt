@@ -1,0 +1,917 @@
+# Bank $8B (file 0x58000): 238 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 059c29 words=9 inplace
+JP 始めから　　　　　\
+EN New Game          \
+
+@ 059c3d words=9 inplace
+JP データがありません\
+EN No data           \
+
+@ 059c51 words=9 inplace
+JP 　　-　　年　　月\
+EN     -     Yr    Mo\
+
+@ 059c65 words=11 inplace
+JP 何人でプレイしますか?\
+EN How many players?\
+
+@ 059c7d words=2 inplace
+JP 1人\
+EN 1P\
+
+@ 059c83 words=2 inplace
+JP 2人\
+EN 2P\
+
+@ 059c89 words=2 inplace
+JP 3人\
+EN 3P\
+
+@ 059c8f words=3 inplace
+JP 1P:\
+
+@ 059c97 words=3 inplace
+JP 2P:\
+
+@ 059c9f words=3 inplace
+JP 3P:\
+
+@ 059ca7 words=14 inplace
+# the first 12 letters are overwritten by 059cc5 (Emblem) on the next screen
+JP 資金のレベルを決定して下さい\
+EN Funds level - pick one.\
+
+@ 059cc5 words=6 inplace
+JP 団体シンボル\
+EN Emblem      \
+
+@ 059cd3 words=16 inplace
+JP プレイする年数を決定して下さい。\
+EN How many years will you play?\
+
+@ 059cf5 words=1 inplace
+JP 年\
+EN yr\
+
+@ 059cf9 words=11 inplace
+JP これでよろしいですか?\
+EN Is this OK?\
+
+@ 059d11 words=5 inplace
+JP プレイ年数\
+EN Play Years\
+
+@ 059d1d words=3 table=0x59ae0
+JP 　1P\
+
+@ 059d25 words=3 table=0x59ae2
+JP 　2P\
+
+@ 059d2d words=3 table=0x59ae4
+JP 　3P\
+
+@ 059d35 words=3 inplace
+JP COM\
+
+@ 059d3d words=8 inplace
+JP (所要時間　　約\
+EN (Time needed:  ~\
+
+@ 059d4f words=2 inplace
+JP 時間\
+EN  hrs\
+
+@ 059d55 words=2 inplace
+JP 分)\
+EN min)\
+
+@ 059d5b words=6 table=0x59087
+JP あおぞら女子\
+EN Aozora      \
+
+@ 059d69 words=6 table=0x59089
+JP ラサール女子\
+EN LaSalle     \
+
+@ 059d77 words=6 table=0x5908b
+JP コトブキ女子\
+EN Kotobuki    \
+
+@ 059d85 words=6 table=0x5908d
+JP ぷるぷる女子\
+EN Puru Puru   \
+
+@ 059d93 words=12 inplace
+JP COM団体を選んで下さい\
+EN Choose CPU promotions\
+
+@ 059dad words=6 inplace
+JP (あと3つ)\
+EN (3 more)    \
+
+@ 059dbb words=6 inplace
+JP (あと2つ)\
+EN (2 more)    \
+
+@ 059dc9 words=6 inplace
+JP (あと1つ)\
+EN (1 more)    \
+
+@ 059dd7 words=3 table=0x88356
+JP 葵女子\
+EN Aoi   \
+
+@ 059ddf words=5 table=0x88358
+JP 日本海女子\
+EN Japan Sea \
+
+@ 059deb words=5 table=0x8835a
+JP 太平洋女子\
+EN Pacific   \
+
+@ 059df7 words=6 table=0x8835c
+JP PLUM女子\
+EN PLUM        \
+
+@ 059e05 words=3 table=0x8835e
+JP JWI\
+
+@ 059e0d words=5 table=0x88360
+JP 新日本女子\
+EN Shin Nihon\
+
+@ 059e19 words=4 table=0x88362
+JP WARS\
+
+@ 059e23 words=4 table=0x88364
+JP 帝国女子\
+EN Imperial\
+
+@ 059e2d words=6 table=0x88366
+JP 葵女子　　　\
+EN Aoi         \
+
+@ 059e3b words=6 table=0x88368
+JP 日本海女子　\
+EN Japan Sea   \
+
+@ 059e49 words=6 table=0x8836a
+JP 太平洋女子　\
+EN Pacific     \
+
+@ 059e57 words=6 table=0x8836c
+JP PLUM女子\
+EN PLUM        \
+
+@ 059e65 words=6 table=0x8836e
+JP JWI　　　\
+
+@ 059e73 words=6 table=0x88370
+JP 新日本女子　\
+EN Shin Nihon  \
+
+@ 059e81 words=6 table=0x88372
+JP WARS　　\
+
+@ 059e8f words=6 table=0x88374
+JP 帝国女子　　\
+EN Imperial    \
+
+@ 059e9d words=4 table=0x88386,0x88388,0x8838c,0x88394
+JP 新興団体\
+EN Newcomer\
+
+@ 059ea7 words=4 table=0x88392
+JP 旗上3月\
+EN 3 Months\
+
+@ 059eb1 words=4 table=0x8838a
+JP 旗上6月\
+EN 6 Months\
+
+@ 059ebb words=4 table=0x8838e
+JP 旗上8月\
+EN 8 Months\
+
+@ 059ec5 words=4 table=0x88390
+JP 旗上6年\
+EN 6 Years \
+
+@ 059ecf words=2 inplace
+JP 選手\
+EN Wrs.\
+
+@ 059ed5 words=4 table=0x88396,0x8839e,0x883a0,0x883a4
+JP 全国規棋\
+EN National\
+
+@ 059edf words=4 table=0x88398
+JP 北陸中心\
+EN Hokuriku\
+
+@ 059ee9 words=4 table=0x8839a
+JP 東海中心\
+EN Tokai   \
+
+@ 059ef3 words=4 table=0x8839c
+JP 中国中心\
+EN Chugoku \
+
+@ 059efd words=4 table=0x883a2
+JP 関東中心\
+EN Kanto   \
+
+@ 059f07 words=3 table=0x88376
+JP Lv1\
+
+@ 059f0f words=3 table=0x88378
+JP Lv2\
+
+@ 059f17 words=3 table=0x8837a
+JP Lv3\
+
+@ 059f1f words=3 table=0x8837c
+JP Lv4\
+
+@ 059f27 words=3 table=0x8837e
+JP Lv5\
+
+@ 059f2f words=3 table=0x88380
+JP Lv6\
+
+@ 059f37 words=3 table=0x88382
+JP Lv7\
+
+@ 059f3f words=3 table=0x88384
+JP Lv8\
+
+@ 059f47 words=2 inplace
+JP 資産\
+EN Cash\
+
+@ 059f4d words=2 inplace
+JP AP\
+
+@ 059f53 words=2 inplace
+JP 　▼\
+
+@ 059f59 words=96 inplace
+JP 　!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~±\
+
+@ 05a01b words=90 inplace
+JP あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもや　ゆ　よらりるれろわ　を　んがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゃ　ゅ　ょぁぃぅぇぉっ　~・。\
+
+@ 05a0d1 words=90 inplace
+JP アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤ　ユ　ヨラリルレロワ　ヲ　ンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポャ　ュ　ョァィゥェォッヴー・。\
+
+@ 05a187 words=90 inplace
+JP ABCDEFGHIJKLMNOPQRSTUVWXYZ　　　　abcdefghijklmnopqrstuvwxyz　　　　0123456789　!"#$%&'()+-*/?;:,.　\
+
+@ 05a23d words=13 inplace
+JP 　、。「」『』ー・゛…‥‼\
+
+@ 05a259 words=576 inplace
+JP あ亜会有阿青葵赤茜秋明晃晶悪朝荒い行井維伊射飯家石泉板市壱一稲今岩猪う宇右生植上潮後歌海裏浦憂馬え絵江栄英恵重笑映永影越燕閣遠お乙緒織小尾王央皇大旺岡沖荻億奥音鬼斧帯表女か香加佳華仮嘩迦賀楓霞型片刀兜川河神完寅き樹輝綺黄希来生利紀岸北霧清京絹く孔九久駒工楠国倉紅黒組け卦家毛剣犬憲県こ仔子虎小琥恋号洸荒広孝康宏皇光高孔弘后攻孝さ左佐砂咲紗沙斎坂桜笹幸猿斬沢参三し四司志獅紫茂白士章翔小生正勝晶昌彰上十重取獣順純淳心津真新伸進信慎す諏澄須彗末杉鈴州せ瀬世靖西静誠星正聖晴清積千扇仙そ争宗双想総増外空た田太多隊代鷹高孝隆瀧滝武剛竹辰龍谷玉珠淡ち知智稚中宙仲紐超蝶長つ津塚月辻土角椿翼鶴て照出鉄寺天電伝と都十飛斗刀冬嶋島藤東闘党時徳特所俊巴虎戸な無那奈内鳴名直永灘夏七鍋波南に仁二弐西忍刃ぬ主沼ね猫の乃野紀憲則規典は葉八羽刃覇馳場泊橋畑浜原林反半ひ緋妃日火比紐平博浩広弘宏裕品ふ不芙斧婦封風福藤冬渕文へ兵別変ほ歩保穂法宝豊朋峰邦鳳芳北星細炎堀本ま真間麻舞前幕斑町松的守丸円万卍満み見巳美魁弥実水緑道湊南宮む夢向無邑村め芽銘命盟面名も盛最望猛下元桃森杜門紋ら羅雷楽蘭乱り利梨里麗陸龍竜流劉了緑力鈴稟る劉琉留流れ玲麗鈴令霊零連煉ろ露呂炉芦蕗六や矢八夜弥耶野哉安泰保靖康柳山ゆ唯優勇悠有遊由夕祐友右幽結雪弓夢よ代四世良好夜妖陽容替葉遥洋翼横吉わ和倭我輪若脇鷲渡腕湾\
+EN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \
+
+@ 05f428 words=4 table=0x5edb4
+JP 新人募集\
+EN Tryouts \
+
+@ 05f432 words=9 inplace
+JP APがたりません。\
+EN Not enough AP.\
+
+@ 05f446 words=13 inplace
+JP APをいくら使用しますか?\
+EN How much AP to spend?\
+
+@ 05f462 words=2 inplace
+JP AP\
+
+@ 05f468 words=9 inplace
+JP 今回は合格内定者が\
+EN No one made the\
+
+@ 05f47c words=8 inplace
+JP いませんでした。\
+EN cut this time.\
+
+@ 05f48e words=9 inplace
+JP 1名の合格内定者が\
+EN One applicant\
+
+@ 05f4a2 words=5 table=0x973a0
+JP 出ました。\
+EN passed!\
+
+@ 05f4ae words=8 table=0x973a2
+# the first glyph is hidden on the data screen: start with a blank one
+JP 入団させますか?\
+EN   Sign her up?\
+
+@ 05f4c0 words=9 table=0x973a4
+JP 今月は新人の応募が\
+EN No rookies applied\
+
+@ 05f4d4 words=9 inplace
+JP ありませんでした。\
+EN this month.\
+
+@ 05f4e8 words=10 inplace
+JP 今月は終了しました。\
+EN Done for this month.\
+
+@ 05f4fe words=13 table=0x81608
+JP もう新人募集はできません。\
+EN No more tryouts allowed.\
+
+@ 05f51a words=4 table=0x5edb6
+JP スカウト\
+EN Scout   \
+
+@ 05f524 words=12 inplace
+JP このレスラーを獲得した場\
+EN Signing her will cost\
+
+@ 05f53e words=13 inplace
+JP 合、　　　AP消費します。\
+EN you       AP.\
+
+@ 05f55a words=6 inplace
+JP 引退&無所属\
+EN Retired/Free\
+
+@ 05f568 words=8 inplace
+JP 選手がいません。\
+EN No wrestlers.\
+
+@ 05f57a words=11 inplace
+JP スカウトにAPをいくら\
+EN How much AP will you\
+
+@ 05f592 words=7 inplace
+JP 使用しますか?\
+EN spend?\
+
+@ 05f5a2 words=13 inplace
+JP もうスカウトはできません。\
+EN No more scouting allowed.\
+
+@ 05f5be words=4 table=0x5edb8
+JP 海外遠征\
+EN Overseas\
+
+@ 05f5c8 words=11 inplace
+JP 提携団体がありません。\
+EN No partner promotions.\
+
+@ 05f5e0 words=10 inplace
+JP 現在は旗上げ前なので\
+EN We haven't debuted,\
+
+@ 05f5f6 words=9 table=0x81606
+JP 遠征は出来ません。\
+EN so no tours yet.\
+
+@ 05f60a words=11 inplace
+JP 以下でよろしいですか?\
+EN Is this OK?\
+
+@ 05f622 words=13 inplace
+JP 帰国させてよろしいですか?\
+EN Bring her back home?\
+
+@ 05f63e words=3 inplace
+JP 遠征先\
+EN Dest. \
+
+@ 05f646 words=7 inplace
+JP (100AP)\
+
+@ 05f656 words=4 table=0x5edba
+JP バカンス\
+EN Vacation\
+
+@ 05f660 words=12 inplace
+JP バカンスには　　APかか\
+EN Vacation fee    AP.\
+
+@ 05f67a words=12 inplace
+JP りますがよろしいですか?\
+EN Is that all right?\
+
+@ 05f694 words=13 inplace
+JP すでにバカンスの予定です。\
+EN Vacation already planned.\
+
+@ 05f6b0 words=8 inplace
+JP 取り消しますか?\
+EN Cancel it?\
+
+@ 05f6c2 words=4 table=0x5edbc
+JP 　覆面　\
+EN Mask    \
+
+@ 05f6cc words=10 inplace
+JP マスクを付けますか?\
+EN Put on a mask?\
+
+@ 05f6e2 words=10 inplace
+JP マスクを外しますか?\
+EN Take off the mask?\
+
+@ 05f6f8 words=15 inplace
+JP マスクのタイプを選んで下さい。\
+EN Choose a mask type.\
+
+@ 05f718 words=6 inplace
+JP (30AP)\
+
+@ 05f726 words=4 table=0x5edbe
+JP 王座返上\
+EN Vacate  \
+
+@ 05f730 words=12 inplace
+JP ベルトを持っていません。\
+EN No belts held.\
+
+@ 05f74a words=13 inplace
+JP どのベルトを返上しますか?\
+EN Vacate which belt?\
+
+@ 05f766 words=12 inplace
+JP 以下のベルトを返上しても\
+EN Really vacate the belt\
+
+@ 05f780 words=8 inplace
+JP よろしいですか?\
+EN listed below?\
+
+@ 05f792 words=1 inplace
+JP &\
+
+@ 05f796 words=4 table=0x88eaf,0x88eb1,0x88eb3,0x88eb5,0x88eb7,0x88eb9
+JP シングル\
+EN Singles \
+
+@ 05f7a0 words=3 table=0x88ebb,0x88ebd,0x88ebf
+JP タッグ\
+EN Tag   \
+
+@ 05f7a8 words=5 inplace
+JP の信頼度が\
+EN 's trust\
+
+@ 05f7b4 words=9 inplace
+JP 　　低下しました。\
+EN     has dropped.\
+
+@ 05f7c8 words=4 table=0x5edc0
+JP 　解散　\
+EN Release \
+
+@ 05f7d2 words=12 inplace
+JP 解散してよろしいですか?\
+EN Really release her?\
+
+@ 05f7ec words=4 table=0x5edc2
+JP 道場設備\
+EN Facility\
+
+@ 05f7f6 words=10 inplace
+JP いくら投資しますか?\
+EN How much to invest?\
+
+@ 05f80c words=11 inplace
+JP 使用許容量が　　　AP\
+EN Usable AP is      AP\
+
+@ 05f824 words=7 inplace
+JP になりました。\
+EN from now on.\
+
+@ 05f834 words=10 inplace
+JP いくら売却しますか?\
+EN How much to sell?\
+
+@ 05f84a words=4 inplace
+JP 設備拡張\
+EN Expand  \
+
+@ 05f854 words=4 inplace
+JP 設備売却\
+EN Sell off\
+
+@ 05f85e words=13 inplace
+JP 売却する設備がありません。\
+EN No facilities to sell.\
+
+@ 05f87a words=4 table=0x5edc4
+JP 団体提携\
+EN Alliance\
+
+@ 05f884 words=12 inplace
+JP 現在はどの団体とも提携し\
+EN Not allied with any\
+
+@ 05f89e words=6 inplace
+JP ていません。\
+EN promotion.\
+
+@ 05f8ac words=12 inplace
+JP すでに他団体と提携してい\
+EN We already have an\
+
+@ 05f8c6 words=3 inplace
+JP ます。\
+EN ally.\
+
+@ 05f8ce words=12 inplace
+JP すでに自団体と提携してい\
+EN They're already our\
+
+@ 05f8e8 words=4 inplace
+JP 提携費用\
+EN Fee     \
+
+@ 05f8f2 words=8 inplace
+JP よろしいですか?\
+EN Is that OK?\
+
+@ 05f904 words=10 inplace
+JP 提携に失敗しました。\
+EN The alliance failed.\
+
+@ 05f91a words=4 table=0x5edc6
+JP サイン会\
+EN Signing \
+
+@ 05f924 words=30 inplace
+JP 北海道東　北関　東北　陸中　部東　海近　畿中　国四　国九　州\
+EN HokkaiTohokuKanto HokrkuChubu Tokai Kinki ChugokShikokKyushu\
+
+@ 05f962 words=1 inplace
+JP で\
+EN : \
+
+@ 05f966 words=11 inplace
+JP のサイン会を行います。\
+EN  autograph signing!\
+
+@ 05f97e words=8 inplace
+JP の観客動員係数が\
+EN 's crowd draw\
+
+@ 05f990 words=7 inplace
+JP 上がりました。\
+EN went up.\
+
+@ 05f9a0 words=4 table=0x5edc8
+JP 放送契約\
+EN TV Deal \
+
+@ 05f9aa words=8 inplace
+JP TV放送契約には\
+EN A TV deal costs:\
+
+@ 05f9bc words=3 inplace
+JP 契約金\
+EN Fee\
+
+@ 05f9c4 words=2 inplace
+JP 月々\
+EN Mo.\
+
+@ 05f9ca words=13 inplace
+JP 要りますがよろしいですか?\
+EN Is that all right?\
+
+@ 05f9e6 words=12 inplace
+JP 現在すでにTV放送契約を\
+EN We already have a TV\
+
+@ 05fa00 words=5 inplace
+JP しています\
+EN contract.\
+
+@ 05fa0c words=10 inplace
+JP 契約を破棄しますか?\
+EN Cancel the contract?\
+
+@ 05fa22 words=9 inplace
+JP タッグベルトは返上\
+EN Tag belt vacated\
+
+@ 05fa36 words=9 inplace
+JP ヘビーベルトは返上\
+EN Heavy belt vacated\
+
+@ 05fa4a words=4 inplace
+JP 預かりと\
+EN and held\
+
+@ 05fa54 words=5 inplace
+JP なります。\
+EN in trust.\
+
+@ 05fa60 words=4 table=0x5edca
+JP 　対話　\
+EN   Talk  \
+
+@ 05fa6a words=12 inplace
+JP この選手と対話しますか?\
+EN Talk to this wrestler?\
+
+@ 05fa84 words=6 inplace
+JP (10AP)\
+
+@ 05fa92 words=3 inplace
+JP 誉める\
+EN Praise\
+
+@ 05fa9a words=3 inplace
+JP 叱る　\
+EN Scold \
+
+@ 05faa2 words=3 inplace
+JP 励ます\
+EN Cheer \
+
+@ 05faaa words=10 inplace
+JP モラルが　　上がった\
+EN Morale      rose.\
+
+@ 05fac0 words=10 inplace
+JP モラルが　　下がった\
+EN Morale      fell.\
+
+@ 05fad6 words=10 inplace
+JP 信頼度が　　下がった\
+EN Trust       fell.\
+
+@ 05faec words=10 inplace
+JP 信頼度が　　上がった\
+EN Trust       rose.\
+
+@ 05fb02 words=7 inplace
+JP 効果は無かった\
+EN No effect.\
+
+@ 05fb12 words=4 table=0x5edcc
+JP 　特訓　\
+EN Training\
+
+@ 05fb1c words=12 inplace
+JP この選手を特訓しますか?\
+EN Train this wrestler?\
+
+@ 05fb36 words=6 inplace
+JP (30AP)\
+
+@ 05fb44 words=8 inplace
+JP の今月の使用可能\
+EN 's usable AP\
+
+@ 05fb56 words=10 inplace
+JP APが　　上昇した。\
+EN up by     this month\
+
+@ 05fb6c words=11 inplace
+JP 特訓の成果は無かった。\
+EN Training didn't help.\
+
+@ 05fb84 words=6 inplace
+JP は脱走した。\
+EN  ran away!\
+
+@ 05fb92 words=7 inplace
+JP はケガをした。\
+EN  got hurt!\
+
+@ 05fba2 words=1 inplace
+JP 、\
+EN , \
+
+@ 05fba6 words=6 inplace
+JP 以上の　名が\
+EN Send     to \
+
+@ 05fbb4 words=1 inplace
+# the promotion name before it is padded with spaces
+JP に\
+EN   \
+
+@ 05fbb8 words=7 inplace
+JP 殴り込みます。\
+EN Raid them now?\
+
+@ 05fbc8 words=11 inplace
+JP その団体は倒産しました\
+EN That promotion folded.\
+
+@ 05fbe0 words=5 table=0x5edce,0x8160a
+JP 団体データ\
+EN Promo Data\
+
+@ 05fbec words=4 inplace
+JP 団体評価\
+EN Rating  \
+
+@ 05fbf6 words=2 inplace
+JP 資金\
+EN Cash\
+
+@ 05fbfc words=3 inplace
+JP 選手数\
+EN Roster\
+
+@ 05fc04 words=4 inplace
+JP 道場規棋\
+EN Facility\
+
+@ 05fc0e words=4 inplace
+JP 提携団体\
+EN Ally    \
+
+@ 05fc18 words=2 inplace
+JP なし\
+EN None\
+
+@ 05fc1e words=5 table=0x5edd0
+JP 個人ランク\
+EN Rankings\
+
+@ 05fc2a words=13 inplace
+JP 個人ランキング・ベスト10\
+EN Top 10 Wrestlers\
+
+@ 05fc46 words=5 table=0x5edd2
+JP ベルト一覧\
+EN Belts\
+
+@ 05fc52 words=8 inplace
+JP ベルト保持者一覧\
+EN Title Holders\
+
+@ 05fc64 words=2 inplace
+JP ○×\
+
+@ 05fc6a words=4 table=0x5edd4
+JP セーブ　\
+EN Save    \
+
+@ 05fc74 words=4 table=0x5edd6
+JP ロード　\
+EN Load    \
+
+@ 05fc7e words=4 table=0x5edd8
+JP 年数変更\
+EN Years   \
+
+@ 05fc88 words=10 inplace
+JP 何年に変更しますか?\
+EN How many years?\
+
+@ 05fc9e words=1 inplace
+JP 年\
+EN yr\
+
+@ 05fca2 words=4 table=0x5edda
+JP 委任変更\
+EN Delegate\
+
+@ 05fcac words=10 inplace
+JP ジムを終了以降全てを\
+EN Set all after gym\
+
+@ 05fcc2 words=9 inplace
+JP オートにしますか?\
+EN phase to auto?\
+
+@ 05fcd6 words=11 inplace
+JP 現在オートに設定されて\
+EN Auto is on right now.\
+
+@ 05fcee words=10 inplace
+JP います。戻しますか?\
+EN Turn it off?\
+
+@ 05fd04 words=12 inplace
+JP 引き続きジム内もオートで\
+EN Also run the gym\
+
+@ 05fd1e words=6 inplace
+JP 行いますか?\
+EN on auto?\
+
+@ 05fd2c words=4 table=0x5eddc
+JP 分割CG\
+EN Split CG\
+
+@ 05fd36 words=11 inplace
+JP カードゲーム中の4分割\
+EN Skip the 4-panel CG\
+
+@ 05fd4e words=11 inplace
+JP CGをカットしますか?\
+EN in the card game?\
+
+@ 05fd66 words=11 inplace
+JP 現在カットに設定されて\
+EN Cut is on right now.\
+
+@ 05fd7e words=4 table=0x5edde
+JP 興行観戦\
+EN Spectate\
+
+@ 05fd88 words=5 table=0x5e52f
+JP 　否　観戦\
+EN Watch None\
+
+@ 05fd94 words=5 table=0x5e531
+JP 最終戦観戦\
+EN Main Event\
+
+@ 05fda0 words=5 table=0x5e533
+JP 全試合観戦\
+EN Watch All \
+
+@ 05fdac words=4 table=0x5ede0
+JP 経営終了\
+EN Quit    \
+
+@ 05fdb6 words=9 inplace
+JP ゲームを終了しても\
+EN Really quit the\
+
+@ 05fdca words=8 inplace
+JP よろしいですか?\
+EN game?\
+
+@ 05fddc words=10 table=0x5c2bf
+JP IWWFヘビー級王者\
+EN IWWF Heavy Champion\
+
+@ 05fdf2 words=10 table=0x5c2c1
+JP WWCAヘビー級王者\
+EN WWCA Heavy Champion\
+
+@ 05fe08 words=9 table=0x5c2c3
+JP EWAヘビー級王者\
+EN EWA Heavy Champion\
+
+@ 05fe1c words=9 table=0x5c2c5
+JP GWAヘビー級王者\
+EN GWA Heavy Champion\
+
+@ 05fe30 words=9 table=0x5c2c7
+JP AACヘビー級王者\
+EN AAC Heavy Champion\
+
+@ 05fe44 words=9 table=0x5c2c9
+JP アジアヘビー級王者\
+EN Asia Heavy Champ\
+
+@ 05fe58 words=9 table=0x5c2cb
+JP IWWFタッグ王者\
+EN IWWF Tag Champions\
+
+@ 05fe6c words=9 table=0x5c2cd
+JP WWCAタッグ王者\
+EN WWCA Tag Champions\
+
+@ 05fe80 words=8 table=0x5c2cf
+JP GWAタッグ王者\
+EN GWA Tag Champs\
+
+@ 05fe92 words=4 inplace
+JP IWWF\
+
+@ 05fe9c words=4 inplace
+JP WWCA\
+
+@ 05fea6 words=4 inplace
+JP EWA　\
+
+@ 05feb0 words=4 inplace
+JP GWA　\
+
+@ 05feba words=4 inplace
+JP AAC　\
+
+@ 05fec4 words=4 inplace
+JP アジア　\
+EN Asia    \
+
+@ 05fece words=4 inplace
+JP IWWF\
+
+@ 05fed8 words=4 inplace
+JP WWCA\
+
+@ 05fee2 words=4 inplace
+JP GWA　\

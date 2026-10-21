@@ -1,0 +1,7 @@
+# Bank $8C (file 0x60000): 1 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 06446c words=3 inplace
+JP フリー\
+EN Free  \

@@ -1,0 +1,489 @@
+# Bank $92 (file 0x90000): 122 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 097490 words=1 table=0x9739c
+JP 　\
+
+@ 097494 words=6 table=0x9739e
+JP 武藤　めぐみ\
+EN Megumi Muto\
+
+@ 0974a2 words=5 table=0x973a0
+JP 結城　千種\
+EN Chigusa Yuki\
+
+@ 0974ae words=8 table=0x973a2
+JP ビューティ市ヶ谷\
+EN Beauty Ichigaya\
+
+@ 0974c0 words=4 table=0x973a4
+JP 南　利美\
+EN Toshimi Minami\
+
+@ 0974ca words=6 table=0x973a6
+JP 小川　ひかる\
+EN Hikaru Ogawa\
+
+@ 0974d8 words=6 table=0x973a8
+JP 永原　ちづる\
+EN C. Nagahara\
+
+@ 0974e6 words=6 table=0x973aa
+JP 越後　しのぶ\
+EN Shinobu Echigo\
+
+@ 0974f4 words=5 table=0x973ac
+JP 富沢　レイ\
+EN Rei Tomizawa\
+
+@ 097500 words=8 table=0x973ae
+JP キューティ　金井\
+EN Cutie Kanai\
+
+@ 097512 words=8 table=0x973b0
+JP ヴィーナス　麗子\
+EN Venus Reiko\
+
+@ 097524 words=8 table=0x973b2
+JP インフェルノ広美\
+EN Inferno Hiromi\
+
+@ 097536 words=8 table=0x973b4
+JP ファントム　珠理\
+EN Phantom Juri\
+
+@ 097548 words=6 table=0x973b6
+JP ブレード上原\
+EN Blade Uehara\
+
+@ 097556 words=4 table=0x973b8
+JP ミミ吉原\
+EN Mimi Yoshihara\
+
+@ 097560 words=8 table=0x973ba
+JP マイティ　祐希子\
+EN Mighty Yukiko\
+
+@ 097572 words=7 table=0x973bc
+JP ボンバー　来島\
+EN Bomber Kishima\
+
+@ 097582 words=5 table=0x973be
+JP 菊池　理宇\
+EN Riyu Kikuchi\
+
+@ 09758e words=5 table=0x973c0
+JP 伊集院　光\
+EN Hikaru Ijuin\
+
+@ 09759a words=5 table=0x973c2
+JP 斉藤　彰子\
+EN Akiko Saito\
+
+@ 0975a6 words=6 table=0x973c4
+JP サンダー龍子\
+EN Thunder Ryuko\
+
+@ 0975b4 words=8 table=0x973c6
+JP テディキャット堀\
+EN Teddy Cat Hori\
+
+@ 0975c6 words=4 table=0x973c8
+JP 藤島　瞳\
+EN H. Fujishima\
+
+@ 0975d0 words=6 table=0x973ca
+JP コング　宍戸\
+EN Kong Shishido\
+
+@ 0975de words=5 table=0x973cc
+JP 渡辺　智美\
+EN T. Watanabe\
+
+@ 0975ea words=7 table=0x973ce
+JP 長谷川　美由紀\
+EN M. Hasegawa\
+
+@ 0975fa words=6 table=0x973d0
+JP 豊多摩　奈美\
+EN Nami Toyotama\
+
+@ 097608 words=6 table=0x973d2
+JP 北都　ひろみ\
+EN Hiromi Hokuto\
+
+@ 097616 words=5 table=0x973d4
+JP 井上　美香\
+EN Mika Inoue\
+
+@ 097622 words=5 table=0x973d6
+JP 神田　幸子\
+EN Sachiko Kanda\
+
+@ 09762e words=5 table=0x973d8
+JP 小島　聡美\
+EN Satomi Kojima\
+
+@ 09763a words=4 table=0x973da
+JP 紅　京子\
+EN Kyoko Kurenai\
+
+@ 097644 words=6 table=0x973dc
+JP 秋山　カレン\
+EN Karen Akiyama\
+
+@ 097652 words=5 table=0x973de
+JP 遠藤　冴子\
+EN Saeko Endo\
+
+@ 09765e words=5 table=0x973e0
+JP 宮本　陽子\
+EN Yoko Miyamoto\
+
+@ 09766a words=6 table=0x973e2
+JP 中林　小百合\
+EN S. Nakabayashi\
+
+@ 097678 words=5 table=0x973e4
+JP 皆川　晴美\
+EN H. Minagawa\
+
+@ 097684 words=6 table=0x973e6
+JP 後野　まつり\
+EN M. Ushirono\
+
+@ 097692 words=5 table=0x973e8
+JP 沢登　真美\
+EN Mami Sawanobori\
+
+@ 09769e words=8 table=0x973ea
+JP スーパー　カオス\
+EN Super Chaos\
+
+@ 0976b0 words=6 table=0x973ec
+JP ザ　スパイク\
+EN The Spike\
+
+@ 0976be words=8 table=0x973ee
+JP ダスティ　ローラ\
+EN Dusty Laura\
+
+@ 0976d0 words=5 table=0x973f0
+JP ザ　USA\
+EN The USA\
+
+@ 0976dc words=7 table=0x973f2
+JP チョチョカラス\
+EN Chocho Caras\
+
+@ 0976ec words=7 table=0x973f4
+JP エル　ドレック\
+EN El Dreck\
+
+@ 0976fc words=6 table=0x973f6
+JP ザ　ニンジャ\
+EN The Ninja\
+
+@ 09770a words=7 table=0x973f8
+JP ピンクフラワー\
+EN Pink Flower\
+
+@ 09771a words=8 table=0x973fa
+JP ナスターシャハン\
+EN Nastassja Han\
+
+@ 09772c words=8 table=0x973fc
+JP アリススミルノフ\
+EN Alice Smirnov\
+
+@ 09773e words=7 table=0x973fe
+JP ウィン　ミラー\
+EN Win Mirror\
+
+@ 09774e words=8 table=0x97400
+JP レミー　ダダーン\
+EN Remy Dadarne\
+
+@ 097760 words=8 table=0x97402
+JP シンディギブソン\
+EN Cindy Gibson\
+
+@ 097772 words=8 table=0x97404
+JP アニー　ブレアー\
+EN Annie Blair\
+
+@ 097784 words=8 table=0x97406
+JP ジョディビートン\
+EN Jody Beaton\
+
+@ 097796 words=8 table=0x97408,0x88eaf,0x88eb1,0x88eb3,0x88eb5,0x88eb7,0x88eb9
+JP クリス　モーガン\
+EN Chris Morgan\
+
+@ 0977a8 words=4 table=0x9740a
+JP ザ　関取\
+EN The Sekitori\
+
+@ 0977b2 words=7 table=0x9740c
+JP ルナ　アルパナ\
+EN Luna Alpana\
+
+@ 0977c2 words=8 table=0x9740e
+JP レディ　コーディ\
+EN Lady Cody\
+
+@ 0977d4 words=6 table=0x97410
+JP ザ　ランバー\
+EN The Lumber\
+
+@ 0977e2 words=8 table=0x97412
+JP デスピナ　リブレ\
+EN Despina Libre\
+
+@ 0977f4 words=8 table=0x97414
+JP ライザ　ゴルゴン\
+EN Liza Gorgon\
+
+@ 097806 words=1 table=0x97416
+JP 　\
+
+@ 09780a words=2 table=0x97418
+JP 武藤\
+EN Muto\
+
+@ 097810 words=2 table=0x9741a
+JP 結城\
+EN Yuki\
+
+@ 097816 words=3 table=0x9741c
+JP 市ヶ谷\
+EN Beauty\
+
+@ 09781e words=1 table=0x9741e
+JP 南\
+EN Minami\
+
+@ 097822 words=2 table=0x97420
+JP 小川\
+EN Ogawa\
+
+@ 097828 words=2 table=0x97422
+JP 永原\
+EN Nagahara\
+
+@ 09782e words=2 table=0x97424
+JP 越後\
+EN Echigo\
+
+@ 097834 words=2 table=0x97426
+JP 富沢\
+EN Rei\
+
+@ 09783a words=2 table=0x97428
+JP 金井\
+EN Kanai\
+
+@ 097840 words=2 table=0x9742a
+JP 麗子\
+EN Reiko\
+
+@ 097846 words=2 table=0x9742c
+JP 広美\
+EN Hiromi\
+
+@ 09784c words=2 table=0x9742e
+JP 珠理\
+EN Juri\
+
+@ 097852 words=2 table=0x97430
+JP 上原\
+EN Uehara\
+
+@ 097858 words=2 table=0x97432
+JP 吉原\
+EN Mimi\
+
+@ 09785e words=3 table=0x97434
+JP 祐希子\
+EN Yukiko\
+
+@ 097866 words=2 table=0x97436
+JP 来島\
+EN Bomber\
+
+@ 09786c words=2 table=0x97438
+JP 菊池\
+EN Riyu\
+
+@ 097872 words=3 table=0x9743a
+JP 伊集院\
+EN Ijuin\
+
+@ 09787a words=2 table=0x9743c
+JP 斉藤\
+EN Saito\
+
+@ 097880 words=2 table=0x9743e
+JP 龍子\
+EN Ryuko\
+
+@ 097886 words=1 table=0x97440
+JP 堀\
+EN Hori\
+
+@ 09788a words=2 table=0x97442
+JP 藤島\
+EN Hitomi\
+
+@ 097890 words=2 table=0x97444
+JP 宍戸\
+EN Kong\
+
+@ 097896 words=2 table=0x19174,0x19176,0x19178,0x1917a,0x97446
+JP 渡辺\
+EN Tomomi\
+
+@ 09789c words=3 table=0x97448
+JP 長谷川\
+EN Miyuki\
+
+@ 0978a4 words=3 table=0x9744a
+JP 豊多摩\
+EN Nami\
+
+@ 0978ac words=2 table=0x9744c
+JP 北都\
+EN Hokuto\
+
+@ 0978b2 words=2 table=0x9744e
+JP 井上\
+EN Mika\
+
+@ 0978b8 words=2 table=0x97450
+JP 神田\
+EN Kanda\
+
+@ 0978be words=2 table=0x97452
+JP 小島\
+EN Kojima\
+
+@ 0978c4 words=1 table=0x97454
+JP 紅\
+EN Kyoko\
+
+@ 0978c8 words=2 table=0x97456
+JP 秋山\
+EN Karen\
+
+@ 0978ce words=2 table=0x97458
+JP 遠藤\
+EN Endo\
+
+@ 0978d4 words=2 table=0x9745a
+JP 宮本\
+EN Yoko\
+
+@ 0978da words=2 table=0x9745c
+JP 中林\
+EN Sayuri\
+
+@ 0978e0 words=2 table=0x9745e
+JP 皆川\
+EN Harumi\
+
+@ 0978e6 words=2 table=0x97460
+JP 後野\
+EN Ushirono\
+
+@ 0978ec words=2 table=0x97462
+JP 沢登\
+EN Mami\
+
+@ 0978f2 words=3 table=0x97464
+JP カオス\
+EN Chaos\
+
+@ 0978fa words=4 table=0x97466
+JP スパイク\
+EN Spike\
+
+@ 097904 words=3 table=0x97468
+JP ローラ\
+EN Laura\
+
+@ 09790c words=4 table=0x9746a
+JP ザUSA\
+EN USA\
+
+@ 097916 words=4 table=0x9746c
+JP チョチョ\
+EN Chocho\
+
+@ 097920 words=4 table=0x9746e
+JP ドレック\
+EN Dreck\
+
+@ 09792a words=4 table=0x97470
+JP ニンジャ\
+EN Ninja\
+
+@ 097934 words=4 table=0x97472
+JP フラワー\
+EN Flower\
+
+@ 09793e words=2 table=0x97474
+JP ハン\
+EN Han\
+
+@ 097944 words=3 table=0x97476
+JP アリス\
+EN Alice\
+
+@ 09794c words=3 table=0x97478
+JP ミラー\
+EN Mirror\
+
+@ 097954 words=4 table=0x9747a
+JP ダダーン\
+EN Remy\
+
+@ 09795e words=4 table=0x9747c
+JP ギブソン\
+EN Gibson\
+
+@ 097968 words=4 table=0x9747e
+JP ブレアー\
+EN Blair\
+
+@ 097972 words=4 table=0x97480
+JP ビートン\
+EN Beaton\
+
+@ 09797c words=4 table=0x97482
+JP モーガン\
+EN Morgan\
+
+@ 097986 words=2 table=0x97484
+JP 関取\
+EN Sekitori\
+
+@ 09798c words=4 table=0x97486
+JP アルパナ\
+EN Alpana\
+
+@ 097996 words=4 table=0x97488
+JP コーディ\
+EN Cody\
+
+@ 0979a0 words=4 table=0x9748a
+JP ランバー\
+EN Lumber\
+
+@ 0979aa words=4 table=0x9748c
+JP デスピナ\
+EN Despina\
+
+@ 0979b4 words=4 table=0x9748e
+JP ゴルゴン\
+EN Liza\

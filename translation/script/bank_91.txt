@@ -1,0 +1,55 @@
+# Bank $91 (file 0x88000): 13 strings.
+# Codes: {wait} {box} {start} {name} {9E} - see tools/script.py. A line ending in \ has no
+# line break after it. Dialogue: 17 glyphs per line = 34 English letters (two per glyph).
+
+@ 08849e words=4 table=0x88498
+JP 　初級　\
+EN Beginner\
+
+@ 0884a8 words=4 table=0x8849a
+JP 　中級　\
+EN  Normal \
+
+@ 0884b2 words=4 table=0x8849c
+JP 　上級　\
+EN Advanced\
+
+@ 088faa words=11 table=0x88f49
+JP IWWFヘビー級ベルト\
+EN IWWF Heavyweight Belt\
+
+@ 088fc2 words=11 table=0x88f4b
+JP WWCAヘビー級ベルト\
+EN WWCA Heavyweight Belt\
+
+@ 088fda words=10 table=0x88f4d
+JP EWAヘビー級ベルト\
+EN EWA Heavyweight Belt\
+
+@ 088ff0 words=10 table=0x88f4f
+JP GWAヘビー級ベルト\
+EN GWA Heavyweight Belt\
+
+@ 089006 words=10 table=0x88f51
+JP AACヘビー級ベルト\
+EN AAC Heavyweight Belt\
+
+@ 08901c words=10 table=0x88f53
+JP アジアヘビー級ベルト\
+EN Asia Heavy Belt\
+
+@ 089032 words=10 table=0x88f55
+JP IWWFタッグベルト\
+EN IWWF Tag Belt\
+
+@ 089048 words=10 table=0x88f57
+JP WWCAタッグベルト\
+EN WWCA Tag Belt\
+
+@ 08905e words=9 table=0x88f59
+JP GWAタッグベルト\
+EN GWA Tag Belt\
+
+@ 08abdc words=30 inplace
+JP 北海道東北　関東　北陸　中部　東海　近畿　中国　四国　九州　\
+EN HokkaiTohokuKanto HokrkuChubu Tokai Kinki ChugokShikokKyushu\
