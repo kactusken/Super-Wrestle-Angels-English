@@ -44,11 +44,13 @@ checker how wide its `{name}` is.
 | Decision | Why |
 |---|---|
 | English drawn as two 6-pixel letters per glyph (letter pairs replace the kanji glyphs) | no code changes; 34 letters per line |
-| Kanji page of the name entry left blank | its 576 glyphs are needed for letter pairs |
+| Kanji page of the name entry: letter pairs (button PAIRS; tools/namepage.py) | its kanji glyphs are used for letter pairs; pairs give names the narrow English letters |
 | Wrestler names shortened where the name table is full (C. Nagahara, short names Beauty, Rei, Kong ...) | the table must fit its bytes |
 | Title menu: EXHIBITION / PROMOTER (団体経営) / LEAGUE / TOURNAMENT / SYSTEM | |
 | Menu bar: STAFF TRAIN ADMIN COACH RAID INFO END; panels STATS ROSTER BACK | the menu bar's 32-pixel buttons |
 | Promotion names after a name: small "PRO" (was プロレス) | |
+| Uranage stays Uranage; 北斗原爆固め = N.Lights Suplex (N.L.SUPLEX in 8x8) | v0.2 feedback: "Throw" and "Hokuto-plex" read oddly |
+| Full-width ASCII strings (IWWF, GWA, Lv1, 1P, COM, AP ...) get English lines in the narrow letters, padded to the Japanese width | v0.2 feedback: they showed in the old wide font |
 | Dates: 年 / 月 after the numbers -> YR / MO ("1 YR 4 MO") | |
 | Event pictures with drawn Japanese stay as they are (heartbreak, Ex Tag League letter, police chief, retirement) | the text box says what happens; the drawn words are scenery |
 

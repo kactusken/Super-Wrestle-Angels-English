@@ -1530,7 +1530,7 @@ EN Backdrop
 
 @ 0a4d84 words=4 table=0x4c445
 JP 裏投げ
-EN Throw
+EN Uranage
 
 @ 0a4d8e words=13 table=0x4c447
 JP ノーザンLスープレックス
@@ -1586,6 +1586,7 @@ EN Face Lock
 
 @ 0a4e8e words=4 table=0x4c461
 JP STF
+EN STF
 
 @ 0a4e98 words=8 table=0x4c463
 JP エルボーバット
@@ -1601,6 +1602,7 @@ EN Lariat
 
 @ 0a4ec0 words=4 table=0x4c469
 JP DDT
+EN DDT
 
 @ 0a4eca words=12 table=0x4c46b
 JP コンビネーションキック
@@ -2209,9 +2211,11 @@ EN Wah!
 
 @ 0a6880 words=4 table=0x4c519
 JP IN　
+EN IN
 
 @ 0a688a words=4 table=0x4c51b
 JP OUT
+EN OUT
 
 @ 0a6894 words=4 table=0x4c51d
 JP パンチ

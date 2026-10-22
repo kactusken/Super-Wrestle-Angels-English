@@ -32,12 +32,15 @@ EN 3P\
 
 @ 059c8f words=3 inplace
 JP 1P:\
+EN 1P:   \
 
 @ 059c97 words=3 inplace
 JP 2P:\
+EN 2P:   \
 
 @ 059c9f words=3 inplace
 JP 3P:\
+EN 3P:   \
 
 @ 059ca7 words=14 inplace
 # the first 12 letters are overwritten by 059cc5 (Emblem) on the next screen
@@ -66,15 +69,19 @@ EN Play Years\
 
 @ 059d1d words=3 table=0x59ae0
 JP 　1P\
+EN     1P\
 
 @ 059d25 words=3 table=0x59ae2
 JP 　2P\
+EN     2P\
 
 @ 059d2d words=3 table=0x59ae4
 JP 　3P\
+EN     3P\
 
 @ 059d35 words=3 inplace
 JP COM\
+EN COM   \
 
 @ 059d3d words=8 inplace
 JP (所要時間　　約\
@@ -122,22 +129,23 @@ EN (1 more)    \
 
 @ 059dd7 words=3 table=0x88356
 JP 葵女子\
-EN Aoi   \
+EN Aoi\
 
 @ 059ddf words=5 table=0x88358
 JP 日本海女子\
-EN Japan Sea \
+EN Japan Sea\
 
 @ 059deb words=5 table=0x8835a
 JP 太平洋女子\
-EN Pacific   \
+EN Pacific\
 
 @ 059df7 words=6 table=0x8835c
 JP PLUM女子\
-EN PLUM        \
+EN PLUM\
 
 @ 059e05 words=3 table=0x8835e
 JP JWI\
+EN JWI\
 
 @ 059e0d words=5 table=0x88360
 JP 新日本女子\
@@ -145,6 +153,7 @@ EN Shin Nihon\
 
 @ 059e19 words=4 table=0x88362
 JP WARS\
+EN WARS\
 
 @ 059e23 words=4 table=0x88364
 JP 帝国女子\
@@ -168,6 +177,7 @@ EN PLUM        \
 
 @ 059e65 words=6 table=0x8836e
 JP JWI　　　\
+EN JWI         \
 
 @ 059e73 words=6 table=0x88370
 JP 新日本女子　\
@@ -175,6 +185,7 @@ EN Shin Nihon  \
 
 @ 059e81 words=6 table=0x88372
 JP WARS　　\
+EN WARS        \
 
 @ 059e8f words=6 table=0x88374
 JP 帝国女子　　\
@@ -226,27 +237,35 @@ EN Kanto   \
 
 @ 059f07 words=3 table=0x88376
 JP Lv1\
+EN Lv1   \
 
 @ 059f0f words=3 table=0x88378
 JP Lv2\
+EN Lv2   \
 
 @ 059f17 words=3 table=0x8837a
 JP Lv3\
+EN Lv3   \
 
 @ 059f1f words=3 table=0x8837c
 JP Lv4\
+EN Lv4   \
 
 @ 059f27 words=3 table=0x8837e
 JP Lv5\
+EN Lv5   \
 
 @ 059f2f words=3 table=0x88380
 JP Lv6\
+EN Lv6   \
 
 @ 059f37 words=3 table=0x88382
 JP Lv7\
+EN Lv7   \
 
 @ 059f3f words=3 table=0x88384
 JP Lv8\
+EN Lv8   \
 
 @ 059f47 words=2 inplace
 JP 資産\
@@ -254,6 +273,7 @@ EN Cash\
 
 @ 059f4d words=2 inplace
 JP AP\
+EN AP  \
 
 @ 059f53 words=2 inplace
 JP 　▼\
@@ -275,7 +295,7 @@ JP 　、。「」『』ー・゛…‥‼\
 
 @ 05a259 words=576 inplace
 JP あ亜会有阿青葵赤茜秋明晃晶悪朝荒い行井維伊射飯家石泉板市壱一稲今岩猪う宇右生植上潮後歌海裏浦憂馬え絵江栄英恵重笑映永影越燕閣遠お乙緒織小尾王央皇大旺岡沖荻億奥音鬼斧帯表女か香加佳華仮嘩迦賀楓霞型片刀兜川河神完寅き樹輝綺黄希来生利紀岸北霧清京絹く孔九久駒工楠国倉紅黒組け卦家毛剣犬憲県こ仔子虎小琥恋号洸荒広孝康宏皇光高孔弘后攻孝さ左佐砂咲紗沙斎坂桜笹幸猿斬沢参三し四司志獅紫茂白士章翔小生正勝晶昌彰上十重取獣順純淳心津真新伸進信慎す諏澄須彗末杉鈴州せ瀬世靖西静誠星正聖晴清積千扇仙そ争宗双想総増外空た田太多隊代鷹高孝隆瀧滝武剛竹辰龍谷玉珠淡ち知智稚中宙仲紐超蝶長つ津塚月辻土角椿翼鶴て照出鉄寺天電伝と都十飛斗刀冬嶋島藤東闘党時徳特所俊巴虎戸な無那奈内鳴名直永灘夏七鍋波南に仁二弐西忍刃ぬ主沼ね猫の乃野紀憲則規典は葉八羽刃覇馳場泊橋畑浜原林反半ひ緋妃日火比紐平博浩広弘宏裕品ふ不芙斧婦封風福藤冬渕文へ兵別変ほ歩保穂法宝豊朋峰邦鳳芳北星細炎堀本ま真間麻舞前幕斑町松的守丸円万卍満み見巳美魁弥実水緑道湊南宮む夢向無邑村め芽銘命盟面名も盛最望猛下元桃森杜門紋ら羅雷楽蘭乱り利梨里麗陸龍竜流劉了緑力鈴稟る劉琉留流れ玲麗鈴令霊零連煉ろ露呂炉芦蕗六や矢八夜弥耶野哉安泰保靖康柳山ゆ唯優勇悠有遊由夕祐友右幽結雪弓夢よ代四世良好夜妖陽容替葉遥洋翼横吉わ和倭我輪若脇鷲渡腕湾\
-EN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \
+EN A AaAbAdAeAiAjAkAlAmAnAoArAsAuAy    BaBeBiBlBoBrBu    CaCeChCiClCoCuCy  DaDeDiDoDrDu      EaEcEeEiElEmEnEoEuFaFeFiFlFoFrFu    GaGeGiGoGrGu      HaHeHiHoHu        I IaIcIeIiInIoIsIuJaJeJiJoJu        KaKeKiKoKuKy      LaLeLiLoLu        M MaMeMiMoMu      NaNeNiNoNu        OaOeOgOiOkOlOnOoOuPaPePhPiPoPrPu    RaReRiRoRuRy      S SaSeShSiSmSoStSuTaTeThTiToTrTu    UaUeUiUoUsUu      VaVeViVoVu        WaWeWhWiWoWrWu    YaYeYiYoYu        ZaZeZiZoZu        a aaabacadaeagahaiajakalamanaoaparasatauavawayaz      b babebibobrbsbubyc cacechcickclcocrctcucy            d dadddedidodrdudye eaebecedeeefegeheiekelemeneoereseteuevewexey        f fafefifofrfu    g gageghgigngogugyh hahehihnhohrhthui iaibicidieifigihiiikiliminioipirisitiuiviwiyiz      j jajejijoju      k kakekikoku      l lalelilllolslulym mambmemimompmumyn nancndnenfngninjnknnnonpnsntnunvnyo oaobodoeoiokomonoooporosotouovowoyp papephpipoprpu  r rarergrirnrorurys saseshsisossstsut tatctethtitltotrtstttuty          u uaubucudueuiujukulumunuoupurusutuuv vavevivovu      w wawcwdwewiwowrwux                 y yaycyeyiylymyoyuz zazezizozuzz     A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  \
 
 @ 05f428 words=4 table=0x5edb4
 JP 新人募集\
@@ -291,6 +311,7 @@ EN How much AP to spend?\
 
 @ 05f462 words=2 inplace
 JP AP\
+EN AP  \
 
 @ 05f468 words=9 inplace
 JP 今回は合格内定者が\
@@ -391,6 +412,7 @@ EN Dest. \
 
 @ 05f646 words=7 inplace
 JP (100AP)\
+EN (100AP)       \
 
 @ 05f656 words=4 table=0x5edba
 JP バカンス\
@@ -430,6 +452,7 @@ EN Choose a mask type.\
 
 @ 05f718 words=6 inplace
 JP (30AP)\
+EN (30AP)      \
 
 @ 05f726 words=4 table=0x5edbe
 JP 王座返上\
@@ -628,6 +651,7 @@ EN Talk to this wrestler?\
 
 @ 05fa84 words=6 inplace
 JP (10AP)\
+EN (10AP)      \
 
 @ 05fa92 words=3 inplace
 JP 誉める\
@@ -671,6 +695,7 @@ EN Train this wrestler?\
 
 @ 05fb36 words=6 inplace
 JP (30AP)\
+EN (30AP)      \
 
 @ 05fb44 words=8 inplace
 JP の今月の使用可能\
@@ -890,18 +915,23 @@ EN GWA Tag Champs\
 
 @ 05fe92 words=4 inplace
 JP IWWF\
+EN IWWF    \
 
 @ 05fe9c words=4 inplace
 JP WWCA\
+EN WWCA    \
 
 @ 05fea6 words=4 inplace
 JP EWA　\
+EN EWA     \
 
 @ 05feb0 words=4 inplace
 JP GWA　\
+EN GWA     \
 
 @ 05feba words=4 inplace
 JP AAC　\
+EN AAC     \
 
 @ 05fec4 words=4 inplace
 JP アジア　\
@@ -909,9 +939,13 @@ EN Asia    \
 
 @ 05fece words=4 inplace
 JP IWWF\
+EN IWWF    \
 
 @ 05fed8 words=4 inplace
 JP WWCA\
+EN WWCA    \
 
 @ 05fee2 words=4 inplace
 JP GWA　\
+EN GWA     \
+

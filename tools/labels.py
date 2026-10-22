@@ -468,9 +468,10 @@ def cpu_box(tiles):
 
 # Name entry (new promotion): the six mode buttons, 40x16 each (5 tiles over 5 tiles, text $F on
 # a gradient) and 団体名 after "P1" in the field label, in $85:A9A0 (found with tools/gfxfind.py).
+# 漢字 -> PAIRS: that page holds letter pairs now (tools/namepage.py).
 NAME_BLOCK = (0x85A9A0, 0x200)
 NAME_BUTTONS = [(range(0x01, 0x06), range(0x11, 0x16), 'HIRA'), (range(0x21, 0x26), range(0x30, 0x35), 'KANA'),
-                (range(0x06, 0x0b), range(0x16, 0x1b), 'ABC'), (range(0x0b, 0x10), range(0x1b, 0x20), 'KANJI'),
+                (range(0x06, 0x0b), range(0x16, 0x1b), 'ABC'), (range(0x0b, 0x10), range(0x1b, 0x20), 'PAIRS'),
                 (range(0x26, 0x2b), range(0x35, 0x3a), 'SPACE'), (range(0x2b, 0x30), range(0x3a, 0x3f), 'END')]
 # background $1, text $F: 団体名 after "P1" in the label; 選手名 (naming a wrestler: a mask) shares
 # its 名 tiles $4D/$5A, so both read NAME from the same x; プロレス after the name being typed

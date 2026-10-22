@@ -119,6 +119,10 @@ need an expanded ROM (12 → 16 or 32 Mbit; `snes.Rom.expand`). *(from the ROM)*
 - The START button's tilemap is a compressed template at file 0x1ee3b.. (inside a run of
   templates with 2-word trailers, copied to WRAM $7F:04AC and then to the screen). Edited in place
   with the same packed length (labels.py START_MAP).
+- Wrestler data (X on a wrestler in exhibition, league, tournament): the move type buttons
+  投 極 打 飛 他 are BG3 tiles $15B-$164 over $16B-$174 = $5B-$64 / $6B-$74 of $8F:D6D9, placed by
+  code (no tilemap in the ROM); BG1 draws the button frames. *(verified in game: exhibition, league,
+  tournament, 2026-10-22)*
 - League setup's 参加チーム数 is BG3 (2bpp) text: tiles $65-$6A, $48-$4A / $75-$7A, $58-$5A of
   $8F:D6D9 (the strips block), map $83:E3C8 (9x2).
 - Decompressor calls per screen (trace exec $80:BDD7): League loads $83:E28C, E278, E418, EE9C,
@@ -138,7 +142,17 @@ need an expanded ROM (12 → 16 or 32 Mbit; `snes.Rom.expand`). *(from the ROM)*
 - Window records `.. 00 51 00 01 02 02 PTR` (bank $8B and others) name strings by 16-bit address.
 - Window records `X 00 Y 00 51 00 01 00 00 PTR 1A` (show schedule buttons at file 0x43ac8..) place
   a string at pixel X, Y; an empty string ($FFFF only) in one of them corrupts VRAM.
+- Foreign promotions (alliance menu): records of 0x22 bytes from $8A:DAE6 (file 0x55ae6), each
+  the name (4 glyphs + $FFFF) then data. A new game copies them to WRAM from $7E:711E (0x2A bytes
+  apart, name at +4; $8A:C7B9), and the menu reads that copy: a game started on an older build
+  keeps the old names. In tools/script.py EXTRA (no kana, so not found as text). *(verified in game)*
+- CPU promotion cards (new promoter game): names from the pointer table at file 0x88356 (bank $91,
+  strings in $8B), right-aligned against the small PRO by pixel offsets at 0x88326 (one word each,
+  12 * (6 - glyphs)). The English names are unpadded and the offsets recomputed from them
+  (tools/script.py NAME_X). *(verified in game)*
 - Name entry keeps its tile block in WRAM at $7F:3518 as well as VRAM.
+- Name entry's kanji page: 576 glyph codes at file 0x5a259, 9 per row (64 rows, 8 visible). Any
+  glyph codes work there (letter pairs, tools/namepage.py). *(verified in game)*
 - Match card setup: BG1 tiles 0-$7F = $8F:9209 (0x200 groups, 24-bit pointer at $82:C3F1).
 - Window bytecode: interpreter at $80:97BA, opcode table $80:97D7 (one byte opcode, X = 2*op).
   $0D = load a compressed tilemap (24-bit pointer to a 5-byte header: w, h, ?, flag, ?), $0E =

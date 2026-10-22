@@ -17,6 +17,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import halffont  # noqa: E402
+import labels  # noqa: E402
 import pack8  # noqa: E402
 import snes  # noqa: E402
 import snesgfx  # noqa: E402
@@ -32,6 +33,9 @@ STRIPS = [
             # league setup: 参加チーム数 (number of teams) before the count
             (0x83E3C8, 0x05, 9, [(0, 9, 'No. of Teams')]),
         ],
+        # wrestler data (X on a wrestler): the move type buttons 投 極 打 飛 他, 16x16 each, tiles
+        # $5B-$64 over $6B-$74 placed by code (BG3 tiles $15B.., Mesen, 2026-10-22)
+        'buttons': [(0x5B, 0x6B, ['THR', 'LCK', 'STK', 'FLY', 'OTH'])],
     },
 ]
 
@@ -54,6 +58,23 @@ def render(text, cols):
     return pix
 
 
+def button(text):
+    """16x16 pixels: 3x5 capitals (labels.TINY, as the promoter mode's move type buttons) at double
+    height in rows 3-12, ink 1 with a colour 3 shadow down-right as the kanji have."""
+    pix = [[0] * 16 for _ in range(16)]
+    left = (16 - (4 * len(text) - 1)) // 2
+    for k, ch in enumerate(text):
+        for gy, line in enumerate(labels.TINY[ch]):
+            for gx, c in enumerate(line):
+                if c == '#':
+                    pix[3 + 2 * gy][left + 4 * k + gx] = pix[4 + 2 * gy][left + 4 * k + gx] = 1
+    for y in range(14, -1, -1):
+        for x in range(14, -1, -1):
+            if pix[y][x] == 1 and pix[y + 1][x + 1] == 0:
+                pix[y + 1][x + 1] = 3
+    return pix
+
+
 def apply(rom_data, strip):
     """{file offset: packed bytes} for the strip's tile block and tilemaps."""
     r = snes.Rom(rom_data)
@@ -61,6 +82,12 @@ def apply(rom_data, strip):
     raw, tused = pack8.unpack(r.data, r.to_file(taddr), tgroups)
     tiles = [snesgfx.decode_tile(raw[16 * k:16 * k + 16], 2) for k in range(len(raw) // 16)]
     first, blank = strip['first'], strip['blank']
+    for top, bottom, texts in strip.get('buttons', []):     # fixed tiles, no tilemap to change
+        for k, text in enumerate(texts):
+            pix = button(text)
+            for half in (0, 1):
+                tiles[top + 2 * k + half] = [line[8 * half:8 * half + 8] for line in pix[:8]]
+                tiles[bottom + 2 * k + half] = [line[8 * half:8 * half + 8] for line in pix[8:]]
     maps = []
     for addr, groups, width, labels in strip['maps']:
         mraw, mused = pack8.unpack(r.data, r.to_file(addr), groups)

@@ -4,7 +4,7 @@
 
 @ 027d58 words=6 table=0x27d2e
 JP 北斗原爆固め\
-EN Hokuto-plex\
+EN N.Lights Suplex\
 
 @ 027d66 words=4 table=0x27d30
 JP 原爆固め\

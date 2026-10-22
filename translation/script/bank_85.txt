@@ -28,9 +28,11 @@ EN Relative\
 
 @ 029765 words=3 table=0x29481
 JP 　ON\
+EN     ON\
 
 @ 02976d words=3 table=0x2947f
 JP OFF\
+EN    OFF\
 
 @ 029775 words=6 inplace
 JP ロープによる\

@@ -90,6 +90,26 @@ EN Funds\
 JP 今月は興行はありませんでした。\
 EN No shows this month.\
 
+@ 055ae6 words=4 inplace
+JP IWWF\
+EN IWWF    \
+
+@ 055b08 words=4 inplace
+JP WWCA\
+EN WWCA    \
+
+@ 055b2a words=4 inplace
+JP EWA　\
+EN EWA     \
+
+@ 055b4c words=4 inplace
+JP AAC　\
+EN AAC     \
+
+@ 055b6e words=4 inplace
+JP GWA　\
+EN GWA     \
+
 @ 0561e8 words=10 inplace
 JP 江別市民体育館　　　\
 EN Ebetsu City Gym     \
@@ -1032,18 +1052,23 @@ EN Naha Civic Gym      \
 
 @ 0576b0 words=4 inplace
 JP IWWF\
+EN IWWF    \
 
 @ 0576ba words=4 inplace
 JP WWCA\
+EN WWCA    \
 
 @ 0576c4 words=4 inplace
 JP EWA　\
+EN EWA     \
 
 @ 0576ce words=4 inplace
 JP GWA　\
+EN GWA     \
 
 @ 0576d8 words=4 inplace
 JP AAC　\
+EN AAC     \
 
 @ 0576e2 words=4 inplace
 JP アジア　\
@@ -1051,9 +1076,13 @@ EN Asia    \
 
 @ 0576ec words=4 inplace
 JP IWWF\
+EN IWWF    \
 
 @ 0576f6 words=4 inplace
 JP WWCA\
+EN WWCA    \
 
 @ 057700 words=4 inplace
 JP GWA　\
+EN GWA     \
+

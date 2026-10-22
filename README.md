@@ -47,8 +47,10 @@ Then:
 - **Names.** Long names are shortened where the game has little room ("C. Nagahara").
   Wrestlers keep their Japanese names, in the usual order (given name first).
 - **What's still in Japanese.** The title logo, and words drawn into a few event pictures
-  (the scenes explain themselves). Name entry's kanji page is blank: its characters are used for
-  the English letters.
+  (the scenes explain themselves).
+- **Naming wrestlers and promotions.** The PAIRS page (where the kanji were) has two-letter
+  pieces in the same narrow letters as the rest of the English ("Ka", "mi", "a "), so a name
+  can be up to 20 letters. The ABC page still has the original wide letters.
 - **Saves.** Start a new game: in battery saves from the Japanese version the names show as
   random letters.
 - **A small quirk.** Names are drawn two letters at a time, so a name with an odd number of

@@ -181,6 +181,12 @@ def line_widths(lines, name=NAME_GLYPHS):
 # 終 了 on the show schedule were two glyphs 20 pixels apart: "Qu" "it" now touch (12 pixels).
 # (Joining them into one string left 了 empty - a zero-length transfer that wiped VRAM.)
 RECORD_X = {0x43afc: (0xd8, 0xd0)}
+# The CPU promotion cards (new promoter game) right-align each name against the small PRO with a
+# table of x offsets in pixels, one word per promotion in the order of the names' pointer table:
+# 12 * (6 - glyphs). Rewritten from the English as 6 * (11 - letters), a space before PRO (play-test,
+# 2026-10-22).
+# (offsets, pointer table, entries, original offsets)
+NAME_X = (0x88326, 0x88356, 8, (36, 12, 12, 0, 36, 12, 24, 24))
 
 
 # --- where strings are, and which may move --------------------------------------------------------
@@ -192,6 +198,11 @@ PINNED = {0x40464, 0x56d14, 0x57000, 0x57420, 0x59ecf, 0x5a01b, 0x9ad60, 0xa428c
 # ... and strings named by window records (`.. 00 51 00 01 02 02 PTR`, 16-bit, same bank) besides
 # their table: moved, they showed "ookies applied this month." (play-test, 2026-10-20).
 PINNED |= {0x5fc74, 0x5fc6a, 0x5f4a2, 0x5f5f6, 0x5f4c0, 0x5f4fe, 0x5f4ae, 0x69922}
+
+# Strings find_strings can't tell from data (full-width ASCII only, inside records): the foreign
+# promotions' names (IWWF WWCA EWA AAC GWA) in their records at $8A:DAC0.., 4 glyphs + $FFFF, read
+# by the alliance menu (play-test, 2026-10-22).
+EXTRA = {0x55ae6, 0x55b08, 0x55b2a, 0x55b4c, 0x55b6e}
 
 
 def find_strings(data):
@@ -230,6 +241,8 @@ def find_strings(data):
             if ends.get(b) in ok or starts_at.get(a) in ok:
                 ok.add((a, b))
                 grew = True
+    for a in EXTRA:
+        ok.add((a, a + 2 * len(words(data, a)) + 2))
     return sorted(ok)
 
 
@@ -520,6 +533,16 @@ def build(rom, quiet=False, test=False):
         if data[at] != old:
             raise SystemExit(f'text: window record x at {at:06x} is {data[at]:#x}, not {old:#x}')
         rom[at] = new
+    xs, table, count, old = NAME_X
+    string_at = {e: a for a, entries in layout.refs.items() for e in entries}   # the strings are in another bank
+    for k in range(count):
+        at = xs + 2 * k
+        if data[at] | data[at + 1] << 8 != old[k]:
+            raise SystemExit(f'text: name offset at {at:06x} is not {old[k]}')
+        b = by_off.get(string_at.get(table + 2 * k))
+        if b and b.en:
+            letters = len(''.join(b.en).rstrip('\\').rstrip())
+            rom[at:at + 2] = max(0, 6 * (11 - letters)).to_bytes(2, 'little')
     if not quiet:
         print(f'text: {n} strings, {len(slot) - 1} letter pairs in glyphs ({len(free)} glyphs left)')
     return n, len(slot) - 1

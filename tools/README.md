@@ -31,7 +31,8 @@ Tools marked *game* are specific to Super Wrestle Angels.
 | [gfxsurvey.py](gfxsurvey.py) | *game*: replays savestates, logs every decompressed block and screenshots the screens, for review |
 | [labels.py](labels.py) | *game*: reletters boxed UI labels, the title menu and the small PRO (build step) |
 | [text8.py](text8.py) | *game*: text in the 8x8 UI font (move records, label lists): dump/check, build step |
-| [strips.py](strips.py) | *game*: reletters pre-rendered text strips and their tilemaps (exhibition header/tabs) |
+| [strips.py](strips.py) | *game*: reletters pre-rendered text strips and their tilemaps (exhibition header/tabs, wrestler data move type buttons) |
+| [namepage.py](namepage.py) | *game*: fills name entry's kanji page with letter pairs (writes the EN line in bank_8B.txt) |
 
 ## Checking
 
