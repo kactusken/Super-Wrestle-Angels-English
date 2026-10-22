@@ -3,7 +3,7 @@
 Unlockables, debug features, button codes and unused content, each marked *verified in game* or
 *from the code*. Check The Cutting Room Floor and existing guides first.
 
-## Button codes (promoter mode; from a player's guide, matched with the code 2026-10-21)
+## Button codes (promoter mode; from a player's guide, matched with the code 2026-10-21) *(verified in game)*
 
 On the title screen with "Press Start" showing, hold SELECT on controller 2 and enter the code on
 controller 1 (a chime plays). Checked at `$91:97C4`, flags in `$7E:1A13`:
@@ -12,7 +12,7 @@ controller 1 (a chime plays). Checked at `$91:97C4`, flags in `$7E:1A13`:
 - **Select Select Select Select**: game length up to 10 years instead of 5 (`$8B:E13E`).
 - **Left Left Right Right B B B B**: any match on your card can be skipped, even title matches
   (`$83:84D9`: without it a title match is forced to be watched).
-Not tried in an emulator yet.
+All three tried in game and working (play-test, 2026-10-22).
 
 ## Unused ending dialogues (from the code)
 

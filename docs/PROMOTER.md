@@ -231,7 +231,6 @@ to change who wins.
 
 ## 11. Not settled yet
 
-- The button codes, tried in the game.
 - Retirement odds, alliance timers, injury odds, the CPU's decisions, scouting success, the exact
   per-month limits on tryouts and scouting, the ROSTER award's formula.
 - The setup strings "Newcomer / 3 Months / 6 Months / 8 Months" (a setup choice not identified).
