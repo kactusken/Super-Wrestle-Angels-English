@@ -12,9 +12,10 @@ size.
 
 **[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
 
-> **Status: v0.1, the first public release.** The whole game is translated and every mode has
-> been played through, but by few people so far: please report problems
-> ([how to report](#reporting-problems)). Not yet tried: 3-4 player promoter games (multitap).
+> **Status: v0.2.** The whole game is translated and every mode has been played through; v0.2
+> fixes what players reported on v0.1 (move cards, name entry, leftover wide text). Please keep
+> reporting problems ([how to report](#reporting-problems)). Known: numbers use the game's wide
+> digits. Not yet tried: 3-4 player promoter games (multitap).
 > [CHANGELOG.md](CHANGELOG.md) lists what's in each release.
 
 ## Downloads
@@ -52,7 +53,9 @@ Then:
   pieces in the same narrow letters as the rest of the English ("Ka", "mi", "a "), so a name
   can be up to 20 letters. The ABC page still has the original wide letters.
 - **Saves.** Start a new game: in battery saves from the Japanese version the names show as
-  random letters.
+  random letters. Saves from v0.1 should carry over to v0.2 (not yet tested with a real save; a
+  promoter game started on v0.1 keeps the wide promotion names in its alliance menu).
+- **Numbers** use the game's own wide digits, so they look bigger than the letters around them.
 - **A small quirk.** Names are drawn two letters at a time, so a name with an odd number of
   letters ends in a space: "Pacific 's".
 - **How promoter mode works** - the month, every menu, the events and what decides the ending:

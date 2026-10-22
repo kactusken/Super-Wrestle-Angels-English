@@ -475,7 +475,9 @@ JP よろしいですか?\
 EN listed below?\
 
 @ 05f792 words=1 inplace
+# the joiner before a tag champion's partner ($91:8F25 reads it as one word, then two blanks)
 JP &\
+EN & \
 
 @ 05f796 words=4 table=0x88eaf,0x88eb1,0x88eb3,0x88eb5,0x88eb7,0x88eb9
 JP シングル\
