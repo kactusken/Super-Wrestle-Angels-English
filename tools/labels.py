@@ -882,29 +882,60 @@ def hud_tiles(raw):
     return b''.join(snesgfx.encode_tile(t, 4) for t in tiles)
 
 
-# The move cards played in a match (sprite tiles of $84:923E): five card faces 24 pixels wide in
-# tile rows 0-1, a 12x16 white area at x 6-17 with the move type's kanji (投 極 打 飛 他) in the
-# card's colour. Replaced by the HUD's capitals at double size.
+# The move cards played in a match (sprite tiles of $84:923E, palette 5; WRAM copy $7F:3AB0): card
+# faces 24 pixels wide, a 12x16 area at x 6-17 with the type's kanji. Tile rows 0-1: 投 極 打 飛 他;
+# rows 2-3: 特 (finisher) at x 0, 合 (double-team) at x 24. The plain types are 2-pixel strokes in
+# their colour, a second colour from row 9 down and a dark 1-pixel edge on the right; 他 特 合 are
+# white on a solid square. English (the user's choice, 2026-10-22): the HUD's capitals at double
+# size in the same colours, and for the three squares O, a star and a +.
 CARD_BLOCK = (0x84923E, 0x200)
-CARD_LETTERS = 'TLSFO'
+CARD_DARK = 4
+# letter: (x, y of the face, colour, colour from row 9)
+CARD_PLAIN = {'T': (0, 0, 2, 0xd), 'L': (24, 0, 5, 1), 'S': (48, 0, CARD_DARK, 0xb), 'F': (72, 0, 1, 5)}
+# symbol: (x, y, square, ink, ink from row 9)
+CARD_SQUARE = {'O': (96, 0, CARD_DARK, 0xf, 0xf), '*': (0, 16, 2, 0xf, 0xe), '+': (24, 16, 0xa, 0xf, 0xf)}
+CARD_STAR = ['.....##.....', '.....##.....', '....####....', '....####....', '############', '.##########.',
+             '..########..', '...######...', '...######...', '..###..###..', '..##....##..', '.##......##.',
+             '.#........#.']
 
 
 def card_tiles(raw):
     rows = snesgfx.sheet(raw, 4, 16)
-    for k, ch in enumerate(CARD_LETTERS):
-        x0 = 24 * k + 6
-        ink = Counter(rows[y][x] for y in range(16) for x in range(x0, x0 + 12) if rows[y][x] != 0xf)
-        colour = ink.most_common(1)[0][0]
-        for y in range(16):
-            for x in range(x0, x0 + 12):
-                rows[y][x] = 0xf
-        g = halffont.FONT[ch][1:8]
-        for y in range(7):
-            for x in range(5):
-                if g[y][x]:
+
+    def capital(pix, ch, colour):          # 10x14 at x 1, rows 1-14
+        g = halffont.FONT[ch]
+        for gy in range(1, 8):
+            for gx in range(5):
+                if g[gy][gx]:
                     for dy in (0, 1):
                         for dx in (0, 1):
-                            rows[1 + 2 * y + dy][x0 + 1 + 2 * x + dx] = colour
+                            y = 2 * gy - 1 + dy
+                            pix[y][1 + 2 * gx + dx] = colour(y)
+
+    faces = []
+    for ch, (x0, y0, top, bottom) in CARD_PLAIN.items():
+        pix = [[0xf] * 12 for _ in range(16)]
+        capital(pix, ch, lambda y: top if y < 9 else bottom)
+        edge = CARD_DARK if top != CARD_DARK else 8
+        for y in range(16):
+            for x in range(10, -1, -1):
+                if pix[y][x] in (top, bottom) and pix[y][x + 1] == 0xf:
+                    pix[y][x + 1] = edge
+        faces.append((x0, y0, pix))
+    for ch, (x0, y0, square, top, bottom) in CARD_SQUARE.items():
+        pix = [[square] * 12 for _ in range(16)]
+        colour = lambda y: top if y < 9 else bottom   # noqa: E731
+        if ch == '*':
+            for y, line in enumerate(CARD_STAR):
+                for x, p in enumerate(line):
+                    if p == '#':
+                        pix[1 + y][x] = colour(1 + y)
+        else:
+            capital(pix, ch, colour)
+        faces.append((x0, y0, pix))
+    for x0, y0, pix in faces:
+        for y in range(16):
+            rows[y0 + y][x0 + 6:x0 + 18] = pix[y]
     return snesgfx.unsheet(rows, 4, 16)
 
 
